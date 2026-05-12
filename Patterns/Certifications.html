@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certifications - Blackburns Chimney Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter', 'sans-serif'], playfair: ['Playfair Display', 'serif'] }, colors: { brand: { navy: '#1a2660', red: '#7a1620' }, heading: '#1a2660', body: '#6b6560' } } } };
+  </script>
+  <style>body { margin: 0; font-family: 'Inter', sans-serif; }</style>
+</head>
+<body>
+  <section class="bg-white py-12 md:py-16 lg:py-24">
+    <div class="max-w-[1280px] mx-auto px-4 md:px-8 lg:px-16">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-16 items-stretch">
+        <div>
+          <div class="flex items-center gap-1.5 mb-3"><span class="w-7 h-0.5 bg-brand-red"></span><span class="w-7 h-0.5 bg-brand-red"></span></div>
+          <p class="font-inter font-semibold text-brand-red text-sm tracking-[2.24px] uppercase mb-3">OUR CREDENTIALS</p>
+          <h2 class="font-playfair font-bold text-heading text-2xl md:text-3xl lg:text-[42px] leading-tight mb-4">Certified. Trained. Accountable.</h2>
+          <p class="text-body text-base leading-relaxed">Our certifications mean every technician has passed rigorous testing and meets ongoing education requirements — the industry's highest standard on every job.</p>
+        </div>
+        <div class="border-t-[6px] border-brand-red border border-t-brand-red border-gray-200 p-6 md:p-8 text-center shadow-md flex flex-col">
+          <img src="https://images.adept.plus/BlackburnsChimney-OH/csia-certification-badge/highres" alt="CSIA Certified Chimney Sweep badge" class="w-24 h-24 mx-auto mb-4 object-contain" loading="lazy" />
+          <h3 class="font-playfair font-semibold text-heading text-lg md:text-xl mb-3">Chimney Safety Institute of America</h3>
+          <p class="text-body text-sm leading-relaxed mb-4">CSIA certification means our technicians have passed rigorous testing and maintain ongoing education — the industry's highest standard for chimney professionals.</p>
+          <p class="text-brand-red font-semibold text-sm">CSIA Certified Chimney Sweep®</p>
+        </div>
+        <div class="border-t-[6px] border-brand-red border border-t-brand-red border-gray-200 p-6 md:p-8 text-center shadow-md flex flex-col">
+          <img src="https://images.adept.plus/BlackburnsChimney-OH/nfi-certification-badge/highres" alt="NCSG Member badge" class="w-24 h-24 mx-auto mb-4 object-contain" loading="lazy" />
+          <h3 class="font-playfair font-semibold text-heading text-lg md:text-xl mb-3">National Chimney Sweep Guild</h3>
+          <p class="text-body text-sm leading-relaxed mb-4">NCSG membership connects us to a national network of professional sweeps committed to training, education, and ethical business practices.</p>
+          <p class="text-brand-red font-semibold text-sm mt-auto">NCSG Member in Good Standing</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
