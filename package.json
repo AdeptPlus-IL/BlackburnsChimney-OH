@@ -1,0 +1,12 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "tailwindcss": "^3.4.17"
+  }
+}
