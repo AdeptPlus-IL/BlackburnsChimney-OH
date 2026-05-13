@@ -1,0 +1,53 @@
+<header class="w-full relative z-50">
+    <!-- Top utility bar -->
+    <div class="bg-brand-navy h-10">
+      <div class="max-w-[1280px] mx-auto px-4 md:px-8 lg:px-[100px] h-full flex items-center justify-between">
+        <div class="hidden md:flex items-center gap-6">
+          <a href="#" class="text-lightblue text-sm hover:text-white transition-colors">Resources</a>
+          <a href="#" class="text-lightblue text-sm hover:text-white transition-colors">Service Area</a>
+        </div>
+        <p class="hidden md:block text-lightblue text-sm">Mon–Fri: 8am–5pm · Closed Sat &amp; Sun</p>
+        <a href="tel:6143447750" class="text-lightblue font-semibold text-sm hover:text-white transition-colors ml-auto md:ml-0">614-344-7750</a>
+      </div>
+    </div>
+
+    <!-- Main nav bar -->
+    <div class="bg-white border-b border-[#d4cfc6] shadow-sm">
+      <div class="max-w-[1280px] mx-auto px-4 md:px-8 lg:px-[100px] h-[71px] flex items-center justify-between relative">
+        <!-- Logo — vertically centered, overhangs below -->
+        <a href="#" class="flex-shrink-0 relative z-10">
+          <img loading="lazy"
+            src="https://images.adept.plus/BlackburnsChimney-OH/dark-texture-background/height=166,fit=scale-down,quality=85"
+            alt="Blackburns Chimney Services – Expert Chimney Sweep, Inspection & Repair in Columbus, OH"
+            class="h-[83px] w-auto block"
+            style="object-fit: cover; margin-top: 19px;"
+          />
+        </a>
+
+        <!-- Desktop nav — pushed to the right -->
+        <nav class="hidden lg:flex items-center gap-6">
+                <!-- NAV_ITEMS_DESKTOP -->
+            </nav>
+
+        <!-- Mobile hamburger -->
+        <button id="mobile-menu-btn" class="lg:hidden flex flex-col gap-1.5 p-2" onclick="document.getElementById('mobile-nav').classList.toggle('hidden')">
+          <span class="w-6 h-0.5 bg-brand-navy"></span>
+          <span class="w-6 h-0.5 bg-brand-navy"></span>
+          <span class="w-6 h-0.5 bg-brand-navy"></span>
+        </button>
+      </div>
+
+      <!-- Mobile nav drawer -->
+      <div id="mobile-nav" class="hidden lg:hidden bg-white border-t border-gray-100 shadow-lg" style="overflow:hidden;">
+        <div class="max-w-[1280px] mx-auto px-4 md:px-8 py-4 flex flex-col gap-3">
+          <a href="#" class="text-brand-navy font-medium text-base py-2 hover:text-brand-red transition-colors">Services</a>
+          <a href="#" class="text-brand-navy font-medium text-base py-2 hover:text-brand-red transition-colors">Sales &amp; Installations</a>
+          <a href="#" class="text-brand-navy font-medium text-base py-2 hover:text-brand-red transition-colors">Design My Fireplace</a>
+          <a href="#" class="text-brand-navy font-medium text-base py-2 hover:text-brand-red transition-colors">About</a>
+          <a href="#" class="text-brand-navy font-medium text-base py-2 hover:text-brand-red transition-colors">Resources</a>
+          <a href="#" class="text-brand-navy font-medium text-base py-2 hover:text-brand-red transition-colors">Service Area</a>
+          <a href="#" class="bg-brand-red text-white font-semibold px-7 py-3 text-base text-center hover:brightness-95 transition-all duration-200 mt-2">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </header>
