@@ -2,5 +2,9 @@
   {
     "label": "Home",
     "href": "./index.html"
+  },
+  {
+    "label": "Services",
+    "href": "./services.html"
   }
 ]
