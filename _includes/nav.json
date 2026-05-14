@@ -10,35 +10,35 @@
       {
         "label": "Chimney Sweeping",
         "href": "./chimney-sweeping.html"
+      },
+      {
+        "label": "Chimney Inspection",
+        "href": "./chimney-inspection.html"
+      },
+      {
+        "label": "Chimney Caps & Guards",
+        "href": "./chimney-caps--guards.html"
+      },
+      {
+        "label": "Chimney Relining",
+        "href": "./chimney-relining.html"
+      },
+      {
+        "label": "Smoking Chimney",
+        "href": "./smoking-chimney.html"
+      },
+      {
+        "label": "Masonry Services",
+        "href": "./masonry-services.html"
+      },
+      {
+        "label": "Leaky Chimney",
+        "href": "./leaky-chimney.html"
+      },
+      {
+        "label": "Dryer Vents",
+        "href": "./dryer-vents.html"
       }
     ]
-  },
-  {
-    "label": "Chimney Inspection",
-    "href": "./chimney-inspection.html"
-  },
-  {
-    "label": "Chimney Caps & Guards",
-    "href": "./chimney-caps--guards.html"
-  },
-  {
-    "label": "Chimney Relining",
-    "href": "./chimney-relining.html"
-  },
-  {
-    "label": "Smoking Chimney",
-    "href": "./smoking-chimney.html"
-  },
-  {
-    "label": "Masonry Services",
-    "href": "./masonry-services.html"
-  },
-  {
-    "label": "Leaky Chimney",
-    "href": "./leaky-chimney.html"
-  },
-  {
-    "label": "Dryer Vents",
-    "href": "./dryer-vents.html"
   }
 ]
