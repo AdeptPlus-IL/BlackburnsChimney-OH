@@ -61,16 +61,6 @@
   },
   {
     "label": "About",
-    "href": "./about.html",
-    "children": [
-      {
-        "label": "Service Area",
-        "href": "./service-area.html"
-      }
-    ]
-  },
-  {
-    "label": "Contact",
-    "href": "./contact.html"
+    "href": "./about.html"
   }
 ]
