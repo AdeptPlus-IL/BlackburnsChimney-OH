@@ -40,5 +40,21 @@
         "href": "./dryer-vents.html"
       }
     ]
+  },
+  {
+    "label": "Sales & Installations",
+    "href": "./sales--installations.html"
+  },
+  {
+    "label": "Fireplaces",
+    "href": "./fireplaces.html"
+  },
+  {
+    "label": "Fireplace Inserts",
+    "href": "./fireplace-inserts.html"
+  },
+  {
+    "label": "Heating Stoves",
+    "href": "./heating-stoves.html"
   }
 ]
