@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Blackburns Chimney Service | Columbus, OH</title>
+    <meta name="description" content="Get in touch with Blackburns Chimney Service. Call 614-344-7750 or fill out our contact form. Serving Columbus, OH and surrounding areas." />
+    <!-- INCLUDE:head_scripts -->
+    <!-- INCLUDE:favicon -->
+    <!-- INCLUDE:schema -->
+</head>
+<body class="font-inter">
+    <!-- INCLUDE:body_scripts -->
+    <!-- INCLUDE:header -->
+
+    <!-- SECTION:ContactForm.html -->
+<!-- Main contact section with crimson overlay -->
+  <section class="relative py-16 md:py-20 lg:py-24 overflow-hidden">
+    <!-- Background: darker red overlay + photo with lighter opacity -->
+    <div class="absolute inset-0 bg-[#7a1620]"></div>
+    <img src="https://images.adept.plus/BlackburnsChimney-OH/contact-form-chimney/highres" alt="" class="absolute inset-0 w-full h-full object-cover opacity-[0.35] pointer-events-none" />
+
+    <div class="relative max-w-[1200px] mx-auto px-4 md:px-8 lg:px-[102px]">
+      <div class="flex flex-col lg:flex-row gap-10 lg:gap-20 items-start">
+        <!-- Left: White form card — loads external form -->
+        <div class="bg-white border-t-4 border-cream shadow-[0_2px_6px_rgba(0,0,0,0.25)] w-full lg:flex-1 p-8">
+          <!-- FORM: sourced from Forms/contact-form.html -->
+          <form
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            method="POST"
+            class="space-y-5"
+            id="contact-form"
+          >
+            <input type="text" name="_gotcha" style="display:none" />
+            <div>
+              <label for="form-name" class="block text-brand-navy font-medium text-base mb-2">Full Name</label>
+              <input type="text" id="form-name" name="name" required class="w-full border border-[#d4cfc6] bg-white px-4 py-3 text-base focus:border-brand-navy outline-none" />
+            </div>
+            <div>
+              <label for="form-phone" class="block text-brand-navy font-medium text-base mb-2">Phone Number <span class="text-brand-red">*</span></label>
+              <input type="tel" id="form-phone" name="phone" class="w-full border border-[#d4cfc6] bg-white px-4 py-3 text-base focus:border-brand-navy outline-none" />
+            </div>
+            <div>
+              <label for="form-service" class="block text-brand-navy font-medium text-base mb-2">Service Type</label>
+              <select id="form-service" name="service" class="w-full border border-[#d4cfc6] bg-white px-4 py-3 h-[50px] text-base text-body focus:border-brand-navy outline-none">
+                <option value="">Select a service…</option>
+                <option value="Chimney Inspection">Chimney Inspection</option>
+                <option value="Chimney Sweeping">Chimney Sweeping</option>
+                <option value="Chimney Relining">Chimney Relining</option>
+                <option value="Chimney Repair">Chimney Repair</option>
+                <option value="Fireplace Insert Installation">Fireplace Insert Installation</option>
+                <option value="Heating Stove Installation">Heating Stove Installation</option>
+                <option value="Chimney Cap or Guard">Chimney Cap or Guard</option>
+                <option value="Dryer Vent Cleaning">Dryer Vent Cleaning</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div>
+              <label for="form-message" class="block text-brand-navy font-medium text-base mb-2">Message</label>
+              <textarea id="form-message" name="message" rows="4" placeholder="Tell us about your chimney or fireplace concern..." class="w-full border border-[#d4cfc6] bg-white px-4 py-3 text-base focus:border-brand-navy outline-none resize-y"></textarea>
+            </div>
+            <input type="hidden" name="_subject" value="New Contact Form Submission – Blackburns Chimney" />
+            <button type="submit" class="w-full bg-brand-red text-white font-semibold text-base py-3.5 hover:brightness-95 transition-all duration-200 cursor-pointer">Submit</button>
+          </form>
+        </div>
+
+        <!-- Right: Heading + info -->
+        <div class="w-full lg:flex-1 lg:pt-0 pt-4">
+          <!-- Eyebrow -->
+          <div class="flex items-center gap-1.5 mb-3">
+            <span class="w-7 h-0.5 bg-cream"></span>
+            <span class="w-7 h-0.5 bg-cream"></span>
+          </div>
+          <p class="font-semibold text-cream text-sm tracking-[2.24px] uppercase mb-4">GET IN TOUCH</p>
+
+          <!-- Heading — Playfair Display Bold, 48px with 57.6px line-height per Figma -->
+          <h2 class="font-playfair font-bold text-white text-2xl md:text-[36px] lg:text-[48px] leading-[1.2] lg:leading-[57.6px] mb-6">Schedule Your Chimney Service</h2>
+
+          <!-- Description -->
+          <p class="text-cream text-base leading-relaxed mb-8 max-w-[502px]">Fill out the form below and our team will get back to you within one business day. We'll review your request and contact you shortly to confirm your appointment time.</p>
+
+          <!-- Divider -->
+          <div class="w-full max-w-[502px] h-px bg-cream/60 mb-6"></div>
+
+          <!-- Hours -->
+          <p class="text-cream text-base mb-2">Prefer to call? Reach us Monday–Friday, 8:00 AM–5:00 PM ET.</p>
+
+          <!-- Phone -->
+          <a href="tel:6143447750" class="font-playfair font-semibold text-white text-2xl md:text-[28px] leading-[42px] hover:underline">614-344-7750</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- /SECTION:ContactForm.html -->
+
+    <!-- INCLUDE:footer -->
+</body>
+</html>

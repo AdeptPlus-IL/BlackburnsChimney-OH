@@ -68,5 +68,9 @@
         "href": "./service-area.html"
       }
     ]
+  },
+  {
+    "label": "Contact",
+    "href": "./contact.html"
   }
 ]
