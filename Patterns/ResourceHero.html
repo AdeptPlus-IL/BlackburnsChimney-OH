@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Helpful guides and resources for Columbus homeowners on chimney maintenance, inspections, masonry repair, and more from Blackburns Chimney Services.">
+  <title>Resource Hero - Blackburns Chimney Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+            playfair: ['Playfair Display', 'serif'],
+          },
+          colors: {
+            brand: { navy: '#1a2660', red: '#7a1620', darknavy: '#111c4e' },
+            heading: '#1a2660',
+            nav: '#4a4a4a',
+            body: '#6b6560',
+            lightblue: '#b8c4e8',
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    body { margin: 0; font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body>
+  <section class="relative w-full min-h-[350px] md:min-h-[450px] lg:min-h-[578px] flex items-center overflow-hidden">
+    <!-- Background image -->
+    <img
+      src="https://images.adept.plus/BlackburnsChimney-OH/resource-hero-background/background"
+      srcset="
+        https://images.adept.plus/BlackburnsChimney-OH/resource-hero-background/card 600w,
+        https://images.adept.plus/BlackburnsChimney-OH/resource-hero-background/largethumbnail 750w,
+        https://images.adept.plus/BlackburnsChimney-OH/resource-hero-background/background 1920w
+      "
+      sizes="100vw"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async"
+      width="1920" height="1080"
+      alt="Customer at Blackburns Chimney Services counter"
+      class="absolute inset-0 w-full h-full object-cover"
+    />
+    <!-- Dark navy overlay — left half on desktop, full on mobile -->
+    <div class="absolute inset-0 bg-brand-navy/90 lg:hidden"></div>
+    <div class="hidden lg:block absolute top-0 left-0 bottom-0 w-[55%] bg-brand-navy/85"></div>
+
+    <!-- Content -->
+    <div class="relative max-w-[1280px] mx-auto px-4 md:px-8 lg:px-16 py-16 md:py-20 lg:py-24 w-full">
+      <div class="max-w-full lg:max-w-[520px]">
+        <!-- Breadcrumb -->
+        <p class="font-inter font-normal text-lightblue text-base leading-6 mb-6 md:mb-10">
+          Home &gt; Resources
+        </p>
+
+        <!-- Heading -->
+        <h1 class="font-playfair font-bold text-white text-3xl md:text-5xl lg:text-[72px] leading-tight lg:leading-[1.15] mb-6 md:mb-8">
+          Helpful Guides for Columbus Homeowners
+        </h1>
+
+        <!-- Paragraph -->
+        <p class="font-inter text-white text-base leading-6 max-w-[460px]">
+          Plain-language articles on chimney maintenance, inspections, masonry repair, and everything in between — from the team at Blackburns Chimney Services.
+        </p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
