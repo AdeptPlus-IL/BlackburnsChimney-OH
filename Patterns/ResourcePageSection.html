@@ -28,12 +28,19 @@
     .filter-btn { transition: all 0.2s; }
     .filter-btn:hover { background-color: #1a2660; color: #fff; border-color: #1a2660; }
     .filter-btn.active { background-color: #1a2660; color: #fff; }
+    .resource-bg { background-color: #f5f2ec; }
+    .resource-texture {
+      background-image: url(https://images.adept.plus/BlackburnsChimney-OH/dark-chimney-background/background);
+      background-size: 1647px 900px;
+      background-position: top left;
+      background-repeat: repeat;
+    }
   </style>
 </head>
 <body>
-  <section class="relative py-12 md:py-16 lg:py-24 overflow-hidden" style="background-color:#f5f2ec;">
+  <section class="relative py-12 md:py-16 lg:py-24 overflow-hidden resource-bg">
     <!-- Very faint texture -->
-    <div class="absolute inset-0 opacity-[0.05]" style="background-image:url('https://images.adept.plus/BlackburnsChimney-OH/dark-chimney-background/background');background-size:1647px 900px;background-position:top left;background-repeat:repeat;"></div>
+    <div class="absolute inset-0 opacity-[0.05] resource-texture"></div>
 
     <div class="relative max-w-[1280px] mx-auto px-4 md:px-8 lg:px-16">
       <!-- Eyebrow -->
