@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You | Blackburns Chimney Service</title>
+    <meta name="description" content="Thank you for contacting Blackburns Chimney Service. We'll be in touch shortly to help with your chimney needs." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+    body { margin: 0; font-family: 'Inter', sans-serif; }
+    /* Ensure nothing clips the logo overhang */
+    header, header > * { overflow: visible !important; }
+  </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+    body { margin: 0; font-family: 'Inter', sans-serif; }
+    .section-bg { background-color: #f5f2ec; }
+    .section-texture {
+      background-image: url(https://images.adept.plus/BlackburnsChimney-OH/dark-chimney-background/background);
+      background-size: 1647px 900px;
+      background-position: top left;
+      background-repeat: repeat;
+    }
+  </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>body{margin:0;font-family:'Inter',sans-serif;}</style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>body{margin:0;font-family:'Inter',sans-serif;}</style>
+        <script>
+        tailwind.config = {
+    "theme": {
+        "extend": {
+            "fontFamily": {
+                "inter": [
+                    "Inter",
+                    "sans-serif"
+                ],
+                "playfair": [
+                    "Playfair Display",
+                    "serif"
+                ]
+            },
+            "colors": {
+                "brand": {
+                    "navy": "#1a2660",
+                    "red": "#7a1620",
+                    "darknavy": "#111c4e"
+                },
+                "heading": "#1a2660",
+                "body": "#6b6560",
+                "lightblue": "#b8c4e8"
+            }
+        }
+    }
+};
+    </script>
+    <!-- INCLUDE:head_scripts -->
+    <!-- INCLUDE:favicon -->
+    <!-- INCLUDE:schema -->
+</head>
+<body class="font-inter">
+    <!-- INCLUDE:body_scripts -->
+    <!-- INCLUDE:header -->
+
+    <!-- SECTION:ThankYouSection.html -->
+<section class="relative flex flex-col items-center py-20 md:py-24 lg:pt-[133px] lg:pb-24 overflow-hidden section-bg">
+    <!-- Subtle texture -->
+    <div class="absolute inset-0 opacity-[0.05] section-texture"></div>
+
+    <!-- Card -->
+    <div class="relative bg-white border-t-[5px] border-brand-red shadow-[0_2px_16px_rgba(0,0,0,0.08)] mx-4 md:mx-8 max-w-[800px] w-full">
+      <div class="flex flex-col items-center text-center px-8 md:px-14 py-12 md:py-[60px]">
+        <h1 class="font-playfair font-bold text-heading text-3xl md:text-4xl lg:text-5xl leading-tight mb-4">Thank You!</h1>
+        <p class="font-inter text-body text-base leading-6 max-w-[680px]">
+          Thank you for contacting us!<br>
+          We will get in touch with you shortly
+        </p>
+      </div>
+    </div>
+  </section>
+<!-- /SECTION:ThankYouSection.html -->
+
+    <!-- INCLUDE:footer -->
+</body>
+</html>
