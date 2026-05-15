@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Page not found - Blackburns Chimney Services. Search our site or return to the homepage.">
+  <title>404 Error - Blackburns Chimney Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { inter: ['Inter', 'sans-serif'], playfair: ['Playfair Display', 'serif'] },
+          colors: {
+            brand: { navy: '#1a2660', red: '#7a1620', darknavy: '#111c4e' },
+            heading: '#1a2660', body: '#6b6560',
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    body { margin: 0; font-family: 'Inter', sans-serif; }
+    .section-bg { background-color: #f5f2ec; }
+    .section-texture {
+      background-image: url(https://images.adept.plus/BlackburnsChimney-OH/dark-chimney-background/background);
+      background-size: 1647px 900px;
+      background-position: top left;
+      background-repeat: repeat;
+    }
+  </style>
+</head>
+<body>
+  <section class="relative flex flex-col items-center py-20 md:py-24 lg:pt-[133px] lg:pb-24 overflow-hidden section-bg">
+    <!-- Subtle texture -->
+    <div class="absolute inset-0 opacity-[0.05] section-texture"></div>
+
+    <!-- Card -->
+    <div class="relative bg-white border-t-[5px] border-brand-red shadow-[0_2px_16px_rgba(0,0,0,0.08)] mx-4 md:mx-8 max-w-[960px] w-full">
+      <div class="flex flex-col items-start px-8 md:px-14 py-12 md:py-[60px] gap-2.5">
+        <h1 class="font-playfair font-bold text-heading text-3xl md:text-4xl lg:text-5xl leading-tight lg:leading-[72px]">Error! That page can't be found.</h1>
+        <p class="font-inter text-body text-base leading-6 max-w-[680px]">
+          That page you are looking for no longer exists. Perhaps you can return back to the <a href="https://blackburnschimney-oh.pages.dev" class="text-brand-red font-semibold hover:underline transition-colors">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below.
+        </p>
+        <!-- Search -->
+        <div class="flex items-stretch w-full max-w-[600px] mt-4">
+          <input
+            type="text"
+            placeholder="Search this site..."
+            class="flex-1 border border-[#e0e0e0] rounded-l px-4 py-3 font-inter text-lg text-[#9e9e9e] focus:outline-none focus:border-brand-navy shadow-[0_1px_1px_rgba(0,0,0,0.1)]"
+          />
+          <button class="bg-[#f5f5f5] border border-l-0 border-[#e0e0e0] rounded-r px-4 flex items-center justify-center hover:bg-[#eaeaea] transition-colors shadow-[0_1px_1px_rgba(0,0,0,0.1)]" aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#212121]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
