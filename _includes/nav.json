@@ -6,11 +6,6 @@
   {
     "label": "Services",
     "href": "./services.html",
-    "children": [
-      {
-        "label": "Chimney Inspection",
-        "href": "./chimney-inspection.html"
-      }
-    ]
+    "children": []
   }
 ]
