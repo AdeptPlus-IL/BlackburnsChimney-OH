@@ -20,5 +20,9 @@
   {
     "label": "Sales &Installations",
     "href": "./sales-installations.html"
+  },
+  {
+    "label": "About",
+    "href": "./about.html"
   }
 ]
