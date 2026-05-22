@@ -22,10 +22,6 @@
     "href": "./sales-installations.html",
     "children": [
       {
-        "label": "Fireplaces",
-        "href": "./fireplaces.html"
-      },
-      {
         "label": "Heating Stoves",
         "href": "./heating-stoves.html"
       }
