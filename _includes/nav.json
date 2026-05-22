@@ -23,6 +23,12 @@
   },
   {
     "label": "About",
-    "href": "./about.html"
+    "href": "./about.html",
+    "children": [
+      {
+        "label": "Thank you",
+        "href": "./thank-you.html"
+      }
+    ]
   }
 ]
