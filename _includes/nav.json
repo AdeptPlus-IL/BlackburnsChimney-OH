@@ -1,5 +1,9 @@
 [
   {
+    "label": "Home",
+    "href": "./index.html"
+  },
+  {
     "label": "Services",
     "href": "./services.html",
     "children": [
@@ -26,10 +30,6 @@
         "href": "./heating-stoves.html"
       }
     ]
-  },
-  {
-    "label": "About",
-    "href": "./about.html"
   },
   {
     "label": "Contact",
