@@ -19,16 +19,24 @@
   },
   {
     "label": "Sales &Installations",
-    "href": "./sales-installations.html"
+    "href": "./sales-installations.html",
+    "children": [
+      {
+        "label": "Fireplaces",
+        "href": "./fireplaces.html"
+      },
+      {
+        "label": "Fireplace Inserts",
+        "href": "./fireplace-inserts.html"
+      },
+      {
+        "label": "Heating Stoves",
+        "href": "./heating-stoves.html"
+      }
+    ]
   },
   {
     "label": "About",
-    "href": "./about.html",
-    "children": [
-      {
-        "label": "Thank you",
-        "href": "./thank-you.html"
-      }
-    ]
+    "href": "./about.html"
   }
 ]
