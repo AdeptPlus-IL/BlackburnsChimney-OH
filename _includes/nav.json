@@ -14,14 +14,6 @@
     ]
   },
   {
-    "label": "Contact",
-    "href": "./contact.html"
-  },
-  {
-    "label": "About",
-    "href": "./about.html"
-  },
-  {
     "label": "Sales &Installation",
     "href": "./sales-installation.html",
     "children": [
@@ -38,5 +30,13 @@
         "href": "./heating-stoves.html"
       }
     ]
+  },
+  {
+    "label": "About",
+    "href": "./about.html"
+  },
+  {
+    "label": "Contact",
+    "href": "./contact.html"
   }
 ]
