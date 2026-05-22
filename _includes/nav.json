@@ -16,5 +16,9 @@
   {
     "label": "Contact",
     "href": "./contact.html"
+  },
+  {
+    "label": "Sales &Installations",
+    "href": "./sales-installations.html"
   }
 ]
