@@ -36,6 +36,10 @@
     ]
   },
   {
+    "label": "About",
+    "href": "./about.html"
+  },
+  {
     "label": "Contact",
     "href": "./contact.html"
   }
