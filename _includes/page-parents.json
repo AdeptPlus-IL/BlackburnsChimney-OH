@@ -2,7 +2,9 @@
   "fireplaces": "sales-installation",
   "fireplace-inserts": "sales-installation",
   "heating-stoves": "sales-installation",
+  "chimney-inspection": "services",
   "service-area": "about",
+  "chimney-caps--guards": "services",
   "chimney-sweeping": "services",
   "thank-you": "contact"
 }
