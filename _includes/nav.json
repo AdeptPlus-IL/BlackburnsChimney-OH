@@ -1,42 +1,42 @@
 [
   {
-    "href": "./index.html",
-    "label": "Home"
+    "label": "Home",
+    "href": "./index.html"
   },
   {
-    "href": "./services.html",
     "label": "Services",
+    "href": "./services.html",
     "children": [
       {
-        "href": "./chimney-sweeping.html",
-        "label": "Chimney Sweeping"
+        "label": "Chimney Sweeping",
+        "href": "./chimney-sweeping.html"
       }
     ]
   },
   {
-    "href": "./sales-installation.html",
     "label": "Sales &Installation",
+    "href": "./sales-installation.html",
     "children": [
       {
-        "href": "./fireplaces.html",
-        "label": "Fireplaces"
+        "label": "Fireplaces",
+        "href": "./fireplaces.html"
       },
       {
-        "href": "./fireplace-inserts.html",
-        "label": "Fireplace Inserts"
+        "label": "Fireplace Inserts",
+        "href": "./fireplace-inserts.html"
       },
       {
-        "href": "./heating-stoves.html",
-        "label": "Heating Stoves"
+        "label": "Heating Stoves",
+        "href": "./heating-stoves.html"
       }
     ]
   },
   {
-    "href": "./about.html",
-    "label": "About"
+    "label": "About",
+    "href": "./about.html"
   },
   {
-    "href": "./contact.html",
-    "label": "Contact"
+    "label": "Contact",
+    "href": "./contact.html"
   }
 ]
