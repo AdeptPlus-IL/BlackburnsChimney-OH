@@ -1,46 +1,46 @@
 [
   {
-    "label": "Home",
-    "href": "./index.html"
+    "href": "./index.html",
+    "label": "Home"
   },
   {
-    "label": "Services",
     "href": "./services.html",
+    "label": "Services",
     "children": [
       {
-        "label": "Chimney Sweeping",
-        "href": "./chimney-sweeping.html"
+        "href": "./chimney-sweeping.html",
+        "label": "Chimney Sweeping"
       },
       {
-        "label": "Chimney Inspection",
-        "href": "./chimney-inspection.html"
+        "href": "./chimney-inspection.html",
+        "label": "Chimney Inspection"
       }
     ]
   },
   {
-    "label": "Sales &Installation",
     "href": "./sales-installation.html",
+    "label": "Sales &Installation",
     "children": [
       {
-        "label": "Fireplaces",
-        "href": "./fireplaces.html"
+        "href": "./fireplaces.html",
+        "label": "Fireplaces"
       },
       {
-        "label": "Fireplace Inserts",
-        "href": "./fireplace-inserts.html"
+        "href": "./fireplace-inserts.html",
+        "label": "Fireplace Inserts"
       },
       {
-        "label": "Heating Stoves",
-        "href": "./heating-stoves.html"
+        "href": "./heating-stoves.html",
+        "label": "Heating Stoves"
       }
     ]
   },
   {
-    "label": "About",
-    "href": "./about.html"
+    "href": "./about.html",
+    "label": "About"
   },
   {
-    "label": "Contact",
-    "href": "./contact.html"
+    "href": "./contact.html",
+    "label": "Contact"
   }
 ]
