@@ -1,3 +1,4 @@
 # Managed by AdeptPlus Site Editor
 # Format: /source /destination statusCode
 /services.html /chimney-services.html 301
+/chimney-inspection.html /safety-inspection.html 301
