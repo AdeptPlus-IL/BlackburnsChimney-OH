@@ -1,45 +1,45 @@
 {
-  "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@context": "https://schema.org",
   "mainEntity": [
     {
-      "@type": "Question",
       "name": "How often should my chimney be swept?",
+      "@type": "Question",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The National Fire Protection Association (NFPA 211) recommends that every chimney, fireplace, and vent be inspected at least once per year, with sweeping performed whenever buildup is found. For most Columbus-area homeowners, an annual sweep is the right cadence, but the ideal frequency depends on how you use your system: Heavy wood-burning use (3+ cords per season) — sweep annually, sometimes mid-season if creosote builds quickly. Occasional fireplace use — annual inspection with sweeping as needed. Gas fireplaces and inserts — annual inspection to check for blockages, corrosion, and venting issues, even though they produce less soot. Wood stoves and inserts — typically annual, but high-use stoves may need sweeping twice per heating season. During your appointment, our CSIA-certified techs will measure creosote levels and give you a personalized recommendation based on your usage, fuel type, and local conditions."
+        "text": "The National Fire Protection Association (NFPA 211) recommends that every chimney, fireplace, and vent be inspected at least once per year, with sweeping performed whenever buildup is found. For most Columbus-area homeowners, an annual sweep is the right cadence, but the ideal frequency depends on how you use your system: Heavy wood-burning use (3+ cords per season) — sweep annually, sometimes mid-season if creosote builds quickly. Occasional fireplace use — annual inspection with sweeping as needed. Gas fireplaces and inserts — annual inspection to check for blockages, corrosion, and venting issues, even though they produce less soot. Wood stoves and inserts — typically annual, but high-use stoves may need sweeping twice per heating season. During your appointment, our CSIA-certified techs will measure creosote levels and give you a personalized recommendation based on your usage, fuel type, and local conditions.",
+        "@type": "Answer"
       }
     },
     {
-      "@type": "Question",
       "name": "What is creosote and why does it need to be removed?",
+      "@type": "Question",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Creosote is a tar-like residue that forms when wood smoke cools and condenses on the inside walls of your chimney flue. It's highly flammable and is the leading cause of chimney fires in the United States. Creosote develops in three progressive stages, each more dangerous than the last: Stage 1 — light, flaky soot easily removed with a standard chimney brush during a routine sweep. Stage 2 — hard, shiny flakes that require rotary tools and more aggressive cleaning methods. Stage 3 — glazed creosote, a thick tar-like coating that's extremely difficult to remove and poses a serious fire hazard, often requiring chemical treatment. Even a 1/8-inch layer of creosote is enough to fuel a chimney fire that can reach temperatures over 2,000°F — hot enough to crack flue liners and ignite nearby framing. Annual sweeping keeps creosote at safe Stage 1 levels and protects your home, your family, and your chimney system."
+        "text": "Creosote is a tar-like residue that forms when wood smoke cools and condenses on the inside walls of your chimney flue. It's highly flammable and is the leading cause of chimney fires in the United States. Creosote develops in three progressive stages, each more dangerous than the last: Stage 1 — light, flaky soot easily removed with a standard chimney brush during a routine sweep. Stage 2 — hard, shiny flakes that require rotary tools and more aggressive cleaning methods. Stage 3 — glazed creosote, a thick tar-like coating that's extremely difficult to remove and poses a serious fire hazard, often requiring chemical treatment. Even a 1/8-inch layer of creosote is enough to fuel a chimney fire that can reach temperatures over 2,000°F — hot enough to crack flue liners and ignite nearby framing. Annual sweeping keeps creosote at safe Stage 1 levels and protects your home, your family, and your chimney system.",
+        "@type": "Answer"
       }
     },
     {
-      "@type": "Question",
       "name": "Will chimney sweeping make a mess in my home?",
+      "@type": "Question",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No — a professional sweep should leave your home as clean as we found it, or cleaner. At Blackburns, we treat every home with the same care we'd give our own, and we follow a strict containment process to keep soot, ash, and debris out of your living space: protective drop cloths and runners laid from the front door to the fireplace; dual HEPA vacuum containment running throughout the entire sweep; sealed access points around the fireplace opening to prevent dust escape; shoe covers worn by every technician on every visit; thorough cleanup of the hearth, surround, and any work area before we leave; and a final walkthrough so you can confirm everything looks right. Most homeowners are surprised by how clean the process is. If anything is out of place when we finish, just let us know — we'll make it right before we leave."
+        "text": "No — a professional sweep should leave your home as clean as we found it, or cleaner. At Blackburns, we treat every home with the same care we'd give our own, and we follow a strict containment process to keep soot, ash, and debris out of your living space: protective drop cloths and runners laid from the front door to the fireplace; dual HEPA vacuum containment running throughout the entire sweep; sealed access points around the fireplace opening to prevent dust escape; shoe covers worn by every technician on every visit; thorough cleanup of the hearth, surround, and any work area before we leave; and a final walkthrough so you can confirm everything looks right. Most homeowners are surprised by how clean the process is. If anything is out of place when we finish, just let us know — we'll make it right before we leave.",
+        "@type": "Answer"
       }
     },
     {
-      "@type": "Question",
       "name": "How long does a chimney sweeping appointment take?",
+      "@type": "Question",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A standard chimney sweep and Level 1 inspection typically takes 45 minutes to 1.5 hours, but the exact time depends on a few factors: chimney condition (heavier creosote buildup or blockages add time); chimney height and configuration (taller flues and multiple offsets take longer to clean thoroughly); fuel type (wood-burning systems generally take longer than gas appliances); add-on services (camera inspections, cap installations, or minor repairs extend the appointment); and accessibility (rooftop access, steep roofs, or two-story homes may add setup time). When you schedule, we'll give you a realistic time window and confirm pricing up front — no surprises. Most appointments fit comfortably within a single morning or afternoon visit."
+        "text": "A standard chimney sweep and Level 1 inspection typically takes 45 minutes to 1.5 hours, but the exact time depends on a few factors: chimney condition (heavier creosote buildup or blockages add time); chimney height and configuration (taller flues and multiple offsets take longer to clean thoroughly); fuel type (wood-burning systems generally take longer than gas appliances); add-on services (camera inspections, cap installations, or minor repairs extend the appointment); and accessibility (rooftop access, steep roofs, or two-story homes may add setup time). When you schedule, we'll give you a realistic time window and confirm pricing up front — no surprises. Most appointments fit comfortably within a single morning or afternoon visit.",
+        "@type": "Answer"
       }
     },
     {
-      "@type": "Question",
       "name": "Is chimney sweeping necessary if I don't use my fireplace often?",
+      "@type": "Question",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes — and in some ways, low-use chimneys can be even more important to inspect annually. Even when your fireplace sits idle, your chimney is still exposed to weather, wildlife, and gradual deterioration. Common issues we find in seldom-used chimneys include: animal nests and blockages (birds, squirrels, and raccoons frequently nest in unused flues, creating fire and carbon monoxide hazards); moisture damage (rain, snow, and freeze-thaw cycles erode mortar joints, crown surfaces, and flue liners over time); creosote buildup from prior use (even old residue remains flammable and should be removed); cracked or deteriorating components (caps, crowns, and liners can fail silently and go unnoticed until you light a fire); and pest droppings and debris (can corrode metal components and produce odors that drift into the home). An annual inspection — even without a full sweep — ensures your chimney is safe and ready whenever you decide to use it. We recommend scheduling before the burning season starts so any needed repairs can be completed in time."
+        "text": "Yes — and in some ways, low-use chimneys can be even more important to inspect annually. Even when your fireplace sits idle, your chimney is still exposed to weather, wildlife, and gradual deterioration. Common issues we find in seldom-used chimneys include: animal nests and blockages (birds, squirrels, and raccoons frequently nest in unused flues, creating fire and carbon monoxide hazards); moisture damage (rain, snow, and freeze-thaw cycles erode mortar joints, crown surfaces, and flue liners over time); creosote buildup from prior use (even old residue remains flammable and should be removed); cracked or deteriorating components (caps, crowns, and liners can fail silently and go unnoticed until you light a fire); and pest droppings and debris (can corrode metal components and produce odors that drift into the home). An annual inspection — even without a full sweep — ensures your chimney is safe and ready whenever you decide to use it. We recommend scheduling before the burning season starts so any needed repairs can be completed in time.",
+        "@type": "Answer"
       }
     }
   ]
