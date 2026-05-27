@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does a chimney liner do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A chimney liner is a protective inner channel—typically stainless steel, aluminum, or clay tile—that runs the full height of your chimney and safely directs combustion byproducts up and out of your home. Key functions include: containing heat, smoke, and gases so they vent outside instead of seeping into living spaces; protecting the brick and mortar from corrosive acids and moisture; improving draft and appliance efficiency; and reducing the risk of chimney fires by limiting creosote contact with masonry."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of chimney liners are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There are three main options, each suited to different appliances and chimney conditions. Stainless steel is the most common and versatile choice; it works with wood, gas, oil, and pellet appliances and typically lasts 15–20+ years. Aluminum is lower cost and lighter weight but only approved for certain medium-efficiency gas appliances. Clay tile is the original liner in many older masonry chimneys; it is durable but prone to cracking from thermal shock and difficult to repair section-by-section. We inspect your chimney and appliance before recommending the right option."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a chimney liner last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lifespan depends on the material, how often you burn, and your maintenance habits. Stainless steel liners typically last 15–20+ years, and premium options often come with lifetime warranties. Aluminum liners last 5–15 years and are limited to gas appliances. Clay tile can last decades if undamaged, but cracks significantly shorten useful life. Annual sweeping, prompt repairs, and a properly fitted chimney cap all help extend liner life."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the signs that my liner needs repair or replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common signs include: smoke spilling back into the room or lingering fireplace odors; visible cracks, gaps, or rust seen on a camera inspection; water stains, efflorescence, or moisture inside the firebox or on nearby walls; pieces of tile or debris falling into the fireplace; reduced draft or difficulty starting and maintaining a fire; and an appliance change (new stove, insert, or higher-efficiency furnace) that requires a different liner size. A camera inspection is the only reliable way to confirm liner condition."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a damaged liner cause carbon monoxide issues?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes—and it's one of the most serious risks of a failing chimney. Cracks, gaps, or deteriorated joints can allow carbon monoxide and other combustion gases to leak through the masonry and into living spaces, where they are odorless and potentially deadly. Recommended steps: schedule a camera inspection if you've noticed soot, odors, or backdraft; install working CO detectors on every level of your home; and replace damaged liners promptly."
+      }
+    }
+  ]
+}
