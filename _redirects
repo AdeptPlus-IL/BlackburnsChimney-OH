@@ -1,10 +1,4 @@
-# Managed by AdeptPlus Site Editor
-# Format: /source /destination statusCode
-
-/services.html /chimney-services.html 301
-/chimney-inspection.html /safety-inspection.html 301
-/chimney-sweeping.html /annual-cleaning.html 301
-/chimney-caps--guards.html /caps-guards.html 301
-/chimney-test.html /chimney-testing.html 301
-/chimney-testing.html /chimney-testing-service.html 301
-/chimney-testing-service.html /chimney-test.html 301
+/services.html  /chimney-services.html  301
+/chimney-inspection.html  /safety-inspection.html  301
+/chimney-sweeping.html  /annual-cleaning.html  301
+/chimney-caps--guards.html  /caps-guards.html  301
