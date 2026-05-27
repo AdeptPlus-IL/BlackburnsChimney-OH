@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why is my chimney smoking when I use my fireplace?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A chimney that smokes back into your home is almost always a draft problem — your flue isn't pulling combustion gases up and out the way it should. The most common culprits we see in Columbus homes include: creosote and soot buildup restricting airflow inside the flue; a cold flue that wasn't primed before lighting the fire; a missing, damaged, or improperly sized chimney cap; negative air pressure in the home (common in tight modern builds or when exhaust fans are running); a chimney that's too short relative to the roofline; a damper that's stuck, partially closed, or damaged; and cracks in the flue liner causing air leakage. A video camera inspection is the fastest way to pinpoint the exact cause rather than guessing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a smoking chimney dangerous?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — a smoking chimney should never be ignored. When smoke spills back into your living space, other combustion byproducts come with it, including carbon monoxide (an odorless and potentially deadly gas), fine particulate matter that irritates lungs and worsens asthma, and volatile organic compounds from incomplete combustion. Beyond air quality, poor draft accelerates creosote buildup inside the flue — the leading cause of chimney fires. If your fireplace is smoking, stop using it until a CSIA-certified technician has inspected the system."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a dirty chimney cause smoking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely — it's one of the most common causes we find. Over time, soot and creosote coat the flue walls and narrow the passage that exhaust gases need to escape. Even a small amount of buildup can reduce draft significantly, trap moisture and create lingering odors, increase the risk of a flue fire, and cause smoke to roll back into the firebox and room. The CSIA and NFPA both recommend annual chimney inspections and sweeping for fireplaces in regular use. In many cases, a professional sweep alone fully solves the smoking problem."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to fix a smoking chimney?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cost depends entirely on what's causing the problem. Typical ranges we see in the Columbus area: standard cleaning & inspection $150–$300; chimney cap installation or replacement $200–$500; damper repair or replacement $250–$700; flue liner repair or relining $1,500–$5,000+; top-section rebuild or chimney extension $1,000–$3,500+. We always start with a full diagnostic inspection so you know exactly what's wrong before any work begins. You'll get a written estimate up front — no surprises."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if my chimney is too short?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A chimney that's too short can't generate enough draft to pull smoke up and out, especially on calm or warm days. NFPA code requires the chimney to extend at least 3 feet above the roof penetration and 2 feet higher than any roofline within a 10-foot radius. If yours falls short, we have several options: install a taller chimney cap or draft-inducing cap to improve airflow; add a flue extension on top of the existing crown; rebuild the top courses of the chimney to gain height; or install a mechanical draft inducer for stubborn problem cases. We'll measure your chimney, check it against current code, and recommend the most cost-effective fix for your home."
+      }
+    }
+  ]
+}
