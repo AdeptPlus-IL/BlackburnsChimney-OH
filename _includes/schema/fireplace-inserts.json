@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of fireplace inserts do you install?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We install three primary types of fireplace inserts, each suited to different homes and lifestyles: Wood-burning inserts are ideal for homeowners with a working chimney who love the authentic crackle, aroma, and radiant heat of a traditional fire — they deliver high heat output and work well during power outages. Gas inserts are convenient, clean-burning, and easy to operate with a switch or remote, available in natural gas or propane with realistic ceramic logs and adjustable flame settings. Pellet inserts are an eco-friendly option that burns compressed wood pellets with minimal ash and consistent heat output, great for homeowners who want efficiency without splitting firewood. During your in-home consultation, we evaluate your chimney, venting, fuel preferences, and heating goals before recommending the best fit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a fireplace insert fit into my existing fireplace?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In most cases, yes — but a proper fit depends on several factors we evaluate during inspection. Firebox dimensions (height, width, and depth) must accommodate the insert with proper clearances. The chimney condition matters — the flue, liner, and masonry must be safe and structurally sound, or repaired before installation. Flue size and venting are important since most inserts require a stainless-steel liner sized to the appliance for safe draft and efficiency. The hearth and surround must meet code clearances to combustible materials. If your chimney needs relining, tuckpointing, or a new cap before installation, we'll explain the work clearly and can complete everything in-house so you only deal with one trusted team."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much will a fireplace insert save me on heating costs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most Columbus homeowners see meaningful savings after switching to a modern insert. Actual results depend on your current setup (replacing an open masonry fireplace yields the biggest gains, since open fireplaces lose up to 90% of heat up the flue), fuel type and local energy prices (wood, gas, and pellet costs vary by season and supplier), usage patterns (homes that zone-heat with the insert during peak hours see the largest reductions), and home size and insulation (a quality insert can effectively heat up to 2,000 sq ft). Typically, regular winter use results in a 15–30% reduction in heating bills, with some households saving even more by reducing reliance on central heating."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does installation take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most fireplace insert installations are completed in a single day. A typical project includes a pre-installation chimney inspection to confirm the system is safe and ready; any necessary repairs or relining, including stainless-steel liner installation sized to the insert; insert placement and connection with proper clearances and venting hookups; gas line connection (for gas inserts) by a certified technician; and final testing and a walkthrough so you know exactly how to operate and maintain your new insert. Larger projects involving extensive masonry work or custom surrounds may take longer. We'll provide a clear timeline during your consultation so there are no surprises on installation day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer warranties on fireplace inserts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — we back every installation with strong warranty coverage on both the product and our workmanship. Manufacturer warranties are typically 5–10 years on major components, depending on the brand and model, with some manufacturers offering lifetime coverage on fireboxes. Our labor warranty means we stand behind every installation we perform, ensuring your insert vents, drafts, and operates correctly. Ongoing support is always available — if anything ever feels off, our CSIA-certified team is available to diagnose and resolve issues promptly. We only sell premium inserts from trusted manufacturers, so warranty claims (when needed) are straightforward and reliable."
+      }
+    }
+  ]
+}
