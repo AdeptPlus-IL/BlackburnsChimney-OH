@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How often should I have my dryer vent cleaned?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The National Fire Protection Association (NFPA) recommends having your dryer vent professionally cleaned at least once per year. However, several factors can shorten that interval and call for more frequent cleanings: households that run 4 or more loads of laundry per week; long or complex vent runs (over 10 feet, or with multiple bends/elbows); homes with pets that shed heavily; dryers located far from an exterior wall (often basements or interior closets); and older dryers, which tend to produce more lint. During your service, we'll evaluate your vent configuration, lint accumulation rate, and usage patterns, then recommend a cleaning schedule tailored to your household — typically every 6, 12, or 18 months."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does dryer vent cleaning take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most residential dryer vent cleanings are completed in 30 to 60 minutes, though the exact time depends on a few variables: the total length of the vent run (longer runs take more time to clear); the number of bends, elbows, or transitions in the ductwork; the severity of lint buildup (heavily clogged vents require more passes); the vent termination location (roof vs. wall vs. soffit); and the accessibility of the dryer and exterior vent cap. Our technicians arrive with all the necessary equipment, work efficiently, protect your floors and laundry area, and leave the space cleaner than we found it. In most cases, you'll be back to doing laundry the same day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if my dryer vent goes through the wall or roof?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No problem at all — we routinely clean every type of vent configuration found in residential homes, including: short horizontal runs through an exterior wall; long horizontal runs through basements, crawl spaces, or interior walls; vertical runs that travel up through the attic; rooftop terminations (we have ladders and rooftop-rated equipment); multi-story homes with vents routed through several floors; and soffit and side-wall vent caps. We use rotary brush systems with flexible rods that navigate elbows and long runs, paired with high-powered vacuums that capture lint at the source. We clear the entire vent end-to-end and verify proper airflow before we leave."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I clean my dryer vent myself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cleaning the lint trap after every load is something every homeowner should do — but the interior duct system is a different story. Here's why most homeowners are better off hiring a professional: consumer-grade brushes typically can't reach deep enough into long or angled vents; DIY cleaning often pushes lint further into the ductwork instead of removing it; disconnecting and reconnecting the vent improperly can create gas, fire, or moisture risks; roof and second-story vents require safe ladder access and the right equipment; and without a proper inspection, you won't catch crushed ducts, animal nests, or damaged vent caps. Our technicians bring commercial rotary equipment, HEPA-grade vacuums, and a trained eye for hazards — ensuring the vent is fully cleared and safely reconnected."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the cost of dryer vent cleaning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pricing depends on the specifics of your home, but most residential dryer vent cleanings are surprisingly affordable. Factors that influence the final cost include: the length and complexity of the vent run; the vent termination type (wall, roof, soffit); the severity of lint buildup or any blockages; whether the dryer needs to be pulled out and reconnected; and add-on services such as a new exterior vent cap or damaged duct replacement. We'll always provide a clear, upfront estimate before any work begins — no surprises, no hidden fees. When you weigh the cost against the risk of a dryer fire, the energy savings from a properly running dryer, and the extended lifespan of your appliance, professional cleaning is one of the smartest small investments you can make in your home."
+      }
+    }
+  ]
+}
