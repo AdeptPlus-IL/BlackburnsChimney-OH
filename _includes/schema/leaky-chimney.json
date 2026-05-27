@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the most common causes of chimney leaks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chimney leaks usually come from a handful of recurring issues, and most homes that develop a leak have more than one weak point. The most common causes we see in Columbus-area homes include:\n\n• Damaged, rusted, or missing flashing where the chimney meets the roofline\n• A cracked or deteriorated chimney crown (the concrete slab on top of the chimney)\n• Porous, spalling, or deteriorating brick and mortar that absorbs water\n• A missing, damaged, or improperly sized chimney cap that's allowing rain directly into the flue\n• Failed sealant or caulking at penetrations and joints\n• Improper roof-to-chimney transitions from past roofing or construction work\n\nBecause several of these issues can occur at the same time, a professional inspection is the only reliable way to identify the exact source — or sources — of your leak, so that the right repair is performed the first time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why should I trust a professional for chimney waterproofing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many assume they can purchase a paint or sealant from the hardware store and waterproof their masonry chimney themselves, but DIY waterproofing is not recommended. Chimney waterproofing is more technical than it appears, and the wrong product or improper application can actually trap moisture inside the masonry — and, in the process, accelerate the damage you're trying to prevent.\n\nHiring a professional matters for several reasons:\n\n• Proper chimney waterproofing products are vapor-permeable — they block liquid water from entering the masonry while still allowing trapped moisture to escape as vapor.\n• Standard sealers, paints, and hardware-store waterproofers are typically not vapor-permeable and can cause spalling, freeze-thaw damage, and accelerated deterioration.\n• Surface preparation is critical — cracks, deteriorated mortar joints, crown damage, and flashing issues must be identified and repaired before any sealant is applied.\n• CSIA-certified technicians know the correct application rate, surface temperature conditions, and number of coats required.\n• A trained eye can spot underlying issues like failing flashing, a cracked crown, or a damaged cap — all of which should be addressed before waterproofing.\n• Professional-grade siloxane and silane-based sealers often carry 10-year (or longer) manufacturer warranties when applied correctly.\n• DIY sealants typically last only 1–3 years and may void warranties on chimney components or recent masonry work.\n\nProfessional waterproofing helps protect your chimney's structural integrity for years and helps prevent the kind of moisture damage that leads to costly masonry repairs down the road."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a chimney leak really cause damage inside my home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — and the damage often goes well beyond what's visible at the fireplace. Once water enters through a compromised chimney, it can travel through wall cavities, framing, and insulation long before any stain appears on the ceiling.\n\nCommon consequences of an unaddressed chimney leak include:\n\n• Rotting wood framing, sheathing, and roof decking near the chimney chase\n• Soaked and ineffective insulation that loses thermal performance\n• Mold and mildew growth inside walls, attics, and around the firebox\n• Damaged drywall, ceilings, and finishes in adjacent rooms\n• Rust and corrosion of the damper, firebox, and metal flue liner\n• Accelerated deterioration of interior masonry from freeze-thaw cycles\n• Compromised indoor air quality from persistent moisture and mold\n\nAddressing a leak as soon as it's discovered helps protect not only the chimney itself, but the surrounding structure of your home — and helps avoid much larger repair bills later."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What parts of the chimney are checked during a leak inspection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A thorough leak inspection looks at every component where water could realistically enter the system. Our CSIA-certified technicians evaluate:\n\n• The chimney crown for cracks, gaps, deterioration, and proper overhang\n• The flashing, counter-flashing, and sealants at the roofline\n• The exterior masonry for spalling brick, deteriorated mortar joints, and missing tuckpointing\n• The chimney cap and spark arrestor for damage, rust, or improper sizing\n• The flue interior using a specialized video camera to check for cracks, gaps, and water intrusion paths\n• The smoke chamber, damper, and firebox for rust, staining, or moisture\n• The surrounding roof surface for issues that may be allowing water to track toward the chimney\n\nAfter the inspection, you receive a plain-language report along with photos or video documentation showing exactly what was found and which repairs are recommended."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is chimney flashing a common source of leaks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — damaged flashing is one of the most frequent leak sources we encounter. Flashing is the layered metal (and sometimes sealant) installed where the chimney passes through the roof, and its job is to direct water away from that vulnerable junction.\n\nOver time, flashing can fail in several ways:\n\n• The metal can rust, corrode, or develop pinholes\n• Sealants and caulks can dry out, crack, and pull away from the brick\n• Step flashing can lift or separate after roof movement, settling, or storms\n• Counter-flashing may have been improperly cut into the masonry during installation\n• A recent roof replacement may have reused old or improperly installed flashing\n• Tar or roofing cement used as a \"quick fix\" eventually fails and traps moisture\n\nDepending on the condition of the flashing, the repair may involve resealing, replacing damaged sections, or installing a new flashing system. A proper, professionally installed flashing repair is one of the most reliable ways to help stop a chimney leak at the roofline."
+      }
+    }
+  ]
+}
