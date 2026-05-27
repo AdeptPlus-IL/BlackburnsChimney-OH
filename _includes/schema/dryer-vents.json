@@ -19,10 +19,11 @@
       }
     },
     {
-      "name": "What if my dryer vent goes through the wall or roof?",
+      "name": "Do some homes need more than one dryer vent cleaning per year?",
       "@type": "Question",
       "acceptedAnswer": {
-        "text": "No problem at all — we routinely clean every type of vent configuration found in residential homes, including: short horizontal runs through an exterior wall; long horizontal runs through basements, crawl spaces, or interior walls; vertical runs that travel up through the attic; rooftop terminations (we have ladders and rooftop-rated equipment); multi-story homes with vents routed through several floors; and soffit and side-wall vent caps. We use rotary brush systems with flexible rods that navigate elbows and long runs, paired with high-powered vacuums that capture lint at the source. We clear the entire vent end-to-end and verify proper airflow before we leave."
+        "text": "Yes — while once a year is the baseline recommendation from the NFPA, certain households generate lint faster or have vent setups that trap it more easily, making semi-annual (or even quarterly) cleanings the safer choice. Homes that often need more frequent cleanings include: large households running 5+ loads of laundry per week; homes with shedding pets (dog or cat hair compounds lint buildup quickly); long vent runs over 10 feet, or runs with multiple elbows and bends; dryers located in basements, interior closets, or far from an exterior wall; rooftop vent terminations, which are more prone to bird nests and debris; older dryers that produce more lint than newer high-efficiency models; households where someone has asthma, allergies, or respiratory sensitivities; and homes that have skipped cleanings for 2+ years (heavy buildup re-establishes faster). During your first cleaning, our technician will assess your vent length, configuration, lint accumulation rate, and household usage, then recommend a personalized schedule — typically every 6 months for high-use homes and every 12 months for average households.",
+        "@type": "Answer"
       }
     },
     {
@@ -37,8 +38,7 @@
       "name": "Can a clogged dryer vent really cause a house fire?",
       "@type": "Question",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes — and it's a serious, well-documented risk. According to FEMA and the National Fire Protection Association, U.S. fire departments respond to roughly 13,000–15,000 dryer-related fires every year, resulting in deaths, injuries, and more than $200 million in property damage annually. The single leading cause is failure to clean the dryer vent. Here's how it happens: lint is highly flammable and accumulates inside the vent over time; restricted airflow forces the dryer to run hotter and longer; excess heat builds up inside the drum and ductwork; a spark, an overheated heating element, or a hot lint particle can ignite the trapped lint; and once ignited, fire travels quickly through the duct and can spread into walls, attics, or the laundry room. Warning signs that your fire risk is elevated include: clothes taking much longer than usual to dry; the dryer feeling excessively hot to the touch; a burning smell during or after a cycle; visible lint around the exterior vent opening; and the dryer shutting off mid-cycle. The good news is that an annual professional cleaning is the single most effective way to eliminate this risk. Blackburns clears the full vent run from the dryer to the exterior termination, inspects the ductwork and vent cap for damage, and verifies proper airflow before we leave — so you can run your dryer with complete peace of mind."
+        "text": "Yes — and it's a serious, well-documented risk. According to FEMA and the National Fire Protection Association, U.S. fire departments respond to roughly 13,000–15,000 dryer-related fires every year, resulting in deaths, injuries, an"
       }
     }
   ]
