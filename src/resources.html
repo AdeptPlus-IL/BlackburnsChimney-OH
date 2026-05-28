@@ -105,7 +105,7 @@
       <div class="max-w-full lg:max-w-[520px]">
         <!-- Breadcrumb -->
         <p class="font-inter font-normal text-lightblue text-base leading-6 mb-6 md:mb-10">
-          Home &gt; Resources
+          <a href="/" class="hover:underline">Home</a> &gt; Resources
         </p>
 
         <!-- Heading -->
@@ -125,6 +125,16 @@
 <!-- SECTION:ResourcePageSection.html -->
 <section class="resource-bg py-16 md:py-20 lg:py-24">
   <div class="max-w-[1280px] mx-auto px-4 md:px-8 lg:px-16">
+
+    <!-- Filter buttons -->
+    <div class="flex flex-wrap justify-center gap-3 mb-12">
+      <button type="button" class="filter-btn active px-5 py-2 border border-brand-navy text-brand-navy text-sm font-semibold uppercase tracking-wider">All</button>
+      <button type="button" class="filter-btn px-5 py-2 border border-brand-navy text-brand-navy text-sm font-semibold uppercase tracking-wider bg-white">Inspections</button>
+      <button type="button" class="filter-btn px-5 py-2 border border-brand-navy text-brand-navy text-sm font-semibold uppercase tracking-wider bg-white">Sweeping</button>
+      <button type="button" class="filter-btn px-5 py-2 border border-brand-navy text-brand-navy text-sm font-semibold uppercase tracking-wider bg-white">Masonry</button>
+      <button type="button" class="filter-btn px-5 py-2 border border-brand-navy text-brand-navy text-sm font-semibold uppercase tracking-wider bg-white">Caps</button>
+      <button type="button" class="filter-btn px-5 py-2 border border-brand-navy text-brand-navy text-sm font-semibold uppercase tracking-wider bg-white">Repairs</button>
+    </div>
 
     <!-- Resource cards grid -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
