@@ -1,45 +1,45 @@
 {
-  "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@context": "https://schema.org",
   "mainEntity": [
     {
+      "name": "Why can't I just repair my old liner instead of replacing it?",
       "@type": "Question",
-      "name": "What does a chimney liner do?",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A chimney liner is a protective inner channel—typically stainless steel, aluminum, or clay tile—that runs the full height of your chimney and safely directs combustion byproducts up and out of your home. Key functions include: containing heat, smoke, and gases so they vent outside instead of seeping into living spaces; protecting the brick and mortar from corrosive acids and moisture; improving draft and appliance efficiency; and reducing the risk of chimney fires by limiting creosote contact with masonry."
+        "text": "In some cases, minor cracks or isolated damage can be repaired without a full relining. However, there are situations where replacement is the safer and more cost-effective long-term solution: widespread cracking or deterioration throughout the flue; significant gaps or missing sections of clay tile; a liner that is undersized or oversized for your current heating appliance; or damage caused by a chimney fire. Attempting to patch a severely compromised liner is like putting a bandage on a structural problem — it may hold temporarily but won't provide the protection your home needs. We'll always give you an honest assessment and explain your options in plain language before recommending a course of action.",
+        "@type": "Answer"
       }
     },
     {
+      "name": "Is chimney relining required by code?",
       "@type": "Question",
-      "name": "What types of chimney liners are available?",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "There are three main options, each suited to different appliances and chimney conditions. Stainless steel is the most common and versatile choice; it works with wood, gas, oil, and pellet appliances and typically lasts 15–20+ years. Aluminum is lower cost and lighter weight but only approved for certain medium-efficiency gas appliances. Clay tile is the original liner in many older masonry chimneys; it is durable but prone to cracking from thermal shock and difficult to repair section-by-section. We inspect your chimney and appliance before recommending the right option."
+        "text": "Yes, in many situations chimney relining is required by local and national building codes. The National Fire Protection Association (NFPA) and most local jurisdictions require a properly sized and intact liner for safe chimney operation. Relining is commonly required when: installing a new fireplace insert, wood stove, or gas appliance; an inspection reveals a damaged or deteriorated existing liner; you are buying or selling a home and a Level 2 inspection identifies liner deficiencies; or the existing liner is not compatible with the fuel type being burned. If you're unsure whether your chimney meets current code requirements, our CSIA-certified technicians can inspect and advise you accordingly.",
+        "@type": "Answer"
       }
     },
     {
-      "@type": "Question",
-      "name": "How long does a chimney liner last?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Lifespan depends on the material, how often you burn, and your maintenance habits. Stainless steel liners typically last 15–20+ years, and premium options often come with lifetime warranties. Aluminum liners last 5–15 years and are limited to gas appliances. Clay tile can last decades if undamaged, but cracks significantly shorten useful life. Annual sweeping, prompt repairs, and a properly fitted chimney cap all help extend liner life."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the signs that my liner needs repair or replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common signs include: smoke spilling back into the room or lingering fireplace odors; visible cracks, gaps, or rust seen on a camera inspection; water stains, efflorescence, or moisture inside the firebox or on nearby walls; pieces of tile or debris falling into the fireplace; reduced draft or difficulty starting and maintaining a fire; and an appliance change (new stove, insert, or higher-efficiency furnace) that requires a different liner size. A camera inspection is the only reliable way to confirm liner condition."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "Can a damaged liner cause carbon monoxide issues?",
+      "@type": "Question",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes—and it's one of the most serious risks of a failing chimney. Cracks, gaps, or deteriorated joints can allow carbon monoxide and other combustion gases to leak through the masonry and into living spaces, where they are odorless and potentially deadly. Recommended steps: schedule a camera inspection if you've noticed soot, odors, or backdraft; install working CO detectors on every level of your home; and replace damaged liners promptly."
+        "text": "Yes—and it's one of the most serious risks of a failing chimney. Cracks, gaps, or deteriorated joints can allow carbon monoxide and other combustion gases to leak through the masonry and into living spaces, where they are odorless and potentially deadly. Recommended steps: schedule a camera inspection if you've noticed soot, odors, or backdraft; install working CO detectors on every level of your home; and replace damaged liners promptly.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "Is it dangerous to use a chimney without a liner?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes — using a chimney without a properly functioning liner is a serious safety hazard and is strongly discouraged by fire safety experts and building code officials alike. The liner plays a critical role in keeping your home and family safe every time you use your fireplace or heating appliance. Without one, you face a number of significant risks: Fire hazard — without a liner, intense heat can transfer directly to surrounding wood framing and combustible materials, dramatically increasing the risk of a house fire. Carbon monoxide poisoning — a missing or damaged liner allows deadly carbon monoxide gas to seep through the chimney walls and into your living space, often with no warning. Accelerated masonry damage — combustion byproducts are highly corrosive; without a liner, acids and moisture eat away at your chimney's mortar and brickwork, leading to costly structural damage over time. Poor draft and smoke intrusion — an unlined chimney is far more likely to allow smoke and dangerous gases to back up into your home. The bottom line: no liner means no reliable barrier between your family and the byproducts of combustion. If your chimney is unlined or your existing liner is damaged, we strongly recommend scheduling an inspection before your next fire.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "Does a broken chimney liner increase fire risk?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Absolutely — a cracked or broken chimney liner is one of the leading contributing factors to chimney fires and house fires. Even small cracks that seem minor can have serious consequences over time. The liner acts as your chimney's first line of defense, and once that defense is compromised, the danger compounds with every fire you burn. Here's why a broken liner is so dangerous: Direct heat exposure — cracks allow superheated gases and flames to make direct contact with the surrounding masonry and nearby combustible building materials like wood framing and floor joists. Creosote buildup — a damaged liner disrupts proper airflow, causing incomplete combustion and accelerated creosote accumulation, the primary fuel source for chimney fires. Spark and ember escape — breaks in the liner create pathways for live embers and sparks to escape the flue and ignite surrounding materials inside your walls or attic. Hidden damage — chimney fires can occur inside the flue without the homeowner ever realizing it, further worsening existing cracks and damage. It's worth noting that a chimney fire can reach temperatures exceeding 2,000°F — hot enough to warp metal, crack masonry, and ignite nearby wood structure in minutes. A broken liner significantly lowers the threshold for that kind of catastrophic event.",
+        "@type": "Answer"
       }
     }
   ]
