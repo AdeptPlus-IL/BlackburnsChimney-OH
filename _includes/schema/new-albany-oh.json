@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What Does a Chimney Inspection Include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A chimney inspection is a detailed evaluation of the chimney and venting system to ensure everything is functioning as safely and efficiently as possible. The Chimney Safety Institute of America (CSIA) outlines three levels of inspection. Level 1 chimney inspections are the most basic and are required annually for chimneys that haven't experienced any major changes or issues – like chimney fires, weather damage, fuel changes, relining, etc. It includes a visual check of the readily accessible parts of the chimney structure, and the technician will look for signs of damage or buildup that could make use dangerous. Level 2 chimney inspections are more in-depth and are required when a home is being sold, after a chimney fire, or when changes have been made to the system (such as installing a new liner or changing appliance types). This inspection includes all aspects of a Level 1 inspection but also includes accessible areas of the attic, crawl spaces, and basements. Most importantly, it often involves video scanning of the interior flue to check for hidden cracks, blockages, or deterioration. Level 3 chimney inspections are the most intensive and are usually only performed when serious hazards are suspected. They usually involve removing parts of the chimney or surrounding walls to examine concealed areas. This is rare and typically follows a chimney/house fire or a structural event (like an earthquake or lightning strike). Regardless of the level, a chimney inspection helps identify problems like creosote buildup, cracked flue liners, loose bricks, water damage, or poor ventilation – all of which can pose serious safety hazards or structural damage if left unaddressed. A qualified chimney professional will also check for proper clearances from combustibles and ensure that any connected appliances are venting correctly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between a Level 1, Level 2, and Level 3 chimney inspection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Level 1 is a basic visual inspection for chimneys in regular use with no known issues. A Level 2 includes a video camera inspection and is often required for home sales or after fires. A Level 3 involves more extensive evaluation, usually after significant damage. We can help you determine which level you need."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a chimney inspection cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inspection costs vary based on the complexity of your chimney and the type of inspection needed. We provide transparent pricing upfront and are happy to discuss your options when you call. Contact us at 614-344-7750 for a quote."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is creosote and why is it dangerous?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Creosote is a flammable byproduct of burning wood that builds up inside your flue over time. If not removed regularly through chimney sweeping, it can ignite and cause a dangerous chimney fire. Regular cleaning removes this buildup and protects your home."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you service gas fireplaces and stoves?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! We inspect, clean, and repair gas fireplaces, gas stoves, and wood-burning stoves. Each type requires different expertise, and our technicians are trained in all of them."
+      }
+    }
+  ]
+}
