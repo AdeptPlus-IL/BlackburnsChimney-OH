@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Not Found | Blackburns Chimney Service</title>
-    <meta name="description" content="The page you're looking for couldn't be found. Return to Blackburns Chimney Service homepage or search for chimney services in Columbus, OH." />
+    <title>Service Area - Columbus OH - Blackburns Chimney</title>
+    <meta name="description" content="We serve homeowners throughout Columbus, New Albany, Pataskala, Pickerington, and more. Give us a call today or schedule online for quality chimney services."re looking for couldn't be found. Return to Blackburns Chimney Service homepage or search for chimney services in Columbus, OH." />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -62,71 +62,177 @@
     <!-- INCLUDE:head_scripts -->
     <!-- INCLUDE:favicon -->
     <!-- INCLUDE:schema -->
+    <meta name="robots" content="index, follow">
 </head>
 <body class="font-inter">
     <!-- INCLUDE:body_scripts -->
     <!-- INCLUDE:header -->
 
-    <!-- SECTION:ErrorSection.html -->
-<section class="relative flex flex-col items-center py-20 md:py-24 lg:pt-[133px] lg:pb-24 overflow-hidden section-bg">
-    <!-- Subtle texture -->
-    <div class="absolute inset-0 opacity-[0.05] section-texture"></div>
+    <!-- SECTION:Hero.html -->
+<section class="relative w-full min-h-[400px] md:min-h-[550px] lg:min-h-[700px] flex items-center overflow-hidden">
+    <!-- Background image -->
+    <img
+      src="https://images.adept.plus/BlackburnsChimney-OH/chimney-sweep-rooftop/background"
+      srcset="
+        https://images.adept.plus/BlackburnsChimney-OH/chimney-sweep-rooftop/card 600w,
+        https://images.adept.plus/BlackburnsChimney-OH/chimney-sweep-rooftop/largethumbnail 750w,
+        https://images.adept.plus/BlackburnsChimney-OH/chimney-sweep-rooftop/background 1920w
+      "
+      sizes="100vw"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async"
+      width="1920" height="1080"
+      alt="Chimney sweep technician in service van"
+      class="absolute inset-0 w-full h-full object-cover"
+    />
+    <!-- Dark navy overlay - left half only, straight vertical edge -->
+    <div class="absolute inset-0 bg-brand-navy/90 lg:hidden"></div>
+    <div class="hidden lg:block absolute top-0 left-0 bottom-0 w-1/2 bg-brand-navy/90"></div>
 
-    <!-- Card -->
-    <div class="relative bg-white border-t-[5px] border-brand-red shadow-[0_2px_16px_rgba(0,0,0,0.08)] mx-4 md:mx-8 max-w-[960px] w-full">
-      <div class="flex flex-col items-start px-8 md:px-14 py-12 md:py-[60px] gap-2.5">
-        <h1 class="font-playfair font-bold text-heading text-3xl md:text-4xl lg:text-5xl leading-tight lg:leading-[72px]">Error! That page can't be found.</h1>
-        <p class="font-inter text-body text-base leading-6 max-w-[680px]">
-          That page you are looking for no longer exists. Perhaps you can return back to the <a href="./index.html" class="text-brand-red font-semibold hover:underline transition-colors">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below.
-        </p>
-        <!-- Search -->
-        <div class="flex items-stretch w-full max-w-[600px] mt-4">
-          <input
-            id="site-search"
-            type="text"
-            placeholder="Search this site..."
-            class="flex-1 border border-[#e0e0e0] rounded-l px-4 py-3 font-inter text-lg text-[#9e9e9e] focus:outline-none focus:border-brand-navy shadow-[0_1px_1px_rgba(0,0,0,0.1)]"
-          />
-          <button id="search-btn" class="bg-[#f5f5f5] border border-l-0 border-[#e0e0e0] rounded-r px-4 flex items-center justify-center hover:bg-[#eaeaea] transition-colors shadow-[0_1px_1px_rgba(0,0,0,0.1)]" aria-label="Search">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#212121]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z"/></svg>
-          </button>
+    <!-- Content -->
+    <div class="relative max-w-[1280px] mx-auto px-4 md:px-8 lg:px-16 py-16 md:py-20 lg:py-24 w-full">
+      <div class="max-w-full lg:max-w-[600px]">
+        <!-- Eyebrow -->
+        <div class="flex items-center gap-2 mb-4">
+          <span class="w-7 h-0.5 bg-brand-red"></span>
+          <span class="w-7 h-0.5 bg-brand-red"></span>
         </div>
-        <div id="search-results" class="w-full max-w-[600px] mt-2"></div>
+        <p class="font-inter font-semibold text-lightblue text-sm md:text-base tracking-[2.24px] uppercase mb-6">
+          PATASKALA · COLUMBUS, OH · SINCE 1986
+        </p>
+
+        <!-- Heading -->
+        <h1 class="font-playfair font-bold text-white text-3xl md:text-5xl lg:text-[66px] leading-tight lg:leading-[1.15] mb-6 md:mb-8">
+          Serving the Columbus, OH Area
+        </h1>
+
+        <!-- Paragraph -->
+        <p class="font-inter text-white text-base leading-relaxed mb-8 md:mb-10 max-w-[480px]">
+          Blackburns Chimney Service has been inspecting, cleaning, and repairing chimneys for homeowners across Pataskala, Columbus, Pickerington, New Albany, and surrounding communities since 1986.&nbsp;<br><br>CSIA-certified technicians. Camera-assisted inspections.&nbsp;<br>Plain-language reports.<br></p>
+
+        <!-- CTAs -->
+        <div class="flex flex-col sm:flex-row gap-4 sm:gap-6">
+          <a href="./contact.html" class="bg-brand-red text-white font-semibold text-center px-7 py-3.5 hover:brightness-95 hover:scale-[1.02] transition-all duration-200">Schedule Your Service</a>
+                  </div>
       </div>
     </div>
   </section>
+<!-- /SECTION:Hero.html -->
+
+    <!-- SECTION:ServiceArea.html -->
+<section class="bg-[#f8f6f3] texture-lines py-12 md:py-16 lg:py-24 relative">
+    <div class="max-w-[1280px] mx-auto px-4 md:px-8 lg:px-16">
+      <div class="flex items-center gap-1.5 mb-3"><span class="w-7 h-0.5 bg-brand-red"></span><span class="w-7 h-0.5 bg-brand-red"></span></div>
+      <p class="font-inter font-semibold text-brand-red text-sm tracking-[2.24px] uppercase mb-3">WHERE WE WORK</p>
+      <h2 class="font-playfair font-bold text-heading text-2xl md:text-3xl lg:text-[48px] leading-tight mb-4">Proudly Serving Pataskala &amp; the Columbus Metro</h2>
+      <p class="text-body text-base leading-relaxed max-w-[560px] mb-10 md:mb-14">Blackburns Chimney Service works with homeowners across Franklin and Licking Counties, from Pataskala and Newark to historic Columbus neighborhoods and growing communities in New Albany, Westerville, and beyond.</p>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
+        <div>
+          <img src="https://images.adept.plus/BlackburnsChimney-OH/service-area-map/highres" alt="Service area map of Pataskala and the Columbus metro" class="w-full h-auto rounded shadow-lg border-[6px] border-white" loading="lazy" />
+        </div>
+        <div>
+          <div class="grid grid-cols-3 gap-x-6 gap-y-3 mb-8">
+            <p class="text-body text-sm">Pataskala</p><p class="text-body text-sm">Columbus</p><p class="text-body text-sm">New Albany</p>
+            <p class="text-body text-sm">Gahanna</p><p class="text-body text-sm">Westerville</p><p class="text-body text-sm">Pickerington</p>
+            <p class="text-body text-sm">Newark</p><p class="text-body text-sm">Heath</p><p class="text-body text-sm">Granville</p>
+            <p class="text-body text-sm">Reynoldsburg</p><p class="text-body text-sm">Blacklick</p><p class="text-body text-sm">Canal Winchester</p>
+            <p class="text-body text-sm">Grove City</p><p class="text-body text-sm">Dublin</p><p class="text-body text-sm">Hilliard</p>
+            <p class="text-body text-sm">Powell</p><p class="text-body text-sm">Lewis Center</p>
+          </div>
+          <div class="border-t border-gray-200 pt-6">
+            <p class="font-semibold text-heading text-base mb-1"><a href="https://www.google.com/maps/place/Blackburns+Chimney+Services/data=!4m2!3m1!1s0x0:0xebeb0b9cd9a21724?sa=X&amp;ved=1t:2428&amp;ictx=111" target="_blank" rel="noopener noreferrer" class="hover:text-brand-red transition-colors">4644 Kenny Rd, Columbus, OH 43220</a></p>
+            <p class="font-semibold text-brand-red text-base mb-1">614-344-7750</p>
+            <p class="text-body text-sm">Mon–Fri: 8am–5pm · Closed Sat &amp; Sun</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- /SECTION:ServiceArea.html -->
+
   <!-- INCLUDE:page_index -->
-  <script>
-(function() {
-  if (typeof SITE_PAGES === 'undefined') return;
-  var input = document.getElementById('site-search');
-  var btn = document.getElementById('search-btn');
-  var results = document.getElementById('search-results');
-  function render(q) {
-    if (!q || q.length < 2) { results.innerHTML = ''; return; }
-    var lq = q.toLowerCase();
-    var m = SITE_PAGES.filter(function(p) {
-      return p.title.toLowerCase().indexOf(lq) !== -1
-        || (p.description || '').toLowerCase().indexOf(lq) !== -1;
-    });
-    if (!m.length) {
-      results.innerHTML = '<p class="py-3 text-sm" style="color:#757575">No pages found matching your search.</p>';
-      return;
-    }
-    results.innerHTML = '<ul class="border border-[#e0e0e0] rounded bg-white divide-y divide-[#f0f0f0] shadow-sm">'
-      + m.map(function(p) {
-        return '<li><a href="./' + p.slug + '.html" class="block px-4 py-3 hover:bg-[#fafafa] transition-colors">'
-          + '<span class="font-medium">' + p.title + '</span>'
-          + (p.description ? '<span class="block text-sm mt-0.5" style="color:#757575">' + p.description + '</span>' : '')
-          + '</a></li>';
-      }).join('') + '</ul>';
-  }
-  input.addEventListener('input', function() { render(this.value); });
-  btn.addEventListener('click', function() { render(input.value); });
-  input.addEventListener('keydown', function(e) { if (e.key === 'Enter') render(this.value); });
-})();
-  </script>
-<!-- /SECTION:ErrorSection.html -->
+
+    <!-- SECTION:ContactForm.html -->
+<section id="contact" class="relative py-16 md:py-20 lg:py-24 overflow-hidden">
+    <!-- Background: darker red overlay + photo with lighter opacity -->
+    <div class="absolute inset-0 bg-[#7a1620]"></div>
+    <img src="https://images.adept.plus/BlackburnsChimney-OH/contact-form-chimney/highres" alt="" class="absolute inset-0 w-full h-full object-cover opacity-[0.35] pointer-events-none" />
+
+    <div class="relative max-w-[1200px] mx-auto px-4 md:px-8 lg:px-[102px]">
+      <div class="flex flex-col lg:flex-row gap-10 lg:gap-20 items-start">
+        <!-- Left: White form card -->
+        <div class="bg-white border-t-4 border-cream shadow-[0_2px_6px_rgba(0,0,0,0.25)] w-full lg:flex-1 p-8">
+          <form
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            method="POST"
+            class="space-y-5"
+            id="contact-form"
+          >
+            <input type="text" name="_gotcha" style="display:none" />
+            <div>
+              <label for="form-name" class="block text-brand-navy font-medium text-base mb-2">Name</label>
+              <input type="text" id="form-name" name="name" required class="w-full border border-[#d4cfc6] bg-white px-4 py-3 text-base focus:border-brand-navy outline-none" />
+            </div>
+            <div>
+              <label for="form-phone" class="block text-brand-navy font-medium text-base mb-2">Phone Number</label>
+              <input type="tel" id="form-phone" name="phone" class="w-full border border-[#d4cfc6] bg-white px-4 py-3 text-base focus:border-brand-navy outline-none" />
+            </div>
+            <div>
+              <label for="form-service" class="block text-brand-navy font-medium text-base mb-2">Service Needed</label>
+              <select id="form-service" name="service" class="w-full border border-[#d4cfc6] bg-white px-4 py-3 h-[50px] text-base text-body focus:border-brand-navy outline-none">
+                <option value="">Select a service…</option>
+                <option value="Chimney Sweeping">Chimney Sweeping</option>
+                <option value="Chimney Inspection">Chimney Inspection</option>
+                <option value="Chimney Caps &amp; Guards">Chimney Caps &amp; Guards</option>
+                <option value="Chimney Relining">Chimney Relining</option>
+                <option value="Masonry Services">Masonry Services</option>
+                <option value="Dryer Vents">Dryer Vents</option>
+                <option value="Fireplaces">Fireplaces</option>
+                <option value="Fireplace Inserts">Fireplace Inserts</option>
+                <option value="Heating Stoves">Heating Stoves</option>
+              </select>
+            </div>
+            <div>
+              <label for="form-message" class="block text-brand-navy font-medium text-base mb-2">Message</label>
+              <textarea id="form-message" name="message" rows="4" class="w-full border border-[#d4cfc6] bg-white px-4 py-3 text-base focus:border-brand-navy outline-none resize-y"></textarea>
+            </div>
+            <input type="hidden" name="_subject" value="New Contact Form Submission – Blackburns Chimney" />
+            <button type="submit" class="w-full bg-brand-red text-white font-semibold text-base py-3.5 hover:brightness-95 transition-all duration-200 cursor-pointer">Schedule Your Sweep</button>
+          </form>
+        </div>
+
+        <!-- Right: Heading + info -->
+        <div class="w-full lg:flex-1 lg:pt-0 pt-4">
+          <!-- Eyebrow -->
+          <div class="flex items-center gap-1.5 mb-3">
+            <span class="w-7 h-0.5 bg-white"></span>
+            <span class="w-7 h-0.5 bg-white"></span>
+          </div>
+          <p class="font-semibold text-white text-sm tracking-[2.24px] uppercase mb-4">GET IN TOUCH</p>
+
+          <!-- Heading -->
+          <h2 class="font-playfair font-bold text-white text-2xl md:text-[36px] lg:text-[48px] leading-[1.2] lg:leading-[57.6px] mb-6">Ready for a Cleaner, Better-Performing Fireplace?</h2>
+
+          <!-- Description -->
+          <p class="text-white text-base leading-relaxed mb-8 max-w-[502px]">Schedule your annual sweep or request an inspection. Our CSIA-certified team serves Pataskala, Columbus, and surrounding communities Monday through Friday.</p>
+
+          <!-- Divider -->
+          <div class="w-full max-w-[502px] h-px bg-white/60 mb-6"></div>
+
+          <!-- Hours -->
+          <p class="text-white text-base mb-2">Mon–Fri: 8am–5pm · Closed Sat &amp; Sun</p>
+
+          <!-- Phone -->
+          <a href="tel:6143447750" class="font-playfair font-semibold text-white text-2xl md:text-[28px] leading-[42px] hover:underline">614-344-7750</a>
+
+          <!-- Closing line -->
+          <p class="text-white text-base leading-relaxed mt-6 max-w-[502px]">For quality <a href="https://staging.blackburnschimney-oh.pages.dev/chimney-services" class="text-white underline hover:no-underline">chimney services</a> in the area, there's no team better to rely on than <a href="https://staging.blackburnschimney-oh.pages.dev/" class="text-white underline hover:no-underline">Blackburns</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- /SECTION:ContactForm.html -->
 
     <!-- INCLUDE:footer -->
 </body>

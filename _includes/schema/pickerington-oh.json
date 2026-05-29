@@ -1,0 +1,22 @@
+{
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
+  "mainEntity": [
+    {
+      "name": "Do I Need Annual Chimney Inspections if I Don't Use My Fireplace?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Most know that annual inspections are a must for regularly-used chimneys. But if you rarely – or never – use your fireplace, you don't need to schedule maintenance…right? Wrong. Annual chimney inspections are required for all chimneys, regardless of how often they're used, what fuel they burn, or what appliance type they are. If you never light fires, this might seem unnecessary and a waste of money, but there are several important reasons for scheduling regular inspections regardless of usage. First, your chimney is more than just a part of your fireplace. It's a vertical structure that's part of the make-up of your home – and it can still deteriorate over time due to weather, temperature changes, moisture, and even pests. Cracks in the masonry, damaged flashing, or missing chimney caps can allow water to seep in, leading to mold, structural damage, or rust on metal components – and it won't be long until damage spreads to other areas of the home. An annual inspection can catch these issues early, saving you from costly repairs down the line. Second, animals like birds, squirrels, or raccoons may take up residence in an unused chimney. Not only does this increase the chance of having animals enter your living room, but it can really stink up the place, especially if the critter gets stuck and passes away. In addition, they can build nests that block the flue and pose a fire hazard or prevent dangerous gases, like carbon monoxide, from venting properly should you ever want to light a fire down the line. Another important thing to consider – even unused chimneys can accumulate debris, like leaves, twigs, or soot, if wind blows them in or if you've used the fireplace in the past. Over time, these materials can create blockages or encourage moisture buildup, both of which threaten the chimney's integrity and your safety. If you ever decide to use your fireplace again – even just once – it's vital to know that the system is in safe working order. A single fire in a damaged or dirty chimney can be enough to spark a house fire. Finally, annual inspection ensure your home's value stays as high as possible. Should you sell down the line, you'll need to get a thorough chimney inspection completed, and if issues are discovered due to neglect, you'll either have to pay for repairs or reduce the cost of the home…or you may lose your buyer.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "Can I Burn Any Kind of Wood in My Fireplace?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "No! Not all wood is created equal when it comes to fireplace use. For safer and more efficient fires, it's essential to use seasoned hardwoods and avoid burning green, soft, or treated wood. What is seasoned wood? Seasoned wood is wood that has been dried for at least 6 to 12 months. It contains less moisture, which means it burns more efficiently and produces less smoke and creosote – a highly flammable substance that can build up inside your chimney. Hardwoods like oak, maple, hickory, and ash are great options because they burn hotter and longer, providing more heat output and creating less residue. In contrast, green wood – or freshly cut wood – contains a lot of moisture. Burning it leads to cooler, smokier fires and excessive creosote buildup. Are softwood bad to burn? Not necessarily, if they've been seasoned. Softwoods, like pine and fir, can be used occasionally, but they tend to burn faster and produce more creosote than hardwoods. They're best used for kindling or in outdoor fire pits rather than indoor fireplaces. And remember – treated, painted, or pressure-treated wood, including old furniture or construction scraps, should never be burned. These materials release toxic chemicals when burned and can damage your chimney and harm indoor air quality. Also avoid burning garbage, magazines, cardboard, or glossy paper. These can produce dangerous fumes and fly ash, increasing the risk of chimney fires and indoor pollution.",
+        "@type": "Answer"
+      }
+    }
+  ]
+}
