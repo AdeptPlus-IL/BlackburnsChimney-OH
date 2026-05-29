@@ -1,10 +1,10 @@
 {
-  "chimney-testing": "chimney-services",
   "caps-guards": "chimney-services",
+  "chimney-testing": "chimney-services",
   "fireplace-inserts": "sales-installation",
-  "fireplaces": "sales-installation",
   "dryer-vents": "chimney-services",
   "masonry": "chimney-services",
+  "fireplaces": "sales-installation",
   "leaky-chimney": "chimney-services",
   "safety-inspection": "chimney-services",
   "chimney-relining": "chimney-services",
