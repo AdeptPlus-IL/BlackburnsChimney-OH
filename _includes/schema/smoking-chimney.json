@@ -1,0 +1,46 @@
+{
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
+  "mainEntity": [
+    {
+      "name": "Why is my chimney smoking when I use my fireplace?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A chimney that smokes back into your home is almost always a draft problem — your flue isn't pulling combustion gases up and out the way it should. The most common culprits we see in Columbus homes include: creosote and soot buildup restricting airflow inside the flue; a cold flue that wasn't primed before lighting the fire; a missing, damaged, or improperly sized chimney cap; negative air pressure in the home (common in tight modern builds or when exhaust fans are running); a chimney that's too short relative to the roofline; a damper that's stuck, partially closed, or damaged; and cracks in the flue liner causing air leakage. A video camera inspection is the fastest way to pinpoint the exact cause rather than guessing.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "Is a smoking chimney dangerous?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes — a smoking chimney should never be ignored. When smoke spills back into your living space, other combustion byproducts come with it, including carbon monoxide (an odorless and potentially deadly gas), fine particulate matter that irritates lungs and worsens asthma, and volatile organic compounds from incomplete combustion. Beyond air quality, poor draft accelerates creosote buildup inside the flue — the leading cause of chimney fires. If your fireplace is smoking, stop using it until a CSIA-certified technician has inspected the system.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "Can a dirty chimney cause smoking?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Absolutely — it's one of the most common causes we find. Over time, soot and creosote coat the flue walls and narrow the passage that exhaust gases need to escape. Even a small amount of buildup can reduce draft significantly, trap moisture and create lingering odors, increase the risk of a flue fire, and cause smoke to roll back into the firebox and room. The CSIA and NFPA both recommend annual chimney inspections and sweeping for fireplaces in regular use. In many cases, a professional sweep alone fully solves the smoking problem.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "How does a smoking fireplace affect indoor air quality?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A smoking fireplace doesn't just leave a visible haze — it actively degrades the air your family breathes. When smoke spills into the room instead of going up the flue, it brings a mix of harmful byproducts with it: carbon monoxide, an odorless, colorless gas that can cause headaches, dizziness, nausea, and in high concentrations can be fatal; fine particulate matter (PM2.5), microscopic particles that penetrate deep into the lungs and worsen asthma, allergies, and heart conditions; volatile organic compounds (VOCs), released from incomplete combustion and known to irritate eyes, nose, and throat; soot and ash residue that settles on furniture, walls, and HVAC filters, spreading contaminants throughout the home; and lingering odors that embed into fabrics, carpets, and drywall and are difficult to remove. Children, older adults, and anyone with respiratory issues are especially vulnerable. If your fireplace is smoking, stop using it and have a CSIA-certified technician inspect the system before lighting another fire.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "What if my chimney is too short?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "A chimney that's too short can't generate enough draft to pull smoke up and out, especially on calm or warm days. NFPA code requires the chimney to extend at least 3 feet above the roof penetration and 2 feet higher than any roofline within a 10-foot radius. If yours falls short, we have several options: install a taller chimney cap or draft-inducing cap to improve airflow; add a flue extension on top of the existing crown; rebuild the top courses of the chimney to gain height; or install a mechanical draft inducer for stubborn problem cases. We'll measure your chimney, check it against current code, and recommend the most cost-effective fix for your home.",
+        "@type": "Answer"
+      }
+    }
+  ]
+}

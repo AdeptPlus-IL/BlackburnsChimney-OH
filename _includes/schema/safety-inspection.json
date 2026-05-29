@@ -1,0 +1,46 @@
+{
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
+  "mainEntity": [
+    {
+      "name": "Do I need a chimney inspection if I never use my fireplace?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, even an unused chimney can develop serious problems over time. Many homeowners assume that if they don't light fires, their chimney doesn't need attention. But chimneys are exposed to the elements year round, and animals, moisture, and aging materials can cause issues whether the fireplace is in regular use or not. Animals like birds, squirrels, and raccoons often nest in unused flues, creating blockages and odors. Water can infiltrate through a deteriorating crown, flashing, or missing chimney cap. Mortar joints and masonry can crack or spall from freeze-thaw cycles, even without heat exposure. Old creosote from previous owners may still pose a fire risk if the fireplace is ever used again. Damaged flue liners can allow moisture or gases to enter the home from connected appliances. Structural settling or shifting can go unnoticed without a professional set of eyes. If you've inherited a fireplace you don't plan to use, or if you've gone years without lighting a fire, an inspection every year is the best way to catch hidden problems early and keep your home better protected.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "How often should my chimney be inspected?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The National Fire Protection Association (NFPA) recommends a chimney inspection be completed at least once every year for any chimney, fireplace, or vent that's in use. There are times when more than one is needed, but every homeowner - no matter the fuel type used or frequency of use - should be investing in one inspection every year.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "What's the difference between Level 1, Level 2, and Level 3 inspections?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The CSIA and NFPA define three levels of chimney inspection, each with a specific purpose and scope.\n\n• Level 1 consists of a basic visual inspection of readily accessible areas including the flue opening, damper, hearth, and visible exterior. These are appropriate when no changes have been made to the system and it's being used under normal conditions.\n\n• Level 2 is a more thorough inspection that includes everything in level 1, plus a camera-assisted look at the entire interior flue, accessible portions of the chimney exterior, and connected components. Level 2 inspections are required for real estate transactions, after chimney fires or weather damage, and whenever the fuel type or appliance type changes.\n\n• Level 3, the most invasive inspection, involves the removal of components or surrounding masonry/drywall to access hidden areas. These are reserved for cases where level 1 or level 2 inspection reveals a serious hazard that can't be fully evaluated without digging deeper.\n\nBlackburns provides Level 2 inspections as our standard service because they offer the most complete picture of your chimney's condition while keeping the process non-invasive.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "Do I need a Level 2 inspection when buying or selling a home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, a Level 2 chimney inspection is the industry standard for any real estate transaction involving a home with a fireplace, wood stove, or vented appliance.\n\nMost home inspectors don't perform a detailed chimney evaluation as part of the general home inspection, which is why a dedicated level 2 inspection by a chimney professional is so important. Level 2 inspections verify:\n\n• the chimney is structurally sound and ready to use safely\n• document the condition of the flue liner, crown, cap, and flashing with photos\n• identify any repairs or service needed before closing\n• protect buyers from inheriting hidden problems and costly surprises\n• give sellers documentation that supports the asking price and speeds up negotiations\n• satisfy lender, insurer, and inspection contingency requirements\n\nIf you're buying or selling a home anywhere in the Columbus area, Blackburns can perform the level 2 inspection your transaction requires and deliver a written report you can share with all parties.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "Will my chimney inspection find water leaks and structural damage?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes. Water intrusion and structural deterioration are two of the most common – and most damaging – issues we find during inspections, and our camera-assisted level 2 process is designed specifically to catch them early.\n\nWe can spot:\n\n• water infiltration around the chimney crown, flashing, and mortar joints\n• cracks, gaps, and spalling in the flue liner caused by heat or moisture\n• deteriorated mortar that allows water to seep behind the brick face\n• rust or corrosion on metal components like dampers and chase covers\n• settlement cracks or leaning that may indicate foundation movement\n• interior staining, efflorescence, or deteriorated drywall near the chimney\n\nEvery finding is documented with photos and explained in plain language in your written report, so you'll know exactly what's going on and what – if anything – needs attention.",
+        "@type": "Answer"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
+  "mainEntity": [
+    {
+      "name": "How often should I have my dryer vent cleaned?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "The National Fire Protection Association (NFPA) recommends having your dryer vent professionally cleaned at least once per year. However, several factors can shorten that interval and call for more frequent cleanings: households that run 4 or more loads of laundry per week; long or complex vent runs (over 10 feet, or with multiple bends/elbows); homes with pets that shed heavily; dryers located far from an exterior wall (often basements or interior closets); and older dryers, which tend to produce more lint. During your service, we'll evaluate your vent configuration, lint accumulation rate, and usage patterns, then recommend a cleaning schedule tailored to your household — typically every 6, 12, or 18 months.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "How long does dryer vent cleaning take?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Most residential dryer vent cleanings are completed in 30 to 60 minutes, though the exact time depends on a few variables: the total length of the vent run (longer runs take more time to clear); the number of bends, elbows, or transitions in the ductwork; the severity of lint buildup (heavily clogged vents require more passes); the vent termination location (roof vs. wall vs. soffit); and the accessibility of the dryer and exterior vent cap. Our technicians arrive with all the necessary equipment, work efficiently, protect your floors and laundry area, and leave the space cleaner than we found it. In most cases, you'll be back to doing laundry the same day.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "Do some homes need more than one dryer vent cleaning per year?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes — while once a year is the baseline recommendation from the NFPA, certain households generate lint faster or have vent setups that trap it more easily, making semi-annual (or even quarterly) cleanings the safer choice. Homes that often need more frequent cleanings include: large households running 5+ loads of laundry per week; homes with shedding pets (dog or cat hair compounds lint buildup quickly); long vent runs over 10 feet, or runs with multiple elbows and bends; dryers located in basements, interior closets, or far from an exterior wall; rooftop vent terminations, which are more prone to bird nests and debris; older dryers that produce more lint than newer high-efficiency models; households where someone has asthma, allergies, or respiratory sensitivities; and homes that have skipped cleanings for 2+ years (heavy buildup re-establishes faster). During your first cleaning, our technician will assess your vent length, configuration, lint accumulation rate, and household usage, then recommend a personalized schedule — typically every 6 months for high-use homes and every 12 months for average households.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "Can I clean my dryer vent myself?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Cleaning the lint trap after every load is something every homeowner should do — but the interior duct system is a different story. Here's why most homeowners are better off hiring a professional: consumer-grade brushes typically can't reach deep enough into long or angled vents; DIY cleaning often pushes lint further into the ductwork instead of removing it; disconnecting and reconnecting the vent improperly can create gas, fire, or moisture risks; roof and second-story vents require safe ladder access and the right equipment; and without a proper inspection, you won't catch crushed ducts, animal nests, or damaged vent caps. Our technicians bring commercial rotary equipment, HEPA-grade vacuums, and a trained eye for hazards — ensuring the vent is fully cleared and safely reconnected.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "Can a clogged dryer vent really cause a house fire?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes — and it's a serious, well-documented risk. According to FEMA and the National Fire Protection Association, U.S. fire departments respond to roughly 13,000–15,000 dryer-related fires every year, resulting in deaths, injuries, an"
+      }
+    }
+  ]
+}

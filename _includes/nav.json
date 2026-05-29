@@ -1,0 +1,70 @@
+[
+  {
+    "href": "./index.html",
+    "label": "Home"
+  },
+  {
+    "href": "./chimney-services.html",
+    "label": "Services",
+    "children": [
+      {
+        "href": "./annual-cleaning.html",
+        "label": "Chimney Sweeping"
+      },
+      {
+        "href": "./safety-inspection.html",
+        "label": "Chimney Inspection"
+      },
+      {
+        "href": "./caps-guards.html",
+        "label": "Chimney Caps & Guards"
+      },
+      {
+        "href": "./chimney-relining.html",
+        "label": "Chimney Relining"
+      },
+      {
+        "href": "./smoking-chimney.html",
+        "label": "Smoking Chimney"
+      },
+      {
+        "href": "./masonry.html",
+        "label": "Masonry Services"
+      },
+      {
+        "href": "./leaky-chimney.html",
+        "label": "Leaky Chimney"
+      },
+      {
+        "href": "./dryer-vents.html",
+        "label": "Dryer Vents"
+      }
+    ]
+  },
+  {
+    "href": "./sales-installation.html",
+    "label": "Sales & Installation",
+    "children": [
+      {
+        "href": "./fireplaces.html",
+        "label": "Fireplaces"
+      },
+      {
+        "href": "./fireplace-inserts.html",
+        "label": "Fireplace Inserts"
+      },
+      {
+        "href": "./heating-stoves.html",
+        "label": "Heating Stoves"
+      }
+    ]
+  },
+  {
+    "href": "./about.html",
+    "label": "About"
+  },
+  {
+    "href": "./contact.html",
+    "label": "Contact"
+  }
+]

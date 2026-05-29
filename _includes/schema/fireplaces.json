@@ -1,0 +1,46 @@
+{
+  "@type": "FAQPage",
+  "@context": "https://schema.org",
+  "mainEntity": [
+    {
+      "name": "Is there a safer fireplace option between gas and wood?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Both gas and wood-burning fireplaces are safe options when they are properly installed by qualified professionals and maintained on a regular schedule. The safety profile of each fuel type is simply different rather than one being inherently safer than the other. Gas fireplaces eliminate several of the risks associated with wood-burning, including creosote accumulation in the flue, the possibility of sparks or embers escaping the firebox, and carbon monoxide risks from improper combustion of solid fuel. However, gas fireplaces introduce their own considerations — gas line integrity, proper venting to prevent carbon monoxide from entering the living space, and the condition of burners, valves, and ignition components all need to be monitored and serviced regularly. Wood-burning fireplaces require annual chimney sweeping to remove creosote deposits, which are combustible and are the primary cause of chimney fires. They also benefit from annual professional inspections to catch any cracks, deterioration, or blockages before they become hazards. Our CSIA-certified technicians install both types to the highest professional standards, and we'll make sure you fully understand the maintenance requirements for your specific unit before we leave the job site.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "Can Blackburns install a fireplace in a historic or older home?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Yes, and we have a great deal of experience doing exactly that. Columbus has a rich stock of older and historic homes — from Victorian-era properties in German Village and Olde Towne East to mid-century ranches in Upper Arlington and Bexley — and we understand the unique considerations that come with working on these properties. Older homes can present challenges that newer construction doesn't, including existing masonry that needs to be carefully evaluated before any new appliance is connected to it, outdated flue sizing that may not meet current standards, and the need to work thoughtfully around historic or architecturally significant features. In some cases, older chimneys need to be relined or partially rebuilt before a new fireplace can be safely installed. We'll identify all of these factors during the consultation and inspection phase and walk you through exactly what's needed — including being straightforward with you if something isn't feasible or cost-effective so you can make the best decision for your home.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "Do I need a chimney inspection before having a new fireplace installed?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "If your home has an existing chimney or fireplace opening, a professional inspection is not just recommended — it's essential before any new appliance is connected to that system. The existing flue, liner, firebox, and chimney structure all need to be evaluated to confirm they are in the appropriate condition and properly sized for the unit being installed. Issues like cracked flue tiles, deteriorated mortar joints, incorrect flue dimensions, blockages from debris or animal nesting, or a compromised chimney crown can all create serious safety hazards if a new fireplace is connected without addressing them first. In many cases, a chimney that appears fine from the outside has significant issues that are only visible through a proper Level 2 inspection. Blackburns Chimney performs thorough pre-installation inspections and will clearly explain any findings and what needs to be addressed before installation can proceed. If we find issues, we'll handle the necessary repairs as part of the project scope so everything is completed correctly and safely from the ground up.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "What size fireplace do I need for my room?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Proper fireplace sizing is an important part of the installation planning process and involves more than simply picking a unit that fits in the available wall space. Several factors come into play when determining the right size for your room: Room square footage — The most basic sizing factor; larger rooms generally require a larger firebox opening or higher BTU output. Ceiling height — Rooms with vaulted or high ceilings lose heat more quickly and may require a more powerful unit. Insulation quality and window area — Drafty or poorly insulated rooms will need more heating capacity than well-insulated spaces of the same size. Firebox opening dimensions — For wood-burning fireplaces, the ratio of the firebox opening to the flue area is critical for proper draft and smoke control. Your heating goals — Whether you want a fireplace primarily for ambiance with supplemental heat, or as a primary zone heating source, affects the sizing recommendation. Our team will evaluate all of these factors during the consultation and recommend a unit that is appropriately sized for your space. An oversized or undersized fireplace can both create problems — proper sizing is one of the details we take seriously on every job.",
+        "@type": "Answer"
+      }
+    },
+    {
+      "name": "What ongoing maintenance will my new fireplace require?",
+      "@type": "Question",
+      "acceptedAnswer": {
+        "text": "Regular maintenance is what separates a fireplace that operates safely and beautifully for decades from one that becomes a liability. Here's a detailed look at what to expect for each fuel type. Wood-Burning Fireplaces: Annual professional chimney sweeping to remove creosote deposits — this is non-negotiable for safe operation and is recommended by the CSIA and NFPA. Annual Level 1 or Level 2 chimney inspection to identify any cracks, deterioration, or structural issues in the flue, liner, firebox, and chimney structure. Regular ash removal from the firebox — leave a small bed of ash for insulation, but don't allow excessive accumulation. Periodic inspection and replacement of the damper if it becomes difficult to operate or no longer seals properly. Checking the chimney cap and crown annually to ensure they're intact and keeping water and animals out of the flue. Gas Fireplaces: Annual professional servicing to inspect and clean burners, check gas valve operation, test ignition systems, and inspect venting connections. Periodic cleaning of the glass front panel using approved non-abrasive cleaners. Checking the condition of the log set and ember bed — these can degrade over time and may need replacement. Verifying that the vent termination cap on the exterior of the home is clear of debris, vegetation, and obstructions. Annual inspection of the firebox interior and venting system for any signs of damage or deterioration. Blackburns Chimney offers comprehensive annual maintenance and inspection services for all fireplace types, so you'll always have a trusted, familiar team to call when it's time for your yearly service. We'll keep detailed records of your system's history and flag anything that needs attention before it becomes a bigger problem.",
+        "@type": "Answer"
+      }
+    }
+  ]
+}

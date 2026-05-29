@@ -1,0 +1,16 @@
+{
+  "chimney-testing": "chimney-services",
+  "caps-guards": "chimney-services",
+  "fireplace-inserts": "sales-installation",
+  "fireplaces": "sales-installation",
+  "dryer-vents": "chimney-services",
+  "masonry": "chimney-services",
+  "leaky-chimney": "chimney-services",
+  "safety-inspection": "chimney-services",
+  "chimney-relining": "chimney-services",
+  "heating-stoves": "sales-installation",
+  "service-area": "about",
+  "annual-cleaning": "chimney-services",
+  "thank-you": "contact",
+  "smoking-chimney": "chimney-services"
+}
