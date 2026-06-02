@@ -149,39 +149,7 @@
       <div class="flex flex-col lg:flex-row gap-10 lg:gap-20 items-start">
         <!-- Left: White form card — loads external form -->
         <div class="bg-white border-t-4 border-cream shadow-[0_2px_6px_rgba(0,0,0,0.25)] w-full lg:flex-1 p-8">
-          <!-- FORM: sourced from Forms/contact-form.html -->
-          <form
-            action="./thank-you.html"
-            method="POST"
-            class="space-y-5"
-            id="contact-form"
-          >
-            <input type="text" name="_gotcha" style="display:none" />
-            <div>
-              <label for="form-name" class="block text-brand-navy font-medium text-base mb-2">Full Name</label>
-              <input type="text" id="form-name" name="name" required class="w-full border border-[#d4cfc6] bg-white px-4 py-3 text-base focus:border-brand-navy outline-none" />
-            </div>
-            <div>
-              <label for="form-phone" class="block text-brand-navy font-medium text-base mb-2">Phone Number</label>
-              <input type="tel" id="form-phone" name="phone" required class="w-full border border-[#d4cfc6] bg-white px-4 py-3 text-base focus:border-brand-navy outline-none" />
-            </div>
-            <div>
-              <label for="form-service" class="block text-brand-navy font-medium text-base mb-2">Type of Fireplace/Stove</label>
-              <select id="form-service" name="service" class="w-full border border-[#d4cfc6] bg-white px-4 py-3 h-[50px] text-base text-body focus:border-brand-navy outline-none">
-                <option value="">Select a type…</option>
-                <option value="Wood-Burning Fireplace">Wood-Burning Fireplace</option>
-                <option value="Wood-Burning Stove">Wood-Burning Stove</option>
-                <option value="Gas Fireplace">Gas Fireplace</option>
-                <option value="Unsure">Unsure</option>
-              </select>
-            </div>
-            <div>
-              <label for="form-message" class="block text-brand-navy font-medium text-base mb-2">Message</label>
-              <textarea id="form-message" name="message" rows="4" class="w-full border border-[#d4cfc6] bg-white px-4 py-3 text-base focus:border-brand-navy outline-none resize-y"></textarea>
-            </div>
-            <input type="hidden" name="_subject" value="New Inspection Request – Blackburns Chimney Service – Pataskala" />
-            <button type="submit" class="w-full bg-brand-red text-white font-semibold text-base py-3.5 hover:brightness-95 transition-all duration-200 cursor-pointer">Request Your Inspection</button>
-          </form>
+          <!-- FORM:contact-form -->
         </div>
 
         <!-- Right: Heading + info -->
