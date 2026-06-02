@@ -14,12 +14,7 @@
       "image": "https://images.adept.plus/BlackburnsChimney-OH/chimney-sweep-rooftop/width=3840,height=2160,fit=scale-down,quality=85",
       "sameAs": [
         "https://www.facebook.com/BlackburnsChimneySweeps#",
-        "https://www.instagram.com/blackburnschimneysweeps",
-        "NA",
-        "NA",
-        "NA",
-        "NA",
-        "NA"
+        "https://www.instagram.com/blackburnschimneysweeps"
       ],
       "address": {
         "@type": "PostalAddress",
@@ -100,14 +95,26 @@
           "@type": "City"
         },
         {
-          "name": "Columbus, OH metro area",
+          "name": "Ohio",
           "@type": "State"
         }
       ],
       "priceRange": "$$",
       "description": "We're a locally owned and family-operated business, proudly serving families across Columbus and the surrounding communities in Franklin, Delaware, and Union counties. When you call Blackburns, you're not calling a national chain – you're calling your neighbors.",
-      "foundingDate": "1984",
+      "foundingDate": "1986",
       "alternateName": "Blackburns Chimney",
+      "hasCredential": [
+        {
+          "name": "- Certified by the Chimney Safety Institute of America (CSIA)",
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification"
+        },
+        {
+          "name": "- A member of the National Chimney Sweep Guild (NCSG)",
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification"
+        }
+      ],
       "hasOfferCatalog": {
         "name": "Services",
         "@type": "OfferCatalog",
