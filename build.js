@@ -39,6 +39,28 @@ function readJsonInclude(filePath) {
     }
 }
 
+// ── Deep merge utility for Tailwind configs ─────────────────────────────────
+// Merges multiple config objects so that colors/fonts from ALL pages are included.
+
+function deepMerge(target, source) {
+    if (!source) return target;
+    if (!target) return source;
+    var result = Object.assign({}, target);
+    var keys = Object.keys(source);
+    for (var k = 0; k < keys.length; k++) {
+        var key = keys[k];
+        if (
+            result[key] && typeof result[key] === 'object' && !Array.isArray(result[key]) &&
+            source[key] && typeof source[key] === 'object' && !Array.isArray(source[key])
+        ) {
+            result[key] = deepMerge(result[key], source[key]);
+        } else {
+            result[key] = source[key];
+        }
+    }
+    return result;
+}
+
 // ── Setup dist ──────────────────────────────────────────────────────────────
 
 if (fs.existsSync(DIST_DIR)) {
@@ -425,27 +447,54 @@ if (fs.existsSync(distIndexPath)) {
 
 // ── Tailwind CSS Compilation ────────────────────────────────────────────────
 // Replace runtime CDN (~125KB compiler) with pre-compiled CSS (~5-15KB)
+// Merges configs from ALL pages so every custom color/font is included.
 // Wrapped in try/catch: if compilation fails, CDN stays as fallback
 
 (function() {
     try {
-        // Find tailwind config embedded in first HTML file
-        var firstPath = path.join(DIST_DIR, htmlFiles[0]);
-        var firstHtml = fs.readFileSync(firstPath, 'utf8');
-        var cfgMatch = firstHtml.match(/<script>\s*tailwind\.config\s*=\s*([\s\S]*?)<\/script>/);
+        // ── Merge Tailwind configs from ALL HTML files ──
+        // Each page may use different patterns with different custom colors.
+        // Deep-merge all configs so the compiled CSS covers every token.
+        var mergedCfg = null;
+        var configCount = 0;
+        var configRegex = /<script>\s*tailwind\.config\s*=\s*([\s\S]*?)<\/script>/;
 
-        if (!cfgMatch) {
-            console.log("   Tailwind: no CDN config found — skipping compilation");
+        for (var c = 0; c < htmlFiles.length; c++) {
+            var cPath = path.join(DIST_DIR, htmlFiles[c]);
+            var cHtml = fs.readFileSync(cPath, 'utf8');
+            var cMatch = cHtml.match(configRegex);
+            if (!cMatch) continue;
+
+            var rawStr = cMatch[1].replace(/^\s*=\s*/, "").replace(/;\s*$/, "").trim();
+            try {
+                var parsed = JSON.parse(rawStr);
+                if (!mergedCfg) {
+                    mergedCfg = parsed;
+                } else {
+                    mergedCfg = deepMerge(mergedCfg, parsed);
+                }
+                configCount++;
+            } catch (parseErr) {
+                console.warn("   Tailwind: could not parse config from " + htmlFiles[c] + ": " + parseErr.message);
+            }
+        }
+
+        if (!mergedCfg) {
+            console.log("   Tailwind: no CDN config found in any HTML file — skipping compilation");
             return;
         }
 
-        // Extract the config object string (everything after "tailwind.config = ")
-        var rawCfg = cfgMatch[1].replace(/^\s*=\s*/, "").replace(/;\s*$/, "").trim();
+        console.log("   Tailwind: merged configs from " + configCount + " HTML file(s)");
 
-        // Write tailwind.config.js with content scanning path
-        var twCfgContent = "module.exports = Object.assign(" + rawCfg + ", { content: [\"./dist/**/*.html\"] });\n";
+        // Write tailwind.config.js with merged config + content scanning path
+        var twCfgContent = "module.exports = Object.assign(" + JSON.stringify(mergedCfg, null, 2) + ", { content: [\"./dist/**/*.html\"] });\n";
         fs.writeFileSync('tailwind.config.js', twCfgContent, 'utf8');
-        console.log("   Tailwind: extracted config from HTML");
+        console.log("   Tailwind: wrote tailwind.config.js");
+
+        // Log the colors for verification
+        if (mergedCfg.theme && mergedCfg.theme.extend && mergedCfg.theme.extend.colors) {
+            console.log("   Tailwind: merged colors: " + Object.keys(mergedCfg.theme.extend.colors).join(", "));
+        }
 
         // Create input CSS
         fs.writeFileSync('_tw_input.css', '@tailwind base;\n@tailwind components;\n@tailwind utilities;\n', 'utf8');
