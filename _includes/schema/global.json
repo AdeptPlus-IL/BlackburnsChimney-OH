@@ -1,0 +1,199 @@
+{
+  "@graph": [
+    {
+      "@id": "https://blackburnschimney.com//#business",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.059206,
+        "longitude": -83.048261
+      },
+      "url": "https://blackburnschimney.com/",
+      "logo": "https://images.adept.plus/BlackburnsChimney-OH/dark-texture-background/highres",
+      "name": "Blackburns Chimney Services",
+      "@type": "LocalBusiness",
+      "image": "https://images.adept.plus/BlackburnsChimney-OH/chimney-sweep-rooftop/width=3840,height=2160,fit=scale-down,quality=85",
+      "sameAs": [
+        "https://www.facebook.com/BlackburnsChimneySweeps#",
+        "https://www.instagram.com/blackburnschimneysweeps",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "postalCode": "43220",
+        "addressRegion": "OH",
+        "streetAddress": "4644 Kenny Rd",
+        "addressCountry": "US",
+        "addressLocality": "Columbus"
+      },
+      "telephone": "614-344-7750",
+      "areaServed": [
+        {
+          "name": "Columbus",
+          "@type": "City"
+        },
+        {
+          "name": "Westerville",
+          "@type": "City"
+        },
+        {
+          "name": "Newark",
+          "@type": "City"
+        },
+        {
+          "name": "Reynoldsburg",
+          "@type": "City"
+        },
+        {
+          "name": "Grove City",
+          "@type": "City"
+        },
+        {
+          "name": "Powell",
+          "@type": "City"
+        },
+        {
+          "name": "New Albany",
+          "@type": "City"
+        },
+        {
+          "name": "Pickerington",
+          "@type": "City"
+        },
+        {
+          "name": "Heath",
+          "@type": "City"
+        },
+        {
+          "name": "Blacklick",
+          "@type": "City"
+        },
+        {
+          "name": "Dublin",
+          "@type": "City"
+        },
+        {
+          "name": "Lewis Center",
+          "@type": "City"
+        },
+        {
+          "name": "Gahanna",
+          "@type": "City"
+        },
+        {
+          "name": "Pataskala",
+          "@type": "City"
+        },
+        {
+          "name": "Granville",
+          "@type": "City"
+        },
+        {
+          "name": "Canal Winchester",
+          "@type": "City"
+        },
+        {
+          "name": "Hilliard",
+          "@type": "City"
+        },
+        {
+          "name": "Columbus, OH metro area",
+          "@type": "State"
+        }
+      ],
+      "priceRange": "$$",
+      "description": "We're a locally owned and family-operated business, proudly serving families across Columbus and the surrounding communities in Franklin, Delaware, and Union counties. When you call Blackburns, you're not calling a national chain – you're calling your neighbors.",
+      "foundingDate": "1986",
+      "alternateName": "Blackburns Chimney",
+      "hasOfferCatalog": {
+        "name": "Services",
+        "@type": "OfferCatalog",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "name": "Chimney Sweeping",
+              "@type": "Service"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "name": "Chimney Inspection",
+              "@type": "Service"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "name": "Chimney Caps & Guards",
+              "@type": "Service"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "name": "Chimney Relining",
+              "@type": "Service"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "name": "Smoking Chimney",
+              "@type": "Service"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "name": "Masonry Services",
+              "@type": "Service"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "name": "Leaky Chimney",
+              "@type": "Service"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "name": "Dryer Vents",
+              "@type": "Service"
+            }
+          }
+        ]
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "opens": "08:00",
+          "closes": "17:00",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://blackburnschimney.com//#website",
+      "url": "https://blackburnschimney.com/",
+      "name": "Blackburns Chimney Services",
+      "@type": "WebSite",
+      "publisher": {
+        "@id": "https://blackburnschimney.com//#business"
+      }
+    }
+  ],
+  "@context": "https://schema.org"
+}
