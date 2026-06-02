@@ -19,7 +19,7 @@
       }
     },
     {
-      "name": "Can a dirty chimney cause smoking?",
+      "name": "Can a dirty chimney cause backdrafting and smoking?",
       "@type": "Question",
       "acceptedAnswer": {
         "text": "Absolutely — it's one of the most common causes we find. Over time, soot and creosote coat the flue walls and narrow the passage that exhaust gases need to escape. Even a small amount of buildup can reduce draft significantly, trap moisture and create lingering odors, increase the risk of a flue fire, and cause smoke to roll back into the firebox and room. The CSIA and NFPA both recommend annual chimney inspections and sweeping for fireplaces in regular use. In many cases, a professional sweep alone fully solves the smoking problem.",
@@ -30,12 +30,11 @@
       "name": "How does a smoking fireplace affect indoor air quality?",
       "@type": "Question",
       "acceptedAnswer": {
-        "text": "A smoking fireplace doesn't just leave a visible haze — it actively degrades the air your family breathes. When smoke spills into the room instead of going up the flue, it brings a mix of harmful byproducts with it: carbon monoxide, an odorless, colorless gas that can cause headaches, dizziness, nausea, and in high concentrations can be fatal; fine particulate matter (PM2.5), microscopic particles that penetrate deep into the lungs and worsen asthma, allergies, and heart conditions; volatile organic compounds (VOCs), released from incomplete combustion and known to irritate eyes, nose, and throat; soot and ash residue that settles on furniture, walls, and HVAC filters, spreading contaminants throughout the home; and lingering odors that embed into fabrics, carpets, and drywall and are difficult to remove. Children, older adults, and anyone with respiratory issues are especially vulnerable. If your fireplace is smoking, stop using it and have a CSIA-certified technician inspect the system before lighting another fire.",
-        "@type": "Answer"
+        "text": "A smoking fireplace doesn't just leave a visible haze — it actively degrades the air your family breathes. When smoke spills into the room instead of going up the flue, it brings a mix of harmful byproducts with it: carbon monoxide, an odorless, colorless gas that can cause headaches, dizziness, nausea, and in high concentrations can be fatal; fine particulate matter (PM2.5), microscopic particles that penetrate deep into the lungs and worsen asthma, allergies, and heart conditions; volatile organic compounds (VOCs), released from incomplete combustion and known to irritate eyes, nose, and throat; soot and ash residue that settles on furniture, walls, and HVAC filters, spreading contaminants throughout the home; and lingering odors that embed into fabrics, carpets, and drywall and are difficult to remove. Children, older adults, and anyone with respiratory issues are especially vulnerable. If your fireplace is smoking, stop using it and have a CSIA-certified technician inspect the system before lighting another fire."
       }
     },
     {
-      "name": "What if my chimney is too short?",
+      "name": "Can a too-short chimney cause backdrafting?",
       "@type": "Question",
       "acceptedAnswer": {
         "text": "A chimney that's too short can't generate enough draft to pull smoke up and out, especially on calm or warm days. NFPA code requires the chimney to extend at least 3 feet above the roof penetration and 2 feet higher than any roofline within a 10-foot radius. If yours falls short, we have several options: install a taller chimney cap or draft-inducing cap to improve airflow; add a flue extension on top of the existing crown; rebuild the top courses of the chimney to gain height; or install a mechanical draft inducer for stubborn problem cases. We'll measure your chimney, check it against current code, and recommend the most cost-effective fix for your home.",
