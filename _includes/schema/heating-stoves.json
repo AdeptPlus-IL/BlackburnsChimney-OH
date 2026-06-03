@@ -1,45 +1,37 @@
 {
-  "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@context": "https://schema.org",
   "mainEntity": [
     {
-      "@type": "Question",
-      "name": "What's the difference between wood-burning and gas stoves?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Wood-burning and gas stoves both deliver excellent heat, but they suit different lifestyles and homes. Wood-burning stoves provide traditional ambiance, the crackle of real fire, and reliable heat during power outages, but require firewood storage, kindling, ash removal, and annual chimney sweeping. Gas stoves offer instant, thermostat-controlled heat with no wood handling, no ash, and minimal maintenance — running on natural gas or propane. Modern EPA-certified wood stoves can reach 70–80% efficiency, while direct-vent gas stoves often exceed 75% and offer more precise output control. Wood is typically cheaper per BTU if you have access to seasoned cordwood, while gas is more predictable and lower-effort. We'll walk you through both options during your consultation and recommend the best fit for your home, fuel availability, and lifestyle."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "Do I need a chimney for a heating stove?",
+      "@type": "Question",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Every heating stove needs a safe path for combustion byproducts to exit your home, but venting requirements depend on the stove type. Wood-burning stoves require a Class A insulated chimney or a properly lined existing masonry chimney sized to the stove's flue collar — improper sizing causes draft problems and creosote buildup. Direct-vent gas stoves can vent horizontally through an exterior wall using a coaxial pipe, with no traditional chimney required, which opens up installation in rooms without existing flues. B-vent and pellet stoves have their own specific venting rules with shorter clearance requirements. Existing chimneys are inspected before reuse to confirm condition, sizing, and the need for a stainless-steel liner. During your in-home consultation we evaluate your space, identify the safest venting route, and provide a clear plan that meets local code."
+        "text": "Every heating stove needs a safe path for combustion byproducts to exit your home, but venting requirements depend on the stove type. Wood-burning stoves require a Class A insulated chimney or a properly lined existing masonry chimney sized to the stove's flue collar — improper sizing causes draft problems and creosote buildup. Direct-vent gas stoves can vent horizontally through an exterior wall using a coaxial pipe, with no traditional chimney required, which opens up installation in rooms without existing flues. B-vent and pellet stoves have their own specific venting rules with shorter clearance requirements. Existing chimneys are inspected before reuse to confirm condition, sizing, and the need for a stainless-steel liner. During your in-home consultation we evaluate your space, identify the safest venting route, and provide a clear plan that meets local code.",
+        "@type": "Answer"
       }
     },
     {
-      "@type": "Question",
       "name": "How much does a heating stove installation cost?",
+      "@type": "Question",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Total project cost depends on the stove you choose plus the venting and site work needed. A typical project includes the stove itself (entry-level models start around the lower end of the market, while premium cast-iron and soapstone stoves are a higher investment), venting and chimney work (new Class A chimney runs, stainless-steel liners, or direct-vent pipe kits each carry different material and labor costs), hearth pad and clearances (non-combustible floor protection and wall shielding may be required to meet code), gas line or electrical (gas stoves need a fuel line, and some models require a 110V outlet for blowers or controls), and permits and inspection (included in our quote so there are no surprises). After a brief in-home assessment, we provide a transparent, itemized quote so you know exactly what you're paying for."
+        "text": "Total project cost depends on the stove you choose plus the venting and site work needed. A typical project includes the stove itself (entry-level models start around the lower end of the market, while premium cast-iron and soapstone stoves are a higher investment), venting and chimney work (new Class A chimney runs, stainless-steel liners, or direct-vent pipe kits each carry different material and labor costs), hearth pad and clearances (non-combustible floor protection and wall shielding may be required to meet code), gas line or electrical (gas stoves need a fuel line, and some models require a 110V outlet for blowers or controls), and permits and inspection (included in our quote so there are no surprises). After a brief in-home assessment, we provide a transparent, itemized quote so you know exactly what you're paying for.",
+        "@type": "Answer"
       }
     },
     {
-      "@type": "Question",
       "name": "Are heating stoves safe?",
+      "@type": "Question",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes — modern heating stoves are extremely safe when properly installed, maintained, and operated. Safety comes from layering several protections: EPA-certified appliances that burn cleaner and hotter to reduce creosote and emissions; code-compliant clearances from combustible walls, floors, and ceilings verified during installation; proper venting sized to the stove and inspected for draft, joints, and termination height; carbon monoxide and smoke detectors on every level of the home, especially near sleeping areas; and annual inspections and sweeping to remove creosote, check gaskets and door seals, and catch wear before it becomes a hazard. Our CSIA-certified technicians follow NFPA 211 and all local building codes so your stove operates safely from day one."
+        "text": "Yes — modern heating stoves are extremely safe when properly installed, maintained, and operated. Safety comes from layering several protections: EPA-certified appliances that burn cleaner and hotter to reduce creosote and emissions; code-compliant clearances from combustible walls, floors, and ceilings verified during installation; proper venting sized to the stove and inspected for draft, joints, and termination height; carbon monoxide and smoke detectors on every level of the home, especially near sleeping areas; and annual inspections and sweeping to remove creosote, check gaskets and door seals, and catch wear before it becomes a hazard. Our CSIA-certified technicians follow NFPA 211 and all local building codes so your stove operates safely from day one.",
+        "@type": "Answer"
       }
     },
     {
-      "@type": "Question",
       "name": "How often does a heating stove need maintenance?",
+      "@type": "Question",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintenance frequency depends on stove type and how often you use it, but every stove benefits from a yearly check-up. Wood-burning stoves should be swept and inspected annually — and more often if you burn more than a cord of wood per season or notice glaze creosote. Gas stoves need yearly inspection of the burner, pilot, thermocouple, venting, and glass gaskets to maintain safe operation and efficiency. Pellet stoves require regular cleaning of the burn pot, ash pan, and exhaust pathway — typically every few weeks during heavy use, plus an annual professional service. Daily and weekly user care includes emptying ash, checking door gaskets, keeping the glass clean, and burning only seasoned hardwood (under 20% moisture) in wood stoves. We offer scheduled maintenance plans so your stove stays safe, efficient, and ready for every heating season."
+        "text": "Maintenance frequency depends on stove type and how often you use it, but every stove benefits from a yearly check-up. Wood-burning stoves should be swept and inspected annually — and more often if you burn more than a cord of wood per season or notice glaze creosote. Gas stoves need yearly inspection of the burner, pilot, thermocouple, venting, and glass gaskets to maintain safe operation and efficiency. Pellet stoves require regular cleaning of the burn pot, ash pan, and exhaust pathway — typically every few weeks during heavy use, plus an annual professional service. Daily and weekly user care includes emptying ash, checking door gaskets, keeping the glass clean, and burning only seasoned hardwood (under 20% moisture) in wood stoves. We offer scheduled maintenance plans so your stove stays safe, efficient, and ready for every heating season.",
+        "@type": "Answer"
       }
     }
   ]
