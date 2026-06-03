@@ -1,10 +1,10 @@
 [
   {
-    "href": "./index.html",
+    "href": "/",
     "label": "Home"
   },
   {
-    "href": "./chimney-services.html",
+    "href": "/chimney-services",
     "label": "Services",
     "children": [
       {
@@ -42,8 +42,8 @@
     ]
   },
   {
-    "href": "./sales-installation.html",
-    "label": "Sales & Installation",
+    "href": "/sales-installation",
+    "label": "Sales & Installations",
     "children": [
       {
         "href": "./fireplaces.html",
@@ -60,15 +60,15 @@
     ]
   },
   {
-    "href": "https://blackburns.wpenginepowered.com/",
-    "label": "Design My Fireplace"
-  },
-  {
-    "href": "./about.html",
+    "href": "/about",
     "label": "About"
   },
   {
-    "href": "./contact.html",
+    "href": "/contact",
     "label": "Contact"
+  },
+  {
+    "href": "https://blackburns.wpenginepowered.com/",
+    "label": "Design My Fireplace"
   }
 ]
