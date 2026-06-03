@@ -1,10 +1,10 @@
 [
   {
-    "href": "./index.html",
+    "href": "/",
     "label": "Home"
   },
   {
-    "href": "./chimney-services.html",
+    "href": "/chimney-services",
     "label": "Services",
     "children": [
       {
@@ -42,7 +42,7 @@
     ]
   },
   {
-    "href": "./sales-installation.html",
+    "href": "/sales-installation",
     "label": "Sales & Installation",
     "children": [
       {
@@ -64,7 +64,7 @@
     "label": "Design My Fireplace"
   },
   {
-    "href": "./about.html",
+    "href": "/about",
     "label": "About"
   },
   {
