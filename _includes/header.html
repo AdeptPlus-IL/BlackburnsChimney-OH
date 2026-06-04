@@ -30,6 +30,45 @@
                 <!-- NAV_ITEMS_DESKTOP -->
             </nav>
 
+        <script>
+          // Highlight the active link in the desktop main nav based on the current URL.
+          (function () {
+            function applyActiveDesktopNav() {
+              var desktopNav = document.querySelector('header nav.hidden.lg\\:flex.items-center.gap-6');
+              if (!desktopNav) return;
+              var currentPath = window.location.pathname.replace(/\/+$/, '') || '/';
+              var links = desktopNav.querySelectorAll('a[href]');
+              var bestMatch = null;
+              var bestLen = -1;
+              links.forEach(function (a) {
+                var href = a.getAttribute('href') || '';
+                if (!href || href.charAt(0) === '#') return;
+                var linkPath;
+                try {
+                  linkPath = new URL(href, window.location.origin).pathname;
+                } catch (e) {
+                  return;
+                }
+                linkPath = linkPath.replace(/\.html$/, '').replace(/\/index$/, '/').replace(/\/+$/, '') || '/';
+                var cur = currentPath.replace(/\.html$/, '').replace(/\/index$/, '/').replace(/\/+$/, '') || '/';
+                if (linkPath === cur && linkPath.length > bestLen) {
+                  bestMatch = a;
+                  bestLen = linkPath.length;
+                }
+              });
+              if (bestMatch) {
+                bestMatch.setAttribute('aria-current', 'page');
+                bestMatch.classList.add('text-brand-red', 'font-bold', 'border-b-2', 'border-brand-red', 'pb-1');
+              }
+            }
+            if (document.readyState === 'loading') {
+              document.addEventListener('DOMContentLoaded', applyActiveDesktopNav);
+            } else {
+              applyActiveDesktopNav();
+            }
+          })();
+        </script>
+
         <!-- Mobile hamburger -->
         <button id="mobile-menu-btn" class="lg:hidden flex flex-col gap-1.5 p-2" onclick="document.getElementById('mobile-nav').classList.toggle('hidden')">
           <span class="w-6 h-0.5 bg-brand-navy"></span>
