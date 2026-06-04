@@ -59,6 +59,8 @@
     <!-- INCLUDE:head_scripts -->
     <!-- INCLUDE:favicon -->
     <!-- INCLUDE:schema -->
+    
+    <meta name="robots" content="index, follow">
     <style>
 body { margin: 0; font-family: 'Inter', sans-serif; }
     /* Ensure nothing clips the logo overhang */
@@ -102,7 +104,6 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
 body{margin:0;font-family:'Inter',sans-serif;}
 body{margin:0;font-family:'Inter',sans-serif;}
     </style>
-    <meta name="robots" content="index, follow">
 </head>
 <body class="font-inter">
     <!-- INCLUDE:body_scripts -->
@@ -230,9 +231,8 @@ body{margin:0;font-family:'Inter',sans-serif;}
       <h2 class="font-playfair font-bold text-heading text-2xl md:text-3xl lg:text-[42px] leading-tight mb-10">Heating Stoves: Frequently Asked Questions</h2>
       <div class="space-y-4">
         <details class="bg-white border-t-[4px] border-brand-red shadow-sm group" open>
-          <summary class="cursor-pointer p-6 font-playfair font-semibold text-heading text-base md:text-lg list-none flex items-center justify-between">
+          <summary class="cursor-default p-6 font-playfair font-semibold text-heading text-base md:text-lg list-none flex items-center justify-between" onclick="return false;">
             Do I need a chimney for a heating stove?
-            <svg class="w-5 h-5 text-brand-red transform group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </summary>
           <div class="px-6 pb-6 text-body text-sm leading-relaxed">Every heating stove needs a safe path for combustion byproducts to exit your home, but the venting requirements depend on the stove type:
 <ul class="list-disc pl-5 mt-2 space-y-1">
@@ -243,10 +243,9 @@ body{margin:0;font-family:'Inter',sans-serif;}
 </ul>
 During your in-home consultation we evaluate your space, identify the safest venting route, and provide a clear plan that meets local code.</div>
         </details>
-        <details class="bg-white border-t-[4px] border-brand-red shadow-sm group">
-          <summary class="cursor-pointer p-6 font-playfair font-semibold text-heading text-base md:text-lg list-none flex items-center justify-between">
+        <details class="bg-white border-t-[4px] border-brand-red shadow-sm group" open>
+          <summary class="cursor-default p-6 font-playfair font-semibold text-heading text-base md:text-lg list-none flex items-center justify-between" onclick="return false;">
             How much does a heating stove installation cost?
-            <svg class="w-5 h-5 text-brand-red transform group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </summary>
           <div class="px-6 pb-6 text-body text-sm leading-relaxed">Total project cost depends on the stove you choose plus the venting and site work needed. A typical project includes several components:
 <ul class="list-disc pl-5 mt-2 space-y-1">
@@ -258,10 +257,9 @@ During your in-home consultation we evaluate your space, identify the safest ven
 </ul>
 After a brief in-home assessment, we provide a transparent, itemized quote so you know exactly what you're paying for.</div>
         </details>
-        <details class="bg-white border-t-[4px] border-brand-red shadow-sm group">
-          <summary class="cursor-pointer p-6 font-playfair font-semibold text-heading text-base md:text-lg list-none flex items-center justify-between">
+        <details class="bg-white border-t-[4px] border-brand-red shadow-sm group" open>
+          <summary class="cursor-default p-6 font-playfair font-semibold text-heading text-base md:text-lg list-none flex items-center justify-between" onclick="return false;">
             Are heating stoves safe?
-            <svg class="w-5 h-5 text-brand-red transform group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </summary>
           <div class="px-6 pb-6 text-body text-sm leading-relaxed">Yes – modern heating stoves are extremely safe when properly installed, maintained, and operated. Safety comes from layering several protections:
 <ul class="list-disc pl-5 mt-2 space-y-1">
@@ -273,10 +271,9 @@ After a brief in-home assessment, we provide a transparent, itemized quote so yo
 </ul>
 Our CSIA-certified technicians follow NFPA 211 and all local building codes so your stove operates safely from day one.</div>
         </details>
-        <details class="bg-white border-t-[4px] border-brand-red shadow-sm group">
-          <summary class="cursor-pointer p-6 font-playfair font-semibold text-heading text-base md:text-lg list-none flex items-center justify-between">
+        <details class="bg-white border-t-[4px] border-brand-red shadow-sm group" open>
+          <summary class="cursor-default p-6 font-playfair font-semibold text-heading text-base md:text-lg list-none flex items-center justify-between" onclick="return false;">
             How often does a heating stove need maintenance?
-            <svg class="w-5 h-5 text-brand-red transform group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </summary>
           <div class="px-6 pb-6 text-body text-sm leading-relaxed">Maintenance frequency depends on stove type and how often you use it, but every stove benefits from a yearly check-up:
 <ul class="list-disc pl-5 mt-2 space-y-1">
@@ -398,17 +395,25 @@ We offer scheduled maintenance plans so your stove stays safe, efficient, and re
 <!-- /SECTION:Reviews.html -->
 
 <!-- SECTION:ServiceArea.html -->
-<section class="py-12 md:py-16 lg:py-24 relative overflow-hidden">
-    <div class="absolute inset-0 bg-white"></div>
-    <img src="https://images.adept.plus/BlackburnsChimney-OH/background.webp/background" alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover opacity-50 pointer-events-none" />
-    <div class="relative max-w-[1280px] mx-auto px-4 md:px-8 lg:px-16">
+<section class="bg-[#f8f6f3] texture-lines py-12 md:py-16 lg:py-24 relative">
+    <div class="max-w-[1280px] mx-auto px-4 md:px-8 lg:px-16">
       <div class="flex items-center gap-1.5 mb-3"><span class="w-7 h-0.5 bg-brand-red"></span><span class="w-7 h-0.5 bg-brand-red"></span></div>
       <p class="font-inter font-semibold text-brand-red text-sm tracking-[2.24px] uppercase mb-3">WHERE WE WORK</p>
       <h2 class="font-playfair font-bold text-heading text-2xl md:text-3xl lg:text-[48px] leading-tight mb-4">Proudly Serving the Columbus Metro Area</h2>
       <p class="text-body text-base leading-relaxed max-w-[560px] mb-10 md:mb-14">Blackburns works with homeowners across Franklin and Licking Counties - from historic Columbus neighborhoods to growing communities in New Albany, Westerville, Pataskala, and beyond.</p>
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
         <div>
-          <img src="https://images.adept.plus/BlackburnsChimney-OH/service-area-map/highres" alt="Service area map of Columbus metro" class="w-full h-auto rounded shadow-lg border-[6px] border-white" loading="lazy" />
+          <div class="w-full rounded shadow-lg border-[6px] border-white overflow-hidden bg-white">
+            <iframe
+              src="https://www.google.com/maps?q=Blackburns+Chimney+Services,4644+Kenny+Rd,Columbus,OH+43220&output=embed"
+              width="100%"
+              height="450"
+              style="border:0; display:block;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Map showing Blackburns Chimney Services location at 4644 Kenny Rd, Columbus, OH 43220"></iframe>
+          </div>
         </div>
         <div>
           <div class="grid grid-cols-3 gap-x-6 gap-y-3 mb-8">
