@@ -1,5 +1,5 @@
 <!-- HEADER_PATTERN:Header.html -->
-<header class="w-full relative z-50">
+<header class="w-full sticky top-0 z-50">
     <!-- Top utility bar -->
     <div class="bg-brand-navy h-10">
       <div class="max-w-[1280px] mx-auto px-4 md:px-8 lg:px-[100px] h-full flex items-center justify-between">
@@ -30,6 +30,45 @@
                 <!-- NAV_ITEMS_DESKTOP -->
             </nav>
 
+        <script>
+          // Highlight the active link in the desktop main nav based on the current URL.
+          (function () {
+            function applyActiveDesktopNav() {
+              var desktopNav = document.querySelector('header nav.hidden.lg\\:flex.items-center.gap-6');
+              if (!desktopNav) return;
+              var currentPath = window.location.pathname.replace(/\/+$/, '') || '/';
+              var links = desktopNav.querySelectorAll('a[href]');
+              var bestMatch = null;
+              var bestLen = -1;
+              links.forEach(function (a) {
+                var href = a.getAttribute('href') || '';
+                if (!href || href.charAt(0) === '#') return;
+                var linkPath;
+                try {
+                  linkPath = new URL(href, window.location.origin).pathname;
+                } catch (e) {
+                  return;
+                }
+                linkPath = linkPath.replace(/\.html$/, '').replace(/\/index$/, '/').replace(/\/+$/, '') || '/';
+                var cur = currentPath.replace(/\.html$/, '').replace(/\/index$/, '/').replace(/\/+$/, '') || '/';
+                if (linkPath === cur && linkPath.length > bestLen) {
+                  bestMatch = a;
+                  bestLen = linkPath.length;
+                }
+              });
+              if (bestMatch) {
+                bestMatch.setAttribute('aria-current', 'page');
+                bestMatch.classList.add('text-brand-red', 'font-bold', 'border-b-2', 'border-brand-red', 'pb-1');
+              }
+            }
+            if (document.readyState === 'loading') {
+              document.addEventListener('DOMContentLoaded', applyActiveDesktopNav);
+            } else {
+              applyActiveDesktopNav();
+            }
+          })();
+        </script>
+
         <!-- Mobile hamburger -->
         <button id="mobile-menu-btn" class="lg:hidden flex flex-col gap-1.5 p-2" onclick="document.getElementById('mobile-nav').classList.toggle('hidden')">
           <span class="w-6 h-0.5 bg-brand-navy"></span>
@@ -42,6 +81,9 @@
       <div id="mobile-nav" class="hidden lg:hidden bg-white border-t border-gray-100 shadow-lg" style="overflow:hidden;">
         <div class="max-w-[1280px] mx-auto px-4 md:px-8 py-4 flex flex-col gap-3">
                 <!-- NAV_ITEMS_MOBILE -->
+
+                <a href="/resources.html" class="text-brand-navy font-medium hover:text-brand-red transition-colors py-2">Resources</a>
+                <a href="/service-area.html" class="text-brand-navy font-medium hover:text-brand-red transition-colors py-2">Service Area</a>
             </div>
       </div>
     </div>
