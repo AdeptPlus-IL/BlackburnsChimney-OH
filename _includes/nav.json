@@ -28,6 +28,10 @@
         "href": "./smoking-chimney.html"
       },
       {
+        "label": "Masonry Services",
+        "href": "./masonry.html"
+      },
+      {
         "label": "Leaky Chimney",
         "href": "./leaky-chimney.html"
       },
@@ -44,10 +48,6 @@
       {
         "label": "Fireplaces",
         "href": "./fireplaces.html"
-      },
-      {
-        "label": "Masonry Services",
-        "href": "./masonry.html"
       },
       {
         "label": "Fireplace Inserts",
