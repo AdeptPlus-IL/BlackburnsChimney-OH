@@ -167,6 +167,86 @@
 
 <!-- /SECTION:ServiceContent1.html -->
 
+<!-- SECTION:ContactForm.html -->
+<!-- Main contact section with crimson overlay -->
+  <section class="relative py-16 md:py-20 lg:py-24 overflow-hidden">
+    <!-- Background: darker red overlay + photo with lighter opacity -->
+    <div class="absolute inset-0 bg-[#7a1620]"></div>
+    <img src="https://images.adept.plus/BlackburnsChimney-OH/contact-form-chimney/highres" alt="" class="absolute inset-0 w-full h-full object-cover opacity-[0.35] pointer-events-none" />
+
+    <div class="relative max-w-[1200px] mx-auto px-4 md:px-8 lg:px-[102px]">
+      <div class="flex flex-col lg:flex-row gap-10 lg:gap-20 items-start">
+        <!-- Left: White form card — loads external form -->
+        <div class="bg-white border-t-4 border-cream shadow-[0_2px_6px_rgba(0,0,0,0.25)] w-full lg:flex-1 p-8">
+          <!-- FORM: sourced from Forms/contact-form.html -->
+          <form
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            method="POST"
+            class="space-y-5"
+            id="contact-form"
+          >
+            <input type="text" name="_gotcha" style="display:none" />
+            <div>
+              <label for="form-name" class="block text-brand-navy font-medium text-base mb-2">Name</label>
+              <input type="text" id="form-name" name="name" required class="w-full border border-[#d4cfc6] bg-white px-4 py-3 text-base focus:border-brand-navy outline-none" />
+            </div>
+            <div>
+              <label for="form-phone" class="block text-brand-navy font-medium text-base mb-2">Phone Number</label>
+              <input type="tel" id="form-phone" name="phone" class="w-full border border-[#d4cfc6] bg-white px-4 py-3 text-base focus:border-brand-navy outline-none" />
+            </div>
+            <div>
+              <label for="form-service" class="block text-brand-navy font-medium text-base mb-2">Service Needed</label>
+              <select id="form-service" name="service" class="w-full border border-[#d4cfc6] bg-white px-4 py-3 h-[50px] text-base text-body focus:border-brand-navy outline-none">
+                <option value="">Select a service…</option>
+                <option value="Chimney Sweeping">Chimney Sweeping</option>
+                <option value="Chimney Inspection">Chimney Inspection</option>
+                <option value="Chimney Caps &amp; Guards">Chimney Caps &amp; Guards</option>
+                <option value="Chimney Relining">Chimney Relining</option>
+                <option value="Masonry Services">Masonry Services</option>
+                <option value="Dryer Vents">Dryer Vents</option>
+                <option value="Fireplaces">Fireplaces</option>
+                <option value="Fireplace Inserts">Fireplace Inserts</option>
+                <option value="Heating Stoves">Heating Stoves</option>
+              </select>
+            </div>
+            <div>
+              <label for="form-message" class="block text-brand-navy font-medium text-base mb-2">Message</label>
+              <textarea id="form-message" name="message" rows="4" class="w-full border border-[#d4cfc6] bg-white px-4 py-3 text-base focus:border-brand-navy outline-none resize-y"></textarea>
+            </div>
+            <input type="hidden" name="_subject" value="New Contact Form Submission – Blackburns Chimney" />
+            <button type="submit" class="w-full bg-brand-red text-white font-semibold text-base py-3.5 hover:brightness-95 transition-all duration-200 cursor-pointer">Schedule Your Sweep</button>
+          </form>
+        </div>
+
+        <!-- Right: Heading + info -->
+        <div class="w-full lg:flex-1 lg:pt-0 pt-4">
+          <!-- Eyebrow -->
+          <div class="flex items-center gap-1.5 mb-3">
+            <span class="w-7 h-0.5 bg-cream"></span>
+            <span class="w-7 h-0.5 bg-cream"></span>
+          </div>
+          <p class="font-semibold text-cream text-sm tracking-[2.24px] uppercase mb-4">GET IN TOUCH</p>
+
+          <!-- Heading — Playfair Display Bold, 48px with 57.6px line-height per Figma -->
+          <h2 class="font-playfair font-bold text-white text-2xl md:text-[36px] lg:text-[48px] leading-[1.2] lg:leading-[57.6px] mb-6">Ready for a Cleaner, Better-Performing Fireplace?</h2>
+
+          <!-- Description -->
+          <p class="text-cream text-base leading-relaxed mb-8 max-w-[502px]">Schedule your annual sweep or request an inspection. Our CSIA-certified team serves Columbus and the surrounding area Monday through Friday.</p>
+
+          <!-- Divider -->
+          <div class="w-full max-w-[502px] h-px bg-cream/60 mb-6"></div>
+
+          <!-- Hours -->
+          <p class="text-cream text-base mb-2">Mon–Fri: 8am–5pm · Closed Sat &amp; Sun</p>
+
+          <!-- Phone -->
+          <a href="tel:6143447750" class="font-playfair font-semibold text-white text-2xl md:text-[28px] leading-[42px] hover:underline">614-344-7750</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- /SECTION:ContactForm.html -->
+
     <!-- INCLUDE:footer -->
 </body>
 </html>
