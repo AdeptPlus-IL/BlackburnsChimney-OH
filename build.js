@@ -374,6 +374,14 @@ for (var i = 0; i < htmlFiles.length; i++) {
         console.log('   Base href: injected for child page ' + file + ' (parent: ' + parentSlugForBase + ')');
     }
 
+    // ── Base href for 404 page ──
+    // Cloudflare Pages serves 404.html at ANY URL depth (e.g. /a, /a/b, /a/b/c).
+    // Without <base href="/">, relative paths break at nested 404 URLs.
+    if (slug === '404' && !/<base\s/i.test(html)) {
+        html = html.replace('<head>', '<head>\n    <base href="/">');
+        console.log('   Base href: injected for 404 page');
+    }
+
     // ── Canonical URL injection ──
     // Build correct canonical based on parent mapping
     if (sitemapDomain) {
