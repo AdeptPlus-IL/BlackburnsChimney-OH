@@ -115,68 +115,6 @@
           "credentialCategory": "Professional Certification"
         }
       ],
-      "hasOfferCatalog": {
-        "name": "Services",
-        "@type": "OfferCatalog",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "name": "Chimney Sweeping",
-              "@type": "Service"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "name": "Chimney Inspection",
-              "@type": "Service"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "name": "Chimney Caps & Guards",
-              "@type": "Service"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "name": "Chimney Relining",
-              "@type": "Service"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "name": "Smoking Chimney",
-              "@type": "Service"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "name": "Masonry Services",
-              "@type": "Service"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "name": "Leaky Chimney",
-              "@type": "Service"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "name": "Dryer Vents",
-              "@type": "Service"
-            }
-          }
-        ]
-      },
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
