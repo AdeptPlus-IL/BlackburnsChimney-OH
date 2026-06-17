@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Request a free chimney masonry repair estimate from Blackburns Chimney Services.">
+  <title>Masonry Quote Form - Blackburns Chimney Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+            playfair: ['Playfair Display', 'serif'],
+          },
+          colors: {
+            brand: { navy: '#1a2660', red: '#7a1620' },
+            heading: '#1a2660',
+            body: '#2a2520',
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    body { margin: 0; font-family: 'Inter', sans-serif; background: #f3f4f6; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 2rem; }
+  </style>
+</head>
+<body>
+  <!--
+    Blackburns Chimney Services – Masonry Landing Hero Form
+    Formspree-ready: replace YOUR_FORM_ID with your Formspree endpoint.
+    To embed in MasonryLandingHero.html, copy the <div class="relative w-full..."> card below
+    into the hero section where the visual placeholder sits.
+  -->
+
+  <!-- Form Card — matches Figma design exactly -->
+  <div class="relative w-full max-w-[448px] bg-white shadow-2xl">
+    <!-- Red top bar -->
+    <div class="absolute top-0 left-0 right-0 h-1 bg-brand-red"></div>
+    <div class="p-8 pt-10">
+      <h2 class="font-playfair font-bold text-brand-navy text-[30px] leading-tight text-center mb-2">
+        Request My Quote
+      </h2>
+      <p class="font-inter font-normal text-body text-sm text-center mb-6">
+        Fill out the form below to schedule your free masonry repair estimate.
+      </p>
+
+      <form
+        action="https://formspree.io/f/YOUR_FORM_ID"
+        method="POST"
+        class="flex flex-col gap-4"
+        id="masonry-hero-form"
+      >
+        <!-- Honeypot spam protection -->
+        <input type="text" name="_gotcha" style="display:none" />
+
+        <!-- Formspree hidden fields -->
+        <input type="hidden" name="_subject" value="New Masonry Quote Request – Blackburns Chimney" />
+        <input type="hidden" name="_next" value="#thank-you" />
+
+        <!-- Full Name -->
+        <input
+          type="text"
+          name="full_name"
+          id="masonry-hero-name"
+          placeholder="Full Name"
+          required
+          class="w-full border border-gray-300 px-4 py-3 text-base font-inter text-gray-700 placeholder-gray-400 focus:outline-none focus:border-brand-navy transition"
+        />
+
+        <!-- Phone Number -->
+        <input
+          type="tel"
+          name="phone"
+          id="masonry-hero-phone"
+          placeholder="Phone Number"
+          required
+          class="w-full border border-gray-300 px-4 py-3 text-base font-inter text-gray-700 placeholder-gray-400 focus:outline-none focus:border-brand-navy transition"
+        />
+
+        <!-- Zip Code -->
+        <input
+          type="text"
+          name="zip_code"
+          id="masonry-hero-zip"
+          placeholder="Zip Code"
+          required
+          class="w-full border border-gray-300 px-4 py-3 text-base font-inter text-gray-700 placeholder-gray-400 focus:outline-none focus:border-brand-navy transition"
+        />
+
+        <!-- Optional Message -->
+        <textarea
+          name="message"
+          id="masonry-hero-message"
+          placeholder="Describe the damage (Optional)"
+          rows="4"
+          class="w-full border border-gray-300 px-4 py-3 text-base font-inter text-gray-700 placeholder-gray-400 focus:outline-none focus:border-brand-navy transition resize-none"
+        ></textarea>
+
+        <!-- Submit -->
+        <button
+          type="submit"
+          id="masonry-hero-submit"
+          class="w-full bg-brand-red text-white font-inter font-semibold text-lg py-4 hover:brightness-95 hover:scale-[1.02] transition-all duration-200 cursor-pointer"
+        >
+          Get a Free Estimate
+        </button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

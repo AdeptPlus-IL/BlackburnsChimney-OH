@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Expert chimney masonry repair with free estimate — Blackburns Chimney Services serving Columbus, OH.">
+  <title>Masonry Landing Hero - Blackburns Chimney Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+            playfair: ['Playfair Display', 'serif'],
+          },
+          colors: {
+            brand: { navy: '#1a2660', red: '#7a1620', darknavy: '#111c4e' },
+            heading: '#1a2660',
+            body: '#2a2520',
+            lightblue: '#b8c4e8',
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    body { margin: 0; font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body>
+  <section class="relative w-full min-h-[710px] bg-brand-navy overflow-hidden py-16 lg:py-20">
+    <!-- Background brick image with navy overlay -->
+    <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+      <img
+        src="https://images.adept.plus/BlackburnsChimney-OH/masonry-landing-hero-bg/background"
+        srcset="
+          https://images.adept.plus/BlackburnsChimney-OH/masonry-landing-hero-bg/card           600w,
+          https://images.adept.plus/BlackburnsChimney-OH/masonry-landing-hero-bg/largethumbnail 750w,
+          https://images.adept.plus/BlackburnsChimney-OH/masonry-landing-hero-bg/background     1920w
+        "
+        sizes="100vw"
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
+        width="1920" height="710"
+        alt=""
+        class="absolute inset-0 w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-brand-navy/85"></div>
+    </div>
+
+    <!-- Content -->
+    <div class="relative max-w-[1280px] mx-auto px-4 md:px-8 lg:px-16 flex flex-col lg:flex-row items-start lg:items-center gap-12 lg:gap-24">
+
+      <!-- Left: Headline + Description + Service List -->
+      <div class="flex-1 min-w-0 text-white">
+        <h1 class="font-playfair font-bold text-4xl md:text-5xl lg:text-[60px] leading-tight lg:leading-[1.25] mb-6">
+          Expert Chimney Masonry Repair — Free Estimate
+        </h1>
+        <p class="font-inter font-normal text-lightblue text-lg md:text-xl leading-relaxed max-w-[640px] mb-8">
+          Restore your chimney's structural integrity and prevent costly water damage. Our certified masonry specialists deliver permanent fixes for crumbling brick and mortar.
+        </p>
+        <!-- Service bullets -->
+        <ul class="flex flex-col gap-3">
+          <li class="flex items-center gap-3">
+            <span class="w-2 h-2 rotate-45 bg-brand-red shrink-0 block"></span>
+            <span class="font-inter font-medium text-white text-base">Chimney caps &amp; Guards</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="w-2 h-2 rotate-45 bg-brand-red shrink-0 block"></span>
+            <span class="font-inter font-medium text-white text-base">Chimney Relining</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="w-2 h-2 rotate-45 bg-brand-red shrink-0 block"></span>
+            <span class="font-inter font-medium text-white text-base">Smoking Chimney</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="w-2 h-2 rotate-45 bg-brand-red shrink-0 block"></span>
+            <span class="font-inter font-medium text-white text-base">Masonry Services</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="w-2 h-2 rotate-45 bg-brand-red shrink-0 block"></span>
+            <span class="font-inter font-medium text-white text-base">Leaky Chimney</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Right: Form Card (visual placeholder — live form: Forms/masonry-hero-form.html) -->
+      <div class="relative w-full max-w-[448px] bg-white shadow-2xl shrink-0">
+        <!-- Red top bar -->
+        <div class="absolute top-0 left-0 right-0 h-1 bg-brand-red"></div>
+        <div class="p-8 pt-10">
+          <h2 class="font-playfair font-bold text-brand-navy text-[30px] leading-tight text-center mb-2">
+            Request My Quote
+          </h2>
+          <p class="font-inter font-normal text-body text-sm text-center mb-6">
+            Fill out the form below to schedule your free masonry repair estimate.
+          </p>
+          <div class="flex flex-col gap-4">
+            <input
+              type="text"
+              placeholder="Full Name"
+              disabled
+              class="w-full border border-gray-300 px-4 py-3 text-base font-inter text-gray-700 placeholder-gray-400 bg-white"
+            />
+            <input
+              type="tel"
+              placeholder="Phone Number"
+              disabled
+              class="w-full border border-gray-300 px-4 py-3 text-base font-inter text-gray-700 placeholder-gray-400 bg-white"
+            />
+            <input
+              type="text"
+              placeholder="Zip Code"
+              disabled
+              class="w-full border border-gray-300 px-4 py-3 text-base font-inter text-gray-700 placeholder-gray-400 bg-white"
+            />
+            <textarea
+              placeholder="Describe the damage (Optional)"
+              rows="4"
+              disabled
+              class="w-full border border-gray-300 px-4 py-3 text-base font-inter text-gray-700 placeholder-gray-400 resize-none bg-white"
+            ></textarea>
+            <div class="w-full bg-brand-red text-white font-inter font-semibold text-lg py-4 text-center select-none">
+              Get a Free Estimate
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</body>
+</html>
