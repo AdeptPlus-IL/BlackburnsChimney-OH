@@ -292,6 +292,16 @@ console.log("   Found " + htmlFiles.length + " HTML file(s) in src/");
 
 var processedPages = [];
 
+// ── Build slug → correctPath map for universal link rewriting ──
+var slugToCorrectPath = {};
+for (var mi = 0; mi < htmlFiles.length; mi++) {
+    var mapSlug = htmlFiles[mi].replace('.html', '');
+    if (mapSlug === 'index' || mapSlug === '404') continue;
+    slugToCorrectPath[mapSlug] = resolveNestedPath(mapSlug, pageParents);
+}
+var allKnownSlugs = Object.keys(slugToCorrectPath);
+console.log('   Slug map: ' + allKnownSlugs.length + ' page(s) for link rewriting');
+
 for (var i = 0; i < htmlFiles.length; i++) {
     var file = htmlFiles[i];
     var inputPath = path.join(SRC_DIR, file);
@@ -436,25 +446,38 @@ for (var i = 0; i < htmlFiles.length; i++) {
     html = html.replace(/<script>[\s\S]*?editor-toggle[\s\S]*?<\/script>\s*/gi, "");
     html = html.replace(/<style\s+id=["']site-editor-styles["'][^>]*>[\s\S]*?<\/style>\s*/gi, "");
 
-    // ── Link rewriting safety net ──
-    // Rewrite any remaining flat child-page links to nested clean URLs.
-    // This catches links the AI or compile-page may have written as ./slug.html
-    var allChildSlugs = Object.keys(pageParents);
-    for (var li = 0; li < allChildSlugs.length; li++) {
-        var cs = allChildSlugs[li];
-        var nestedPath = resolveNestedPath(cs, pageParents);
-        if (nestedPath !== cs) {
-            // ./slug.html → /nested/slug (clean URL)
-            html = html.split("./" + cs + ".html").join("/" + nestedPath);
-            // /slug.html → /nested/slug
-            html = html.split("/" + cs + ".html").join("/" + nestedPath);
-            // "slug.html" → "/nested/slug" (bare ref)
-            html = html.split('"' + cs + '.html"').join('"/' + nestedPath + '"');
-        }
+    // ── Universal link rewriting ──
+    // Rewrites ALL internal links to correct clean URLs based on current page-parents.
+    // Handles: flat-to-nested, nested-to-flat, and parent-change scenarios.
+    for (var li = 0; li < allKnownSlugs.length; li++) {
+        var cs = allKnownSlugs[li];
+        var correctPath = slugToCorrectPath[cs];
+
+        // Step 1: Flat with .html extension to correct clean URL
+        html = html.split("./" + cs + ".html").join("/" + correctPath);
+        html = html.split("/" + cs + ".html").join("/" + correctPath);
+        html = html.split('"' + cs + '.html"').join('"/' + correctPath + '"');
+
+        // Step 2: Wrong nested path to correct path (catches moved pages)
+        //    e.g. /old-parent/slug when page moved to /new-parent/slug or /slug
+        //    Also handles anchor fragments: /old-parent/slug#section
+        var wrongPathRegex = new RegExp(
+            'href="(\\.?\\/(?:[a-z0-9-]+\\/)*' + cs + ')(#[^"]*)?"',
+            'gi'
+        );
+        html = html.replace(wrongPathRegex, function(match, foundPath, anchor) {
+            var normalized = foundPath.replace(/^\.?\//, '');
+            if (normalized === correctPath) return match;
+            var segments = normalized.split('/');
+            if (segments[segments.length - 1] === cs) {
+                return 'href="/' + correctPath + (anchor || '') + '"';
+            }
+            return match;
+        });
     }
 
-    // Also rewrite any remaining .html extensions for top-level pages to clean URLs
-    // e.g., ./about.html → ./about
+    // Clean up any remaining .html extensions for top-level pages
+    // e.g., ./about.html to ./about
     html = html.replace(/\.\/((?!Assets\/)[a-z0-9][a-z0-9-]*)\.html/gi, function(m, slug) {
         return "./" + slug;
     });
