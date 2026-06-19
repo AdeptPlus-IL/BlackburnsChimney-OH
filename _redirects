@@ -1,16 +1,19 @@
-/services.html  /chimney-services.html  302
-/chimney-inspection.html  /safety-inspection.html  302
-/chimney-sweeping.html  /annual-cleaning.html  302
-/chimney-caps--guards.html  /caps-guards.html  302
-/masonry-services.html  /masonry.html  302
-/5-reasons-to-get-your-chimney-swept-early-this-year.html  /offseason-cleaning.html  302
-/how-often-should-i-have-my-chimney-cleaned.html  /how-often-to-clean.html  302
-/faq  https://blackburnschimney-oh.pages.dev/  301
-/water-problems/  https://blackburnschimney-oh.pages.dev/masonry  301
-/peace-of-mind/  https://blackburnschimney-oh.pages.dev/  301
-/blog/  https://blackburnschimney-oh.pages.dev/resources  301
-/contact-us/  https://blackburnschimney-oh.pages.dev/contact  301
-/new-albany-oh-chimney-sweeping/  https://blackburnschimney-oh.pages.dev/annual-cleaning  301
-/pickerington-oh-chimney-sweeping/  https://blackburnschimney-oh.pages.dev/annual-cleaning  301
-/pataskala-oh-chimney-sweeping/  https://blackburnschimney-oh.pages.dev/annual-cleaning  301
-/careers/  https://blackburnschimney-oh.pages.dev/  301
+# Managed by AdeptPlus Site Editor
+# Format: /source /destination statusCode
+
+/services.html /chimney-services.html 302
+/chimney-inspection.html /safety-inspection.html 302
+/chimney-sweeping.html /annual-cleaning.html 302
+/chimney-caps--guards.html /caps-guards.html 302
+/masonry-services.html /masonry.html 302
+/5-reasons-to-get-your-chimney-swept-early-this-year.html /offseason-cleaning.html 302
+/how-often-should-i-have-my-chimney-cleaned.html /how-often-to-clean.html 302
+/faq https://blackburnschimney-oh.pages.dev/ 301
+/water-problems/ https://blackburnschimney-oh.pages.dev/masonry 301
+/peace-of-mind/ https://blackburnschimney-oh.pages.dev/ 301
+/blog/ https://blackburnschimney-oh.pages.dev/resources 301
+/contact-us/ https://blackburnschimney-oh.pages.dev/contact 301
+/new-albany-oh-chimney-sweeping/ https://blackburnschimney-oh.pages.dev/annual-cleaning 301
+/pickerington-oh-chimney-sweeping/ https://blackburnschimney-oh.pages.dev/annual-cleaning 301
+/pataskala-oh-chimney-sweeping/ https://blackburnschimney-oh.pages.dev/annual-cleaning 301
+/careers/ https://blackburnschimney-oh.pages.dev/ 301
