@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blackburns Chimney Services - Certified chimney sweep and inspection serving Columbus, OH since 1986.">
+  <title>Landing Header - Blackburns Chimney Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter', 'sans-serif'], playfair: ['Playfair Display', 'serif'] }, colors: { brand: { navy: '#1a2660', red: '#7a1620' }, heading: '#1a2660', body: '#6b6560', lightblue: '#b8c4e8' } } } };
+  </script>
+  <style>
+    body { margin: 0; font-family: 'Inter', sans-serif; }
+    /* Ensure nothing clips the logo overhang */
+    header, header > * { overflow: visible !important; }
+  </style>
+</head>
+<body>
+  <header class="w-full relative z-50">
+    <!-- Main nav bar — matches Header.html exactly -->
+    <div class="bg-white border-b border-[#d4cfc6] shadow-sm">
+      <div class="max-w-[1280px] mx-auto px-4 md:px-8 lg:px-[100px] h-[71px] flex items-center justify-between relative">
+
+        <!-- Logo — vertically centered, overhangs below just like Header.html -->
+        <a href="#" class="flex-shrink-0 relative z-10">
+          <img
+            src="https://images.adept.plus/BlackburnsChimney-OH/dark-texture-background/highres"
+            alt="Blackburns Chimney Services"
+            class="h-[83px] w-auto block"
+            style="margin-top: 19px;"
+          />
+        </a>
+
+        <!-- Phone Number (right side — simplified for landing page, no nav links) -->
+        <a
+          href="tel:6143447750"
+          class="flex items-center gap-2 text-brand-navy font-semibold text-base hover:text-brand-red transition-colors duration-200"
+          aria-label="Call Blackburns Chimney Services at 614-344-7750"
+        >
+          <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+          </svg>
+          614-344-7750
+        </a>
+
+      </div>
+    </div>
+  </header>
+</body>
+</html>

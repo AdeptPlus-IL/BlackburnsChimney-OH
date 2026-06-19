@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="See how our 5-step chimney sweep process works at Blackburns Chimney Services.">
+  <title>How It Works - Chimney Sweep - Blackburns Chimney Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+            playfair: ['Playfair Display', 'serif'],
+          },
+          colors: {
+            brand: { navy: '#1a2660', red: '#7a1620', darknavy: '#111c4e' },
+            heading: '#1a2660',
+            body: '#2a2520',
+            lightblue: '#b8c4e8',
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    body { margin: 0; font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body>
+  <section class="relative w-full py-16 md:py-20 lg:py-24 overflow-hidden bg-white">
+    <!-- Subtle background texture image at 50% opacity -->
+    <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+      <img
+        src="https://images.adept.plus/BlackburnsChimney-OH/landing-how-it-works-bg/background"
+        srcset="
+          https://images.adept.plus/BlackburnsChimney-OH/landing-how-it-works-bg/card           600w,
+          https://images.adept.plus/BlackburnsChimney-OH/landing-how-it-works-bg/largethumbnail 750w,
+          https://images.adept.plus/BlackburnsChimney-OH/landing-how-it-works-bg/background     1920w
+        "
+        sizes="100vw"
+        loading="lazy"
+        decoding="async"
+        width="1920" height="1080"
+        alt=""
+        class="w-full h-full object-cover opacity-50"
+      />
+      <div class="absolute inset-0 bg-white/50"></div>
+    </div>
+
+    <div class="relative max-w-[1280px] mx-auto px-4 md:px-8 lg:px-16">
+      <!-- Section Header -->
+      <div class="text-center mb-16">
+        <h2 class="font-playfair font-bold text-heading text-4xl md:text-[48px] leading-tight mb-4">
+          How It Works
+        </h2>
+        <div class="w-[60px] h-0.5 bg-brand-red mx-auto mb-4"></div>
+        <p class="font-inter font-normal text-body text-base leading-relaxed max-w-[672px] mx-auto">
+          Our streamlined 5-step process ensures a safe, thorough, and hassle-free experience from start to finish.
+        </p>
+      </div>
+
+      <!-- 5-step Cards Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+
+        <!-- Step 1: Schedule -->
+        <div class="bg-white border-t-4 border-brand-red shadow-sm flex flex-col items-center px-6 pt-7 pb-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+          <div class="bg-brand-navy w-16 h-16 rounded-full flex items-center justify-center shadow-md mb-4 transition-transform duration-300 hover:scale-110">
+            <!-- Calendar icon -->
+            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <h3 class="font-inter font-semibold text-heading text-lg leading-7 text-center mb-2">1. Schedule</h3>
+          <p class="font-inter font-normal text-body text-sm leading-[1.625] text-center">
+            Pick a time that works for you. We offer flexible scheduling and same-week availability.
+          </p>
+        </div>
+
+        <!-- Step 2: Arrival & Setup -->
+        <div class="bg-white border-t-4 border-brand-red shadow-sm flex flex-col items-center px-6 pt-7 pb-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+          <div class="bg-brand-navy w-16 h-16 rounded-full flex items-center justify-center shadow-md mb-4 transition-transform duration-300 hover:scale-110">
+            <!-- Truck icon -->
+            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="1" y="3" width="15" height="13" rx="1"/>
+              <path d="M16 8h4l3 3v5h-7V8z"/>
+              <circle cx="5.5" cy="18.5" r="2.5"/>
+              <circle cx="18.5" cy="18.5" r="2.5"/>
+            </svg>
+          </div>
+          <h3 class="font-inter font-semibold text-heading text-lg leading-7 text-center mb-2">2. Arrival &amp; Setup</h3>
+          <p class="font-inter font-normal text-body text-sm leading-[1.625] text-center">
+            Our team arrives on time, fully equipped, and sets up drop cloths to guarantee a no-mess job.
+          </p>
+        </div>
+
+        <!-- Step 3: Sweep & Clean -->
+        <div class="bg-white border-t-4 border-brand-red shadow-sm flex flex-col items-center px-6 pt-7 pb-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+          <div class="bg-brand-navy w-16 h-16 rounded-full flex items-center justify-center shadow-md mb-4 transition-transform duration-300 hover:scale-110">
+            <!-- Flame/chimney icon -->
+            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 14.5c-2.49 0-4.5-2.01-4.5-4.5S9.51 7.5 12 7.5s4.5 2.01 4.5 4.5-2.01 4.5-4.5 4.5z"/>
+            </svg>
+          </div>
+          <h3 class="font-inter font-semibold text-heading text-lg leading-7 text-center mb-2">3. Sweep &amp; Clean</h3>
+          <p class="font-inter font-normal text-body text-sm leading-[1.625] text-center">
+            We safely remove dangerous creosote buildup, soot, and debris from your flue and firebox.
+          </p>
+        </div>
+
+        <!-- Step 4: Inspection -->
+        <div class="bg-white border-t-4 border-brand-red shadow-sm flex flex-col items-center px-6 pt-7 pb-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+          <div class="bg-brand-navy w-16 h-16 rounded-full flex items-center justify-center shadow-md mb-4 transition-transform duration-300 hover:scale-110">
+            <!-- Magnifier icon -->
+            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"/>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+          </div>
+          <h3 class="font-inter font-semibold text-heading text-lg leading-7 text-center mb-2">4. Inspection</h3>
+          <p class="font-inter font-normal text-body text-sm leading-[1.625] text-center">
+            A thorough video or visual inspection of the cap, crown, damper, and interior structure.
+          </p>
+        </div>
+
+        <!-- Step 5: Report -->
+        <div class="bg-white border-t-4 border-brand-red shadow-sm flex flex-col items-center px-6 pt-7 pb-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+          <div class="bg-brand-navy w-16 h-16 rounded-full flex items-center justify-center shadow-md mb-4 transition-transform duration-300 hover:scale-110">
+            <!-- Document icon -->
+            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <line x1="16" y1="13" x2="8" y2="13"/>
+              <line x1="16" y1="17" x2="8" y2="17"/>
+              <polyline points="10 9 9 9 8 9"/>
+            </svg>
+          </div>
+          <h3 class="font-inter font-semibold text-heading text-lg leading-7 text-center mb-2">5. Report</h3>
+          <p class="font-inter font-normal text-body text-sm leading-[1.625] text-center">
+            You receive a detailed health report of your chimney along with any safety recommendations.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,45 +1,45 @@
 {
-  "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@context": "https://schema.org",
   "mainEntity": [
     {
-      "@type": "Question",
       "name": "What's the difference between a fireplace, insert, and heating stove?",
+      "@type": "Question",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Each option offers different aesthetics, performance, and installation requirements. Choosing the right one depends on your home's existing setup, heating goals, and design preferences. Traditional fireplace: A masonry or pre-fabricated firebox built directly into the home — best for new construction or major remodels where you want the classic open-flame experience. Fireplace insert: A sealed, high-efficiency unit that slides into an existing fireplace opening — ideal for upgrading an older, drafty fireplace into a powerful heat source without major construction. Heating stove: A freestanding unit that can be placed in nearly any room with proper venting — available in wood, gas, or pellet models and great for adding zoned heat to a specific living area. During your consultation, we'll evaluate your space, venting options, and heating needs to recommend the best fit."
+        "text": "Each option offers different aesthetics, performance, and installation requirements. Choosing the right one depends on your home's existing setup, heating goals, and design preferences. Traditional fireplace: A masonry or pre-fabricated firebox built directly into the home — best for new construction or major remodels where you want the classic open-flame experience. Fireplace insert: A sealed, high-efficiency unit that slides into an existing fireplace opening — ideal for upgrading an older, drafty fireplace into a powerful heat source without major construction. Heating stove: A freestanding unit that can be placed in nearly any room with proper venting — available in wood, gas, or pellet models and great for adding zoned heat to a specific living area. During your consultation, we'll evaluate your space, venting options, and heating needs to recommend the best fit.",
+        "@type": "Answer"
       }
     },
     {
-      "@type": "Question",
       "name": "How long does a fireplace or stove installation typically take?",
+      "@type": "Question",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most installations are completed in a single visit, though timing depends on the unit type and any prep work involved. Standard insert install: 4–6 hours when venting and a suitable hearth are already in place. Freestanding stove install: 6–8 hours, including hearth pad placement, venting, and clearance verification. New fireplace build: 1–3 days when framing, venting, gas lines, or new chimney construction is required. Complex retrofits may require a follow-up visit for permitting, inspection, or finish work. Before any work begins, you'll receive a clear timeline and scope of work so there are no surprises on installation day."
+        "text": "Most installations are completed in a single visit, though timing depends on the unit type and any prep work involved. Standard insert install: 4–6 hours when venting and a suitable hearth are already in place. Freestanding stove install: 6–8 hours, including hearth pad placement, venting, and clearance verification. New fireplace build: 1–3 days when framing, venting, gas lines, or new chimney construction is required. Complex retrofits may require a follow-up visit for permitting, inspection, or finish work. Before any work begins, you'll receive a clear timeline and scope of work so there are no surprises on installation day.",
+        "@type": "Answer"
       }
     },
     {
-      "@type": "Question",
       "name": "Do I need a building permit for fireplace installation?",
+      "@type": "Question",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes — nearly every fireplace, insert, and stove installation in the Columbus area requires a permit and a final inspection. Permits exist to protect your home, your family, and your investment. Blackburns handles the entire process for you, including pulling permits with Franklin County or your local jurisdiction, scheduling and meeting the building inspector on-site, ensuring the installation meets CSIA standards and local mechanical/building codes, and providing documentation you'll need for homeowner's insurance and future resale. Skipping permits can void warranties, complicate insurance claims, and create costly issues when selling your home."
+        "text": "Yes — nearly every fireplace, insert, and stove installation in the Columbus area requires a permit and a final inspection. Permits exist to protect your home, your family, and your investment. Blackburns handles the entire process for you, including pulling permits with Franklin County or your local jurisdiction, scheduling and meeting the building inspector on-site, ensuring the installation meets CSIA standards and local mechanical/building codes, and providing documentation you'll need for homeowner's insurance and future resale. Skipping permits can void warranties, complicate insurance claims, and create costly issues when selling your home.",
+        "@type": "Answer"
       }
     },
     {
-      "@type": "Question",
       "name": "What clearances are required around a stove or insert?",
+      "@type": "Question",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Clearance requirements vary by unit, fuel type, and venting configuration, but generally fall within these ranges. Rear and side clearance: 12–36 inches from combustible walls, depending on the model. Top clearance: adequate space above the unit for safe venting and heat dissipation. Hearth extension: a non-combustible floor pad extending out in front of the appliance, typically 16–18 inches. Furniture and decor: keep rugs, drapes, and furniture well outside the manufacturer's specified safe zone. Our technicians calculate the exact clearances for your specific unit using manufacturer specs and local code, then verify everything during installation to ensure a safe, code-compliant setup."
+        "text": "Clearance requirements vary by unit, fuel type, and venting configuration, but generally fall within these ranges. Rear and side clearance: 12–36 inches from combustible walls, depending on the model. Top clearance: adequate space above the unit for safe venting and heat dissipation. Hearth extension: a non-combustible floor pad extending out in front of the appliance, typically 16–18 inches. Furniture and decor: keep rugs, drapes, and furniture well outside the manufacturer's specified safe zone. Our technicians calculate the exact clearances for your specific unit using manufacturer specs and local code, then verify everything during installation to ensure a safe, code-compliant setup.",
+        "@type": "Answer"
       }
     },
     {
-      "@type": "Question",
       "name": "Can you install a fireplace insert in my existing fireplace?",
+      "@type": "Question",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In most cases, yes — and it's one of the most cost-effective ways to dramatically improve heating performance. Before installation, we perform a full assessment to confirm your fireplace is ready, including: Structural condition — inspecting masonry, firebox, and damper for damage or deterioration. Sizing — measuring the opening to identify inserts that fit properly and vent correctly. Venting and liner — installing a stainless steel liner sized to the insert for safe, efficient operation. Sealing and insulation — sealing the surround and insulating the liner to maximize heat output and efficiency. A properly installed insert can turn an inefficient, drafty fireplace into a reliable heat source that lowers energy costs and extends the life of your chimney system."
+        "text": "In most cases, yes — and it's one of the most cost-effective ways to dramatically improve heating performance. Before installation, we perform a full assessment to confirm your fireplace is ready, including: Structural condition — inspecting masonry, firebox, and damper for damage or deterioration. Sizing — measuring the opening to identify inserts that fit properly and vent correctly. Venting and liner — installing a stainless steel liner sized to the insert for safe, efficient operation. Sealing and insulation — sealing the surround and insulating the liner to maximize heat output and efficiency. A properly installed insert can turn an inefficient, drafty fireplace into a reliable heat source that lowers energy costs and extends the life of your chimney system.",
+        "@type": "Answer"
       }
     }
   ]

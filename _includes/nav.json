@@ -1,74 +1,70 @@
 [
   {
-    "href": "./index.html",
-    "label": "Home"
+    "label": "Home",
+    "href": "./"
   },
   {
-    "href": "./chimney-services.html",
     "label": "Services",
+    "href": "./chimney-services",
     "children": [
       {
-        "href": "./annual-cleaning.html",
-        "label": "Chimney Sweeping"
+        "label": "Chimney Sweeping",
+        "href": "./chimney-services/annual-cleaning"
       },
       {
-        "href": "./safety-inspection.html",
-        "label": "Chimney Inspection"
+        "label": "Chimney Inspection",
+        "href": "./chimney-services/safety-inspection"
       },
       {
-        "href": "./caps-guards.html",
-        "label": "Chimney Caps & Guards"
+        "label": "Chimney Caps & Guards",
+        "href": "./chimney-services/caps-guards"
       },
       {
-        "href": "./chimney-relining.html",
-        "label": "Chimney Relining"
+        "label": "Chimney Relining",
+        "href": "./chimney-services/chimney-relining"
       },
       {
-        "href": "./smoking-chimney.html",
-        "label": "Smoking Chimney"
+        "label": "Smoking Chimney",
+        "href": "./chimney-services/smoking-chimney"
       },
       {
-        "href": "./masonry.html",
-        "label": "Masonry Services"
+        "label": "Masonry Services",
+        "href": "./chimney-services/masonry"
       },
       {
-        "href": "./leaky-chimney.html",
-        "label": "Leaky Chimney"
+        "label": "Leaky Chimney",
+        "href": "./chimney-services/leaky-chimney"
       },
       {
-        "href": "./dryer-vents.html",
-        "label": "Dryer Vents"
+        "label": "Dryer Vents",
+        "href": "./chimney-services/dryer-vents"
       }
     ]
   },
   {
-    "href": "./sales-installation.html",
     "label": "Sales & Installation",
+    "href": "./sales-installation",
     "children": [
       {
-        "href": "./fireplaces.html",
-        "label": "Fireplaces"
+        "label": "Fireplaces",
+        "href": "./sales-installation/fireplaces"
       },
       {
-        "href": "./fireplace-inserts.html",
-        "label": "Fireplace Inserts"
+        "label": "Fireplace Inserts",
+        "href": "./sales-installation/fireplace-inserts"
       },
       {
-        "href": "./heating-stoves.html",
-        "label": "Heating Stoves"
+        "label": "Heating Stoves",
+        "href": "./sales-installation/heating-stoves"
       }
     ]
   },
   {
-    "href": "https://blackburns.wpenginepowered.com/\" target=\"_blank\" rel=\"noopener noreferrer",
-    "label": "Design My Fireplace"
+    "label": "About",
+    "href": "./about"
   },
   {
-    "href": "./about.html",
-    "label": "About"
-  },
-  {
-    "href": "./contact.html",
-    "label": "Contact"
+    "label": "Contact",
+    "href": "./contact"
   }
 ]

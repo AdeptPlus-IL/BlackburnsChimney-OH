@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Book a certified chimney sweep and inspection with Blackburns Chimney Services. Same-week availability in Columbus, OH.">
+  <title>Sweep Landing Hero - Blackburns Chimney Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+            playfair: ['Playfair Display', 'serif'],
+          },
+          colors: {
+            brand: { navy: '#1a2660', red: '#7a1620', darknavy: '#111c4e' },
+            heading: '#1a2660',
+            nav: '#4a4a4a',
+            body: '#2a2520',
+            lightblue: '#b8c4e8',
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    body { margin: 0; font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body>
+  <section class="relative w-full min-h-[710px] bg-brand-navy overflow-hidden py-16 lg:py-20">
+    <!-- Background image with navy overlay -->
+    <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+      <img
+        src="https://images.adept.plus/BlackburnsChimney-OH/sweep-landing-hero-bg/background"
+        srcset="
+          https://images.adept.plus/BlackburnsChimney-OH/sweep-landing-hero-bg/card           600w,
+          https://images.adept.plus/BlackburnsChimney-OH/sweep-landing-hero-bg/largethumbnail 750w,
+          https://images.adept.plus/BlackburnsChimney-OH/sweep-landing-hero-bg/background     1920w
+        "
+        sizes="100vw"
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
+        width="1920" height="710"
+        alt=""
+        class="absolute inset-0 w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-brand-navy/85"></div>
+    </div>
+
+    <!-- Content -->
+    <div class="relative max-w-[1280px] mx-auto px-4 md:px-8 lg:px-16 flex flex-col lg:flex-row items-center gap-12 lg:gap-24">
+
+      <!-- Left: Headline + Description -->
+      <div class="flex-1 min-w-0 text-white">
+        <h1 class="font-playfair font-bold text-4xl md:text-5xl lg:text-[60px] leading-tight lg:leading-[1.25] mb-6">
+          Certified Chimney Sweep &amp; Inspection — Book Today
+        </h1>
+        <p class="font-inter font-normal text-lightblue text-lg md:text-xl leading-relaxed max-w-[640px]">
+          Keep your home safe and warm. Our CSIA-certified technicians provide thorough sweeping, detailed inspections, and guarantee a no-mess service with same-week availability.
+        </p>
+      </div>
+
+      <!-- Right: Form Card (visual placeholder — live form: Forms/sweep-hero-form.html) -->
+      <div class="relative w-full max-w-[448px] bg-white shadow-2xl shrink-0">
+        <!-- Red top bar -->
+        <div class="absolute top-0 left-0 right-0 h-1 bg-brand-red"></div>
+        <div class="p-8 pt-10">
+          <h2 class="font-playfair font-bold text-brand-navy text-[30px] leading-tight text-center mb-2">
+            Request Service
+          </h2>
+          <p class="font-inter font-normal text-body text-sm text-center mb-6">
+            Fill out the form below and we'll contact you shortly to confirm your appointment.
+          </p>
+          <div class="flex flex-col gap-4">
+            <input
+              type="text"
+              placeholder="Full Name"
+              disabled
+              class="w-full border border-gray-300 px-4 py-3 text-base font-inter text-gray-700 placeholder-gray-400 bg-white"
+            />
+            <input
+              type="tel"
+              placeholder="Phone Number"
+              disabled
+              class="w-full border border-gray-300 px-4 py-3 text-base font-inter text-gray-700 placeholder-gray-400 bg-white"
+            />
+            <input
+              type="text"
+              placeholder="Zip Code"
+              disabled
+              class="w-full border border-gray-300 px-4 py-3 text-base font-inter text-gray-700 placeholder-gray-400 bg-white"
+            />
+            <textarea
+              placeholder="How can we help? (Optional)"
+              rows="4"
+              disabled
+              class="w-full border border-gray-300 px-4 py-3 text-base font-inter text-gray-700 placeholder-gray-400 resize-none bg-white"
+            ></textarea>
+            <div class="w-full bg-brand-red text-white font-inter font-semibold text-lg py-4 text-center select-none">
+              Book My Appointment
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</body>
+</html>

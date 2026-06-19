@@ -1,13 +1,13 @@
 {
+  "heating-stoves": "sales-installation",
+  "dryer-vents": "chimney-services",
+  "masonry": "chimney-services",
+  "fireplace-inserts": "sales-installation",
   "fireplaces": "sales-installation",
   "annual-cleaning": "chimney-services",
-  "safety-inspection": "chimney-services",
-  "fireplace-inserts": "sales-installation",
-  "heating-stoves": "sales-installation",
-  "caps-guards": "chimney-services",
-  "chimney-relining": "chimney-services",
   "smoking-chimney": "chimney-services",
-  "masonry": "chimney-services",
-  "leaky-chimney": "chimney-services",
-  "dryer-vents": "chimney-services"
+  "caps-guards": "chimney-services",
+  "safety-inspection": "chimney-services",
+  "chimney-relining": "chimney-services",
+  "leaky-chimney": "chimney-services"
 }

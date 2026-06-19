@@ -1,0 +1,82 @@
+<!--
+    Blackburns Chimney Services – Sweep Landing Hero Form
+    Formspree-ready: replace YOUR_FORM_ID with your Formspree endpoint.
+    To embed in SweepLandingHero.html, copy the <div class="relative w-full..."> card below
+    into the hero section where the visual placeholder sits.
+  -->
+
+  <!-- Form Card — matches Figma design exactly -->
+  <div class="relative w-full max-w-[448px] bg-white shadow-2xl">
+    <!-- Red top bar -->
+    <div class="absolute top-0 left-0 right-0 h-1 bg-brand-red"></div>
+    <div class="p-8 pt-10">
+      <h2 class="font-playfair font-bold text-brand-navy text-[30px] leading-tight text-center mb-2">
+        Get In Touch
+      </h2>
+      <p class="font-inter font-normal text-body text-sm text-center mb-6">
+        Fill out the form below and one of our team members will be in touch.
+      </p>
+
+      <form
+        action="https://formspree.io/f/xykaawbr"
+        method="POST"
+        class="flex flex-col gap-4"
+        id="sweep-hero-form"
+      >
+        <!-- Honeypot spam protection -->
+        <input type="text" name="_gotcha" style="display:none" />
+
+        <!-- Formspree hidden fields -->
+        <input type="hidden" name="_subject" value="New Sweep Appointment Request – Blackburns Chimney" />
+        <input type="hidden" name="_next" value="#thank-you" />
+
+        <!-- Full Name -->
+        <input
+          type="text"
+          name="full_name"
+          id="sweep-hero-name"
+          placeholder="Full Name"
+          required
+          class="w-full border border-gray-300 px-4 py-3 text-base font-inter text-gray-700 placeholder-gray-400 focus:outline-none focus:border-brand-navy transition"
+        />
+
+        <!-- Phone Number -->
+        <input
+          type="tel"
+          name="phone"
+          id="sweep-hero-phone"
+          placeholder="Phone Number"
+          required
+          class="w-full border border-gray-300 px-4 py-3 text-base font-inter text-gray-700 placeholder-gray-400 focus:outline-none focus:border-brand-navy transition"
+        />
+
+        <!-- Zip Code -->
+        <input
+          type="text"
+          name="zip_code"
+          id="sweep-hero-zip"
+          placeholder="Zip Code"
+          required
+          class="w-full border border-gray-300 px-4 py-3 text-base font-inter text-gray-700 placeholder-gray-400 focus:outline-none focus:border-brand-navy transition"
+        />
+
+        <!-- Optional Message -->
+        <textarea
+          name="message"
+          id="sweep-hero-message"
+          placeholder="How can we help? (Optional)"
+          rows="4"
+          class="w-full border border-gray-300 px-4 py-3 text-base font-inter text-gray-700 placeholder-gray-400 focus:outline-none focus:border-brand-navy transition resize-none"
+        ></textarea>
+
+        <!-- Submit -->
+        <button
+          type="submit"
+          id="sweep-hero-submit"
+          class="w-full bg-brand-red text-white font-inter font-semibold text-lg py-4 hover:brightness-95 hover:scale-[1.02] transition-all duration-200 cursor-pointer"
+        >
+          Contact Us
+        </button>
+      </form>
+    </div>
+  </div>

@@ -50,8 +50,8 @@ function deepMerge(target, source) {
     for (var k = 0; k < keys.length; k++) {
         var key = keys[k];
         if (
-            result[key] && typeof result[key] === 'object' && !Array.isArray(result[key]) &&
-            source[key] && typeof source[key] === 'object' && !Array.isArray(source[key])
+            result[key] && typeof result[key] === "object" && !Array.isArray(result[key]) &&
+            source[key] && typeof source[key] === "object" && !Array.isArray(source[key])
         ) {
             result[key] = deepMerge(result[key], source[key]);
         } else {
@@ -59,6 +59,23 @@ function deepMerge(target, source) {
         }
     }
     return result;
+}
+
+// ── Nested path resolver (multi-level) ───────────────────────────────────
+// Walk up the parent chain to build the full nested path.
+// e.g., "chimney-sweeping" with parent "services" → "services/chimney-sweeping"
+// e.g., "inspection" with parent "chimney" with parent "services" → "services/chimney/inspection"
+
+function resolveNestedPath(slug, parents) {
+    var parts = [];
+    var current = slug;
+    var seen = {};
+    while (parents[current] && !seen[current]) {
+        seen[current] = true;
+        parts.unshift(parents[current]);
+        current = parents[current];
+    }
+    return parts.length > 0 ? parts.join("/") + "/" + slug : slug;
 }
 
 // ── Setup dist ──────────────────────────────────────────────────────────────
@@ -275,11 +292,26 @@ console.log("   Found " + htmlFiles.length + " HTML file(s) in src/");
 
 var processedPages = [];
 
+// ── Build slug → correctPath map for universal link rewriting ──
+var slugToCorrectPath = {};
+for (var mi = 0; mi < htmlFiles.length; mi++) {
+    var mapSlug = htmlFiles[mi].replace('.html', '');
+    if (mapSlug === 'index' || mapSlug === '404') continue;
+    slugToCorrectPath[mapSlug] = resolveNestedPath(mapSlug, pageParents);
+}
+var allKnownSlugs = Object.keys(slugToCorrectPath);
+console.log('   Slug map: ' + allKnownSlugs.length + ' page(s) for link rewriting');
+
 for (var i = 0; i < htmlFiles.length; i++) {
     var file = htmlFiles[i];
     var inputPath = path.join(SRC_DIR, file);
-    var outputPath = path.join(DIST_DIR, file);
     var slug = file.replace('.html', '');
+    var nestedSlug = resolveNestedPath(slug, pageParents);
+    var outputPath = path.join(DIST_DIR, nestedSlug + '.html');
+    var outputDir = path.dirname(outputPath);
+    if (outputDir !== DIST_DIR) {
+        fs.mkdirSync(outputDir, { recursive: true });
+    }
 
     var html = fs.readFileSync(inputPath, 'utf8');
 
@@ -353,25 +385,13 @@ for (var i = 0; i < htmlFiles.length; i++) {
         }
     }
 
-    // ── Robots meta injection ──
-    var robotsConfig = pageRobots[file] || {};
-    var robotsDirectives = [];
-    if (robotsConfig.noindex) robotsDirectives.push('noindex');
-    if (robotsConfig.nofollow) robotsDirectives.push('nofollow');
-    if (robotsDirectives.length > 0) {
-        var robotsMeta = '<meta name="robots" content="' + robotsDirectives.join(', ') + '">';
-        html = html.replace('</head>', '    ' + robotsMeta + '\n</head>');
-        console.log('   Robots: ' + file + ' → ' + robotsDirectives.join(', '));
-    }
-
     // ── Base href for nested URL child pages ──
-    // When a child page is served at /parent/child.html via _redirects rewrite,
+    // When a child page is physically nested at /parent/child.html,
     // relative paths like ./styles.css resolve to /parent/styles.css (broken).
     // <base href="/"> forces the browser to resolve all relative URLs from root.
-    var parentSlugForBase = pageParents[slug];
-    if (parentSlugForBase && !/<base\s/i.test(html)) {
+    if (nestedSlug !== slug && !/<base\s/i.test(html)) {
         html = html.replace('<head>', '<head>\n    <base href="/">');
-        console.log('   Base href: injected for child page ' + file + ' (parent: ' + parentSlugForBase + ')');
+        console.log('   Base href: injected for nested page ' + file + ' → ' + nestedSlug);
     }
 
     // ── Base href for 404 page ──
@@ -382,22 +402,29 @@ for (var i = 0; i < htmlFiles.length; i++) {
         console.log('   Base href: injected for 404 page');
     }
 
+    // ── Robots meta injection ──
+    var robotsConfig = pageRobots[file] || {};
+    var robotsDirectives = [];
+    if (robotsConfig.noindex) robotsDirectives.push('noindex');
+    if (robotsConfig.nofollow) robotsDirectives.push('nofollow');
+    if (robotsDirectives.length > 0) {
+        var robotsMeta = '<meta name="robots" content="' + robotsDirectives.join(', ') + '">';
+        html = html.replace('</head>', '    ' + robotsMeta + '\n</head>');
+        console.log('   Robots: ' + file + ' → ' + robotsDirectives.join(', '));
+    }
     // ── Canonical URL injection ──
-    // Build correct canonical based on parent mapping
+    // Build correct canonical using nested clean URLs
     if (sitemapDomain) {
-        var parentSlug = pageParents[slug];
         var canonicalUrl;
         if (slug === 'index' || slug === 'home') {
             canonicalUrl = sitemapDomain + '/';
-        } else if (parentSlug) {
-            canonicalUrl = sitemapDomain + '/' + parentSlug + '/' + file;
         } else {
-            canonicalUrl = sitemapDomain + '/' + file;
+            canonicalUrl = sitemapDomain + '/' + nestedSlug;
         }
 
         var canonicalTag = '<link rel="canonical" href="' + canonicalUrl + '">';
-        if (parentSlug) {
-            // Child pages: ALWAYS force correct nested canonical (override manual input)
+        if (nestedSlug !== slug) {
+            // Nested pages: ALWAYS force correct canonical (override manual input)
             html = html.replace(/<link[^>]*rel=["']canonical["'][^>]*>/i, "");
             html = html.replace(/<link[^>]*href=["'][^"'][^>]*rel=["']canonical["'][^>]*>/i, "");
             html = html.replace('</head>', '    ' + canonicalTag + '\n</head>');
@@ -419,8 +446,44 @@ for (var i = 0; i < htmlFiles.length; i++) {
     html = html.replace(/<script>[\s\S]*?editor-toggle[\s\S]*?<\/script>\s*/gi, "");
     html = html.replace(/<style\s+id=["']site-editor-styles["'][^>]*>[\s\S]*?<\/style>\s*/gi, "");
 
+    // ── Universal link rewriting ──
+    // Rewrites ALL internal links to correct clean URLs based on current page-parents.
+    // Handles: flat-to-nested, nested-to-flat, and parent-change scenarios.
+    for (var li = 0; li < allKnownSlugs.length; li++) {
+        var cs = allKnownSlugs[li];
+        var correctPath = slugToCorrectPath[cs];
+
+        // Step 1: Flat with .html extension to correct clean URL
+        html = html.split("./" + cs + ".html").join("/" + correctPath);
+        html = html.split("/" + cs + ".html").join("/" + correctPath);
+        html = html.split('"' + cs + '.html"').join('"/' + correctPath + '"');
+
+        // Step 2: Wrong nested path to correct path (catches moved pages)
+        //    e.g. /old-parent/slug when page moved to /new-parent/slug or /slug
+        //    Also handles anchor fragments: /old-parent/slug#section
+        var wrongPathRegex = new RegExp(
+            'href="(\\.?\\/(?:[a-z0-9-]+\\/)*' + cs + ')(#[^"]*)?"',
+            'gi'
+        );
+        html = html.replace(wrongPathRegex, function(match, foundPath, anchor) {
+            var normalized = foundPath.replace(/^\.?\//, '');
+            if (normalized === correctPath) return match;
+            var segments = normalized.split('/');
+            if (segments[segments.length - 1] === cs) {
+                return 'href="/' + correctPath + (anchor || '') + '"';
+            }
+            return match;
+        });
+    }
+
+    // Clean up any remaining .html extensions for top-level pages
+    // e.g., ./about.html to ./about
+    html = html.replace(/\.\/((?!Assets\/)[a-z0-9][a-z0-9-]*)\.html/gi, function(m, slug) {
+        return "./" + slug;
+    });
+
     fs.writeFileSync(outputPath, html, 'utf8');
-    processedPages.push(file);
+    processedPages.push(nestedSlug + '.html');
     console.log("   OK: " + file);
 }
 
@@ -433,16 +496,18 @@ if (fs.existsSync(distIndexPath)) {
     var pageIndex = processedPages
         .filter(function(f) { return f !== '404.html'; })
         .map(function(f) {
-            var slug = f.replace('.html', '');
-            var pageHtml = fs.readFileSync(path.join(DIST_DIR, f), 'utf8');
+            var pagePath = f.replace('.html', '');
+            var fullPath = path.join(DIST_DIR, f);
+            if (!fs.existsSync(fullPath)) return null;
+            var pageHtml = fs.readFileSync(fullPath, 'utf8');
             var titleMatch = pageHtml.match(/<title>([^<]*)<\/title>/i);
             var descMatch = pageHtml.match(/<meta\s+name="description"\s+content="([^"]*)"/i);
             return {
-                title: titleMatch ? titleMatch[1].split('|')[0].trim() : slug,
-                slug: slug,
+                title: titleMatch ? titleMatch[1].split('|')[0].trim() : pagePath,
+                slug: pagePath,
                 description: descMatch ? descMatch[1].substring(0, 120) : ''
             };
-        });
+        }).filter(function(p) { return p !== null; });
 
     var indexScript = '<script>var SITE_PAGES=' + JSON.stringify(pageIndex) + ';<\/script>';
     var errorHtml = fs.readFileSync(distIndexPath, 'utf8');
@@ -599,12 +664,12 @@ if (fs.existsSync(assetsDir)) {
 if (sitemapDomain) {
     var urls = processedPages.filter(function(file) {
         if (file === '404.html') return false;
-        return !(pageRobots[file] && pageRobots[file].excludeSitemap);
+        var flatSlug = file.replace('.html', '').split('/').pop();
+        return !(pageRobots[flatSlug + '.html'] && pageRobots[flatSlug + '.html'].excludeSitemap);
     }).map(function(file) {
-        var pageSlug = file.replace('.html', '');
-        var isIndex = file === 'index.html' || file === 'home.html';
-        var parentSlug = pageParents[pageSlug];
-        var loc = isIndex ? sitemapDomain + '/' : (parentSlug ? sitemapDomain + '/' + parentSlug + '/' + file : sitemapDomain + '/' + file);
+        var pagePath = file.replace('.html', '');
+        var isIndex = pagePath === 'index' || pagePath === 'home';
+        var loc = isIndex ? sitemapDomain + '/' : sitemapDomain + '/' + pagePath;
         return '  <url>\n    <loc>' + loc + '</loc>\n  </url>';
     });
 
@@ -671,18 +736,19 @@ if (fs.existsSync('_redirects')) {
     }
 }
 
-// Generate nested URL rewrites from page-parents mapping
-var parentSlugs = Object.keys(pageParents);
-if (parentSlugs.length > 0) {
-    redirectLines.push('# ── Nested URL rewrites (auto-generated) ──');
-    for (var ri = 0; ri < parentSlugs.length; ri++) {
-        var childSlug = parentSlugs[ri];
-        var parentSlugVal = pageParents[childSlug];
-        var childFile = childSlug + '.html';
-        // Rewrite: /parent/child.html → /child.html (200 = invisible rewrite, not redirect)
-        redirectLines.push('/' + parentSlugVal + '/' + childFile + '  /' + childFile + '  200');
+// Generate 301 redirects from old flat URLs to nested clean URLs
+var childSlugsForRedirect = Object.keys(pageParents);
+if (childSlugsForRedirect.length > 0) {
+    redirectLines.push('# ── Nested URL 301 redirects (auto-generated) ──');
+    for (var ri = 0; ri < childSlugsForRedirect.length; ri++) {
+        var childSlug = childSlugsForRedirect[ri];
+        var nestedPath = resolveNestedPath(childSlug, pageParents);
+        // 301 from flat URL to nested clean URL
+        redirectLines.push('/' + childSlug + '  /' + nestedPath + '  301');
+        // Also redirect the .html version
+        redirectLines.push('/' + childSlug + '.html  /' + nestedPath + '  301');
     }
-    console.log('   Redirects: generated ' + parentSlugs.length + ' nested URL rewrite(s)');
+    console.log('   Redirects: generated ' + childSlugsForRedirect.length + ' nested URL 301 redirect(s)');
 }
 
 if (redirectLines.length > 0) {
