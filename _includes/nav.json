@@ -64,6 +64,10 @@
     "href": "./about",
     "children": [
       {
+        "label": "Meet the Team",
+        "href": "./meet-the-team"
+      },
+      {
         "label": "Careers",
         "href": "./careers"
       }
@@ -72,9 +76,5 @@
   {
     "label": "Contact",
     "href": "./contact"
-  },
-  {
-    "label": "Meet the Team",
-    "href": "./meet-the-team"
   }
 ]
