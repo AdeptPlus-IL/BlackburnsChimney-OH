@@ -1,70 +1,76 @@
 [
   {
-    "href": "./",
-    "label": "Home"
+    "label": "Home",
+    "href": "./"
   },
   {
-    "href": "./chimney-services",
     "label": "Services",
+    "href": "./chimney-services",
     "children": [
       {
-        "href": "./chimney-services/annual-cleaning",
-        "label": "Chimney Sweeping"
+        "label": "Chimney Sweeping",
+        "href": "./chimney-services/annual-cleaning"
       },
       {
-        "href": "./chimney-services/safety-inspection",
-        "label": "Chimney Inspection"
+        "label": "Chimney Inspection",
+        "href": "./chimney-services/safety-inspection"
       },
       {
-        "href": "./chimney-services/caps-guards",
-        "label": "Chimney Caps & Guards"
+        "label": "Chimney Caps & Guards",
+        "href": "./chimney-services/caps-guards"
       },
       {
-        "href": "./chimney-services/chimney-relining",
-        "label": "Chimney Relining"
+        "label": "Chimney Relining",
+        "href": "./chimney-services/chimney-relining"
       },
       {
-        "href": "./chimney-services/smoking-chimney",
-        "label": "Smoking Chimney"
+        "label": "Smoking Chimney",
+        "href": "./chimney-services/smoking-chimney"
       },
       {
-        "href": "./chimney-services/masonry",
-        "label": "Masonry Services"
+        "label": "Masonry Services",
+        "href": "./chimney-services/masonry"
       },
       {
-        "href": "./chimney-services/leaky-chimney",
-        "label": "Leaky Chimney"
+        "label": "Leaky Chimney",
+        "href": "./chimney-services/leaky-chimney"
       },
       {
-        "href": "./chimney-services/dryer-vents",
-        "label": "Dryer Vents"
+        "label": "Dryer Vents",
+        "href": "./chimney-services/dryer-vents"
       }
     ]
   },
   {
-    "href": "./sales-installation",
     "label": "Sales & Installation",
+    "href": "./sales-installation",
     "children": [
       {
-        "href": "./sales-installation/fireplaces",
-        "label": "Fireplaces"
+        "label": "Fireplaces",
+        "href": "./sales-installation/fireplaces"
       },
       {
-        "href": "./sales-installation/fireplace-inserts",
-        "label": "Fireplace Inserts"
+        "label": "Fireplace Inserts",
+        "href": "./sales-installation/fireplace-inserts"
       },
       {
-        "href": "./sales-installation/heating-stoves",
-        "label": "Heating Stoves"
+        "label": "Heating Stoves",
+        "href": "./sales-installation/heating-stoves"
       }
     ]
   },
   {
+    "label": "About",
     "href": "./about",
-    "label": "About"
+    "children": [
+      {
+        "label": "Careers",
+        "href": "./careers"
+      }
+    ]
   },
   {
-    "href": "./contact",
-    "label": "Contact"
+    "label": "Contact",
+    "href": "./contact"
   }
 ]
