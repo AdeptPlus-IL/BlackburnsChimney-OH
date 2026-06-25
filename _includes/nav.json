@@ -61,14 +61,16 @@
   },
   {
     "label": "About",
-    "href": "./about"
+    "href": "./about",
+    "children": [
+      {
+        "label": "Careers",
+        "href": "./careers"
+      }
+    ]
   },
   {
     "label": "Contact",
     "href": "./contact"
-  },
-  {
-    "label": "Careers",
-    "href": "./careers"
   }
 ]
