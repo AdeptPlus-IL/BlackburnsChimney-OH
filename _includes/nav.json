@@ -72,5 +72,9 @@
   {
     "label": "Contact",
     "href": "./contact"
+  },
+  {
+    "label": "Meet the Team",
+    "href": "./meet-the-team"
   }
 ]
