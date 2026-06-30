@@ -532,8 +532,8 @@ if (fs.existsSync(distIndexPath)) {
         var configCount = 0;
         var configRegex = /<script>\s*tailwind\.config\s*=\s*([\s\S]*?)<\/script>/;
 
-        for (var c = 0; c < htmlFiles.length; c++) {
-            var cPath = path.join(DIST_DIR, htmlFiles[c]);
+        for (var c = 0; c < processedPages.length; c++) {
+            var cPath = path.join(DIST_DIR, processedPages[c]);
             var cHtml = fs.readFileSync(cPath, 'utf8');
             var cMatch = cHtml.match(configRegex);
             if (!cMatch) continue;
@@ -548,7 +548,7 @@ if (fs.existsSync(distIndexPath)) {
                 }
                 configCount++;
             } catch (parseErr) {
-                console.warn("   Tailwind: could not parse config from " + htmlFiles[c] + ": " + parseErr.message);
+                console.warn("   Tailwind: could not parse config from " + processedPages[c] + ": " + parseErr.message);
             }
         }
 
@@ -583,8 +583,8 @@ if (fs.existsSync(distIndexPath)) {
         console.log("   Tailwind: compiled styles.css (" + (cssSize / 1024).toFixed(1) + " KB)");
 
         // Post-process: strip CDN + inject compiled CSS in all HTML files
-        for (var t = 0; t < htmlFiles.length; t++) {
-            var tPath = path.join(DIST_DIR, htmlFiles[t]);
+        for (var t = 0; t < processedPages.length; t++) {
+            var tPath = path.join(DIST_DIR, processedPages[t]);
             var tHtml = fs.readFileSync(tPath, 'utf8');
 
             // Strip Tailwind CDN script
@@ -641,7 +641,7 @@ if (fs.existsSync(distIndexPath)) {
         try { fs.unlinkSync('_tw_input.css'); } catch(e) {}
         try { fs.unlinkSync('tailwind.config.js'); } catch(e) {}
 
-        console.log("   Tailwind: stripped CDN from " + htmlFiles.length + " file(s)");
+        console.log("   Tailwind: stripped CDN from " + processedPages.length + " file(s)");
     } catch (twErr) {
         console.warn("   Tailwind compilation skipped (CDN kept as fallback): " + twErr.message);
         try { fs.unlinkSync('_tw_input.css'); } catch(e) {}
