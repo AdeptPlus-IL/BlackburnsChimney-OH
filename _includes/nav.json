@@ -4,10 +4,6 @@
     "href": "./"
   },
   {
-    "label": "Thank You",
-    "href": "./thank-you"
-  },
-  {
     "label": "Services",
     "href": "./chimney-services",
     "children": [
